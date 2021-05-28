@@ -1,0 +1,137 @@
+[2021-05-28 15:40:58,798] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 15:40:59,100] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-28 15:40:59,102] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 1950
+[2021-05-28 15:40:59,161] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-05-28 15:40:59,161] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2001
+[2021-05-28 15:41:04,825] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /log HTTP/1.1" 301 0
+[2021-05-28 15:41:04,828] [urls.py:22] [urls:log] [INFO]- info22222!!!!!!!
+[2021-05-28 15:41:04,828] [urls.py:23] [urls:log] [WARNING]- dfdsfdsffds warning
+[2021-05-28 15:41:04,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /log/ HTTP/1.1" 200 3
+[2021-05-28 16:10:23,228] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 16:10:25,940] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-28 16:10:25,941] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 1950
+[2021-05-28 16:10:26,000] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-05-28 16:10:26,001] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2001
+[2021-05-28 16:10:43,242] [log.py:224] [log:log_response] [WARNING]- Not Found: /static/index.html
+[2021-05-28 16:10:43,243] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/index.html HTTP/1.1" 404 2019
+[2021-05-28 16:11:45,435] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-05-28 16:11:46,163] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 16:12:48,063] [log.py:224] [log:log_response] [WARNING]- Not Found: /static/base.html
+[2021-05-28 16:12:48,064] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/base.html HTTP/1.1" 404 2016
+[2021-05-28 16:14:09,565] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 16:14:09,880] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10697
+[2021-05-28 16:14:09,898] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 10697
+[2021-05-28 16:14:15,357] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static HTTP/1.1" 200 10697
+[2021-05-28 16:14:15,368] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 10697
+[2021-05-28 16:14:20,620] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/base.html HTTP/1.1" 200 10697
+[2021-05-28 16:14:20,632] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 10697
+[2021-05-28 16:14:22,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/base.html HTTP/1.1" 200 10697
+[2021-05-28 16:14:22,580] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 10697
+[2021-05-28 16:14:23,893] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/base.html HTTP/1.1" 200 10697
+[2021-05-28 16:14:23,905] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 10697
+[2021-05-28 16:17:35,717] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-05-28 16:17:36,583] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 16:17:44,277] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-05-28 16:17:44,992] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 16:17:55,643] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 16:17:55,905] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10697
+[2021-05-28 16:17:55,927] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/admin/css/fonts.css HTTP/1.1" 404 1685
+[2021-05-28 16:18:07,523] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static HTTP/1.1" 200 10697
+[2021-05-28 16:18:07,537] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/admin/css/fonts.css HTTP/1.1" 404 1685
+[2021-05-28 16:18:10,747] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/base.html HTTP/1.1" 200 6037
+[2021-05-28 16:18:10,784] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('css/reset.css')%20%7D%7D HTTP/1.1" 404 1757
+[2021-05-28 16:18:10,786] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('css/main.css')%20%7D%7D HTTP/1.1" 404 1754
+[2021-05-28 16:18:10,789] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/host.js')%20%7D%7D HTTP/1.1" 404 1748
+[2021-05-28 16:18:10,791] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/vue-2.5.16.js')%20%7D%7D HTTP/1.1" 404 1766
+[2021-05-28 16:18:10,799] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/axios-0.18.0.min.js')%20%7D%7D HTTP/1.1" 404 1784
+[2021-05-28 16:18:10,802] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/jquery-1.12.4.min.js')%20%7D%7D HTTP/1.1" 404 1787
+[2021-05-28 16:18:10,806] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/common.js')%20%7D%7D HTTP/1.1" 404 1754
+[2021-05-28 16:18:10,809] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/host.js')%20%7D%7D HTTP/1.1" 404 1748
+[2021-05-28 16:18:10,812] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('images/logo.png')%20%7D%7D HTTP/1.1" 404 1763
+[2021-05-28 16:18:10,812] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/base.js')%20%7D%7D HTTP/1.1" 404 1748
+[2021-05-28 16:18:10,818] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/vue-2.5.16.js')%20%7D%7D HTTP/1.1" 404 1766
+[2021-05-28 16:18:10,824] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/axios-0.18.0.min.js')%20%7D%7D HTTP/1.1" 404 1784
+[2021-05-28 16:18:10,830] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/jquery-1.12.4.min.js')%20%7D%7D HTTP/1.1" 404 1787
+[2021-05-28 16:18:10,836] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/common.js')%20%7D%7D HTTP/1.1" 404 1754
+[2021-05-28 16:18:10,842] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/base.js')%20%7D%7D HTTP/1.1" 404 1748
+[2021-05-28 16:18:15,998] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /static/%7B%7B%20url('contents:index')%20%7D%7D HTTP/1.1" 500 59
+[2021-05-28 16:18:17,800] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('css/reset.css')%20%7D%7D HTTP/1.1" 404 1757
+[2021-05-28 16:18:17,803] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('css/main.css')%20%7D%7D HTTP/1.1" 404 1754
+[2021-05-28 16:18:17,807] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/host.js')%20%7D%7D HTTP/1.1" 404 1748
+[2021-05-28 16:18:17,812] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/vue-2.5.16.js')%20%7D%7D HTTP/1.1" 404 1766
+[2021-05-28 16:18:17,815] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/axios-0.18.0.min.js')%20%7D%7D HTTP/1.1" 404 1784
+[2021-05-28 16:18:17,816] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/jquery-1.12.4.min.js')%20%7D%7D HTTP/1.1" 404 1787
+[2021-05-28 16:18:17,817] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/common.js')%20%7D%7D HTTP/1.1" 404 1754
+[2021-05-28 16:19:55,664] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/search.html HTTP/1.1" 200 5291
+[2021-05-28 16:19:55,683] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+[2021-05-28 16:19:55,685] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-28 16:19:55,687] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/host.js HTTP/1.1" 200 80
+[2021-05-28 16:19:55,689] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+[2021-05-28 16:19:55,689] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-28 16:19:55,696] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-05-28 16:19:55,701] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-28 16:19:55,704] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-05-28 16:19:55,708] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2955
+[2021-05-28 16:19:55,710] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-28 16:19:55,728] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-05-28 16:19:55,729] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-05-28 16:19:55,729] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-05-28 16:19:55,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-05-28 16:19:55,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+[2021-05-28 16:20:12,637] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/user_center_order.html HTTP/1.1" 200 5745
+[2021-05-28 16:20:12,652] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-05-28 16:20:12,653] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_order.js HTTP/1.1" 200 2046
+[2021-05-28 16:20:12,681] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-05-28 16:20:14,150] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templates/index.html HTTP/1.1" 200 10697
+[2021-05-28 16:20:14,163] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/admin/css/fonts.css HTTP/1.1" 404 1685
+[2021-05-28 16:20:24,425] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('css/reset.css')%20%7D%7D HTTP/1.1" 404 1757
+[2021-05-28 16:20:24,425] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/axios-0.18.0.min.js')%20%7D%7D HTTP/1.1" 404 1784
+[2021-05-28 16:20:24,426] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('css/main.css')%20%7D%7D HTTP/1.1" 404 1754
+[2021-05-28 16:20:24,426] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/host.js')%20%7D%7D HTTP/1.1" 404 1748
+[2021-05-28 16:20:24,426] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/vue-2.5.16.js')%20%7D%7D HTTP/1.1" 404 1766
+[2021-05-28 16:20:24,426] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/jquery-1.12.4.min.js')%20%7D%7D HTTP/1.1" 404 1787
+[2021-05-28 16:20:24,443] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/base.js')%20%7D%7D HTTP/1.1" 404 1748
+[2021-05-28 16:20:24,444] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('images/logo.png')%20%7D%7D HTTP/1.1" 404 1763
+[2021-05-28 16:20:24,444] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/common.js')%20%7D%7D HTTP/1.1" 404 1754
+[2021-05-28 16:20:24,445] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/axios-0.18.0.min.js')%20%7D%7D HTTP/1.1" 404 1784
+[2021-05-28 16:20:24,452] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/jquery-1.12.4.min.js')%20%7D%7D HTTP/1.1" 404 1787
+[2021-05-28 16:20:24,458] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/common.js')%20%7D%7D HTTP/1.1" 404 1754
+[2021-05-28 16:20:24,464] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/%7B%7B%20static('js/base.js')%20%7D%7D HTTP/1.1" 404 1748
+[2021-05-28 16:20:35,783] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/goods_judge.html HTTP/1.1" 200 4085
+[2021-05-28 16:20:35,805] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/goods_judge.js HTTP/1.1" 200 5154
+[2021-05-28 16:20:35,824] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/stars.png HTTP/1.1" 200 2688
+[2021-05-28 16:30:04,635] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 16:30:04,938] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10697
+[2021-05-28 16:30:04,961] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/admin/css/fonts.css HTTP/1.1" 404 1685
+[2021-05-28 16:30:10,748] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/index.html HTTP/1.1" 200 20119
+[2021-05-28 16:30:10,763] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-05-28 16:30:10,792] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-05-28 16:30:10,792] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-05-28 16:30:10,793] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-05-28 16:30:10,795] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-05-28 16:30:10,795] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-05-28 16:30:10,797] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-05-28 16:30:10,800] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-05-28 16:30:10,805] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-05-28 16:30:10,808] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-05-28 16:30:10,809] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-05-28 16:30:10,809] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-05-28 17:19:06,139] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 17:19:37,353] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 17:21:05,948] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 17:23:21,863] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 17:23:37,532] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-28 17:23:37,852] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-28 17:23:37,853] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-28 17:23:46,493] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register HTTP/1.1" 301 0
+[2021-05-28 17:23:46,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3543
+[2021-05-28 17:23:46,522] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register.js HTTP/1.1" 200 8463
+[2021-05-28 17:23:46,529] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-28 17:23:46,534] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-28 17:23:46,536] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-28 17:23:46,538] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-28 17:23:53,063] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?user_name=ds&pwd=ds&cpwd=sd&phone=ds&pic_code=ds&msg_code=ds&allow=on HTTP/1.1" 200 3543
+[2021-05-28 17:23:54,152] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3543
+[2021-05-28 17:23:54,652] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3543
+[2021-05-28 17:23:55,785] [log.py:224] [log:log_response] [WARNING]- Not Found: /login.html
+[2021-05-28 17:23:55,785] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /login.html HTTP/1.1" 404 2067
