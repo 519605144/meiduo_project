@@ -7,11 +7,11 @@
 
 @Modify Time      @Author    @Version    @Desciption
 ------------      -------    --------    -----------
-2021/5/28 17:11   huanghao      1.0         None
+2021/5/31 17:52   huanghao      1.0         None
 '''
 from django.urls import path
 from . import views
 
 urlpatterns = [
-       path('register/', views.RegisterView.as_view(), name='register')
+       path('', views.IndexViews.as_view(), name='contents')
 ]

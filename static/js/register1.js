@@ -9,7 +9,7 @@
         error_password: false,
         error_password2: false,
         error_check_password: false,
-        error_mobile: false,
+        error_phone: false,
         error_image_code: false,
         error_sms_code: false,
         error_allow: false,
@@ -62,10 +62,21 @@
         // 检查用户名
         check_username: function () {
             // alert('验证用户名');
-            var re = /^[a-zA-Z0-9_-]{5,20}$/;
+            var re = /^[a-zA-Z][a-zA-Z0-9_-]{4,19}$/;   //正确表达
+            var re1 = /^[0-9]{5,20}$/;   //全数字错误
+            var re2 =   /^[0-9][a-zA-Z0-9_-]{4,19}$/;   //首位为数字错误
             if (re.test(this.username)) {
                 this.error_name = false;
-            } else {
+            }
+            else if (re1.test(this.username)) {
+                this.error_name_message = '用户名不能全数字'
+                this.error_name = true;
+            }
+            else if (re2.test(this.username)) {
+                this.error_name_message = '首位不能为数字'
+                this.error_name = true;
+            }
+            else {
                 this.error_name_message = '请输入5-20个字符的用户名';
                 this.error_name = true;
 
@@ -73,21 +84,21 @@
 
         //    在这里发送一个axios 请求
         //    1.组织url
-            let url = '/usernames/'+this.username+'/count/';
+            //     let url = '/usernames/'+this.username+'/count/';
         //    2.发送请求
-            axios.get(url).then(response=>{
-                //    3.请求成功的回调的业务逻辑
-                // console.log(response)
-                if(response.data.count == 0){
-                    this.error_name=false
-                }else{
-                    this.error_name=true;
-                    this.error_name_message='用户名已注册';
-                }
-            }).catch(error=>{
-
-            })
-
+            //     axios.get(url).then(response=>{
+            //         //    3.请求成功的回调的业务逻辑
+            //         // console.log(response)
+            //         if(response.data.count == 0){
+            //             this.error_name=false
+            //         }else{
+            //             this.error_name=true;
+            //             this.error_name_message='用户名已注册';
+            //         }
+            //     }).catch(error=>{
+            //
+            //     })
+            //
 
         },
         // 检查密码
@@ -101,11 +112,7 @@
         },
         // 确认密码
         check_password2: function () {
-            if (this.password != this.password2) {
-                this.error_check_password = true;
-            } else {
-                this.error_check_password = false;
-            }
+            this.error_check_password = this.password !== this.password2;
         },
         // 检查手机号
         check_mobile: function () {
@@ -141,7 +148,9 @@
         check_allow: function () {
             if (!this.allow) {
                 this.error_allow = true;
+                this.allow=false
             } else {
+                this.error_allow_message='✔您已勾选协议'
                 this.error_allow = false;
             }
         },
@@ -212,10 +221,11 @@
             // this.check_sms_code();
             this.check_allow();
 
+
             if (this.error_name == true || this.error_password == true || this.error_check_password == true
                 || this.error_phone == true || this.error_sms_code == true || this.error_allow == true) {
                 // 不满足注册条件：禁用表单
-                window.event.returnValue = false;
+                window.returnValue = false;
             }
         }
     }

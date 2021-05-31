@@ -18,17 +18,10 @@ from django.http import HttpResponse
 from django.urls import path, include
 
 
-def log(request):
-       import logging
-       logger = logging.getLogger('log')
-       logger.info('info22222!!!!!!!')
-       logger.warning('dfdsfdsffds warning')
-       return HttpResponse('log')
-
-
 urlpatterns = [
     # path('admin/', admin.site.urls),
     #    path('log/', log)
        path('', include('apps.users.urls')),
+       path('', include('apps.contents.urls'))
 ]
 
