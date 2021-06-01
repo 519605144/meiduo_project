@@ -1,0 +1,1104 @@
+[2021-05-31 08:32:15,886] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 08:35:12,418] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 08:35:13,181] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 08:35:13,182] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 08:35:13,464] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-05-31 08:35:13,465] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2070
+[2021-05-31 08:35:18,525] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register HTTP/1.1" 301 0
+[2021-05-31 08:35:18,540] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3612
+[2021-05-31 08:35:18,563] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 08:35:18,565] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 08:35:18,566] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 08:35:18,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 8721
+[2021-05-31 08:35:18,582] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 08:35:18,586] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 08:35:18,594] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 08:35:18,606] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 08:35:18,606] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 08:35:18,611] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 08:35:20,312] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfdf/count/
+[2021-05-31 08:35:20,312] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfdf/count/ HTTP/1.1" 404 2100
+[2021-05-31 08:35:25,662] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/51905144/count/
+[2021-05-31 08:35:25,663] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/51905144/count/ HTTP/1.1" 404 2112
+[2021-05-31 08:37:38,335] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3612
+[2021-05-31 08:37:38,385] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-05-31 08:37:38,393] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 08:37:38,508] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-05-31 08:37:38,509] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2070
+[2021-05-31 08:39:23,773] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3612
+[2021-05-31 08:39:23,788] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-05-31 08:39:23,789] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 8720
+[2021-05-31 09:16:43,471] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3607
+[2021-05-31 09:16:43,487] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-05-31 09:16:43,488] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9246
+[2021-05-31 09:16:48,302] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/fgfd/count/
+[2021-05-31 09:16:48,303] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/fgfd/count/ HTTP/1.1" 404 2100
+[2021-05-31 09:16:59,214] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/2321321/count/
+[2021-05-31 09:16:59,215] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/2321321/count/ HTTP/1.1" 404 2109
+[2021-05-31 09:17:06,081] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/2sfsfsdf/count/
+[2021-05-31 09:17:06,081] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/2sfsfsdf/count/ HTTP/1.1" 404 2112
+[2021-05-31 09:19:03,525] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/2sfsfsdfdfsdfds/count/
+[2021-05-31 09:19:03,526] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/2sfsfsdfdfsdfds/count/ HTTP/1.1" 404 2133
+[2021-05-31 09:19:07,098] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/2sfsfsdfdfsdfds/count/
+[2021-05-31 09:19:07,098] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/2sfsfsdfdfsdfds/count/ HTTP/1.1" 404 2133
+[2021-05-31 09:19:09,496] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/2sfsfsdfdfsdfds/count/
+[2021-05-31 09:19:09,497] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/2sfsfsdfdfsdfds/count/ HTTP/1.1" 404 2133
+[2021-05-31 09:19:11,040] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/2sfsfsdfdfsdfds/count/
+[2021-05-31 09:19:11,041] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/2sfsfsdfdfsdfds/count/ HTTP/1.1" 404 2133
+[2021-05-31 09:19:15,100] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/sfsfsdfdfsdfds/count/
+[2021-05-31 09:19:15,101] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/sfsfsdfdfsdfds/count/ HTTP/1.1" 404 2130
+[2021-05-31 09:19:22,566] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/asdfdsfdsfsfsdfdfsdfds/count/
+[2021-05-31 09:19:22,566] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/asdfdsfdsfsfsdfdfsdfds/count/ HTTP/1.1" 404 2154
+[2021-05-31 09:19:35,189] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 09:19:35,190] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 10:19:53,324] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 10:19:53,818] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 10:19:53,819] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 10:19:59,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3737
+[2021-05-31 10:19:59,492] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-05-31 10:19:59,498] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9240
+[2021-05-31 10:21:09,852] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register HTTP/1.1" 301 0
+[2021-05-31 10:21:09,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3737
+[2021-05-31 10:37:12,845] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 10:37:14,394] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 11:20:17,011] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 11:20:28,467] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 11:20:28,945] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 11:20:28,951] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 11:20:32,553] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3737
+[2021-05-31 11:20:32,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-05-31 11:20:32,577] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 11:20:37,864] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd/count/
+[2021-05-31 11:20:37,865] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd/count/ HTTP/1.1" 404 2097
+[2021-05-31 11:20:43,823] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 11:20:43,824] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 11:20:59,386] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=dyxCbbLW64tffH9DJLEIa5rgV3cCdR15M4bRXULoxwAIjBpAimb7CeDLb0JRYzIV&user_name=dfd4332&pwd=12345678&cpwd=12345678&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3737
+[2021-05-31 11:20:59,389] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 11:20:59,390] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64544)
+
+[2021-05-31 11:30:07,102] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-05-31 11:30:08,736] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 11:30:32,251] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfdfd/count/
+[2021-05-31 11:30:32,253] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfdfd/count/ HTTP/1.1" 404 2103
+[2021-05-31 11:30:41,178] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfdfd/count/
+[2021-05-31 11:30:41,181] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfdfd/count/ HTTP/1.1" 404 2103
+[2021-05-31 11:30:41,197] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=TAWBUMiqbW4cUdx33QPxkXjLnYiSQSZjs6AQGviSCobFY7N0CrmWM6vgDVP7BAG9&user_name=dfdfd&pwd=12345678&cpwd=12345678&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3737
+[2021-05-31 11:31:30,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=TAWBUMiqbW4cUdx33QPxkXjLnYiSQSZjs6AQGviSCobFY7N0CrmWM6vgDVP7BAG9&user_name=dfdfd&pwd=12345678&cpwd=12345678&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3737
+[2021-05-31 11:31:39,271] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3737
+[2021-05-31 11:31:39,288] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 11:31:41,694] [log.py:224] [log:log_response] [WARNING]- Not Found: /registe
+[2021-05-31 11:31:41,696] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /registe HTTP/1.1" 404 2058
+[2021-05-31 11:31:57,971] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 11:31:58,401] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 11:31:58,403] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 11:32:02,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3737
+[2021-05-31 11:34:45,463] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 11:34:45,464] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 11:35:13,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=ddaisrRcAqTlqp3g1Q516o6vHOMJR1Td99g1vDBfTH7dvpGAlxO1SDzw3q9NL3in&user_name=dfd4332&pwd=12345678&cpwd=12345678&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3737
+[2021-05-31 11:35:13,580] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 11:35:13,581] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49503)
+
+[2021-05-31 15:04:19,243] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register HTTP/1.1" 301 0
+[2021-05-31 15:04:19,255] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3737
+[2021-05-31 15:04:30,342] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:04:30,890] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:04:30,891] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:05:28,675] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register HTTP/1.1" 301 0
+[2021-05-31 15:05:28,701] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3737
+[2021-05-31 15:06:01,844] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /register
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "D:\python\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "D:\python\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2021-05-31 15:06:01,845] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /register HTTP/1.1" 500 71878
+[2021-05-31 15:06:18,102] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3737
+[2021-05-31 15:06:18,128] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-05-31 15:06:18,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 15:07:31,489] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfdfd/count/
+[2021-05-31 15:07:31,490] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfdfd/count/ HTTP/1.1" 404 2103
+[2021-05-31 15:11:04,086] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfdfd/count/
+[2021-05-31 15:11:04,087] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfdfd/count/ HTTP/1.1" 404 2103
+[2021-05-31 15:11:04,093] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=Yb62T2hSe7KrW0MV66yDrVKkS19u3B3IXFIZjWpx7x9C8IqV6xAlteTDLEVTOsOF&user_name=dfdfd&pwd=12321&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3737
+[2021-05-31 15:11:39,306] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:11:39,306] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:11:52,796] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:11:52,797] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=QDTOW6uzr3i6BHygFvbiLUtRaQy1TCFdKq0dJQTFmEpTflz6U7W0n4xsdLFCJ9sc&user_name=dfd4332&pwd=2323232323&cpwd=2323232323&phone=15234324&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3737
+[2021-05-31 15:11:52,797] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:15:00,772] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:15:01,207] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:15:01,209] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:15:05,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3737
+[2021-05-31 15:15:11,687] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/232asds/count/
+[2021-05-31 15:15:11,688] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/232asds/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:15:11,766] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=N8i3zXC5u04EKVxalpOGru77PAXQi1GsBaTlNrKZe6HMXfXfmrP9zUEr8ftGxkTG&user_name=232asds&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3737
+[2021-05-31 15:15:11,768] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/232asds/count/
+[2021-05-31 15:15:11,770] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/232asds/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:15:16,950] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:15:16,951] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:15:23,686] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:15:23,687] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:15:34,176] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:15:34,178] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=WvE8UNQkcSbLUFHhkt068naE10tWr4SXOd8YXiTubpuyfLftpEzkGddSVt7hascn&user_name=dfd4332&pwd=12345678&cpwd=12345678&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3737
+[2021-05-31 15:15:34,179] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:19:57,747] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-05-31 15:19:59,470] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:20:00,850] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=WvE8UNQkcSbLUFHhkt068naE10tWr4SXOd8YXiTubpuyfLftpEzkGddSVt7hascn&user_name=dfd4332&pwd=12345678&cpwd=12345678&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:05,545] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:20:05,939] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:20:05,940] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:20:08,302] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3759
+[2021-05-31 15:20:10,283] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:20:10,286] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:20:10,287] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=a0o5oilr5o6lUhZbEt471vdckOa3VMauJw2ka1lTwQdOYbf8d4BwtEpHALHiGuRk&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:11,693] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:20:11,694] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:20:11,699] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=uGoIwRhZt09bxey1UUZBduTwwDr8SESZ3c2XiAhrUsgEB8OYtvw0FD51MAYnDmzP&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:11,868] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:20:11,869] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:20:11,871] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=FSg8ugbCETnZckUxj67SPO8MxoB3mYRjeoUngZb45lusgeauSHEhhXkhNl8i7Gy9&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:12,029] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:20:12,029] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:20:12,031] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=N2cbrf3g9S5u9iiycMeODeunK11l1A7xmyQqdY3IAkcXdcyvLnLd5nGS0YyAMiOn&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:12,717] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:20:12,718] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:20:12,724] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=uC8BXe3H9Gp0uIdudYXG4sPfuhSPWgkd38MQJX39A8wtyCtrMzu5wB1KKep4HY13&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:13,240] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:20:13,243] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=4LuACVJgi5JQ1hjIpfDuzEpEwk60DRoODh8PoEJIJxQj5bzFYQaT1NB9MhDfoz5E&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:13,243] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:20:13,703] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:20:13,704] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:20:13,713] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=jSH16DGk8IgbiLkp2Fn2zbhfPMARM9HhSolgSmGMzanEmFAmBgUr1ktK5J76xRo7&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:14,176] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:20:14,176] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:20:14,184] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=tdx2ceZwlJhJ8wjJcYBkPBrGyyTgwQZt2JbhYXZYMboccqzGLz8JhKDbOvqvhyGj&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:14,599] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:20:14,603] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:20:14,603] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=wiNWP9yWPP82fzt1C6gsOwMD5iQoAwMb5OrbBSyoghfvjtJYbHNRgFY8lfnDlet1&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:16,543] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:20:16,544] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:20:25,414] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:20:25,415] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=sycU2z87GWj4uP66zyNb7SziEC5K03yC14Q9Oi8z7oqxyJm389kAz1LNUzCZLLfs&user_name=dfd4332&pwd=1212121212&cpwd=1212121212&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:20:25,415] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:20:36,873] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:20:36,874] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:21:49,112] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=sycU2z87GWj4uP66zyNb7SziEC5K03yC14Q9Oi8z7oqxyJm389kAz1LNUzCZLLfs&user_name=dfd4332&pwd=1212121212&cpwd=1212121212&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:21:52,130] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:21:52,131] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:22:42,379] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:22:42,382] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=YCIdl5eUPZ43ybrgClsHXlT3pHW4gvgmx8ms7OemgrbwC5HdbWZ6pu5yFEtj1dXc&user_name=dfd4332&pwd=1212121212&cpwd=1212121212&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:22:42,382] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:25:01,671] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 15:25:02,960] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:25:06,290] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:25:06,672] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:25:06,673] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:25:22,397] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3759
+[2021-05-31 15:25:24,299] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:25:24,302] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=MUGLtZWCAXW8PfhAYzOz0AEzflYx5Q2clqk0fIW41p3BT9xxxalYsJQ4vivMQyJ2&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:25:24,304] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:25:26,907] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:25:26,908] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:25:32,329] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=sRYSm6EEj6fRzAcZsOo5TXNOb14yu7TW1nC78PE6KymkDusW1pVul6ZjrYBNfPAM&user_name=dfd4332&pwd=12121212&cpwd=12121212&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:25:32,330] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:25:32,332] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:25:41,909] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:25:41,909] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:25:49,127] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:25:49,129] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:25:49,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=zCicvtBnuLFtbd9hGrXCOadfVIdgv2Wa88WrhcBPVdMWf7pef2u1gjpKbFKvgKD0&user_name=dfd4332&pwd=12121212&cpwd=12121212&phone=15116340630&pic_code=&msg_code= HTTP/1.1" 200 3759
+[2021-05-31 15:27:42,474] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:27:42,865] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:27:42,866] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:27:45,113] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3759
+[2021-05-31 15:27:46,807] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:46,808] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:46,817] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=kjtzCA2rNALXjSOBw1EwPPJdUapvWibWTP7Ooj2Te2SqnM4y5CbVhYVIa7WKH0SM&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:47,704] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:47,707] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=pj7Uqjtzwx4MyevWExwu3eb9yqvwuNnsYPL9c2t1XZbfC8LTd83TvnnEOn2Lfv4i&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:47,707] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:48,124] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:48,126] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:48,126] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=IdHjf4z1gD9eIBZe9LFIpXmjbueSUr6chJly1NztH5gHMvfbImc7R6yOrrL7F9N2&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:48,456] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:48,458] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:48,458] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=c7rHbXwtI6lvfNHiiqAvUdleowT5mTafLD5WXGwV9ysYjHXfR17UmmxJEtqk7BR5&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:55,456] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:55,457] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:55,460] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=njDQXttRWIF2rT9VvFOTaRifcdZvgmyeWPh5JctjnaMvvNpS4gliC0uKsawK14f4&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:55,991] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:55,994] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:55,995] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=03KY6svdBetWQrXoGyn9A9edxFwzxF9xzzodSbvF2GApUldlf9Uy2iqINC3OinQn&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:56,444] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:56,445] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:56,451] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=SFUzlIN1p7wNt5JlKNsl6WyzG4iVsg5HrbyO7rNtQzDgxZZijoZKy5K4W1PadYMx&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:56,619] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:56,620] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:56,625] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=Gaz8nXfylOMvRUj4kukmUNPkwVzj8KQjfGdn9Gf0MgTYVOz1T5RLmW1PMS6yTsx9&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:56,954] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:56,955] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:56,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=4LDwIxBt8jNDqUeBmuTLbADBpqtkaSm2DhhLugBVzLU6uOuyV5qaDJP6Fn0zVA3S&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:57,305] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:57,306] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:57,309] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=uItLyEN6Mt98MK7MIOa96sbLyW7mFyCf3e70knNydVgBQEnJhpHyyBngOTEBqgj5&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:57,484] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:57,486] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:57,490] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=T4gty5plqwMqhUtNgDzloKGmywMAOTkKsAUIkOpNRYTTlOJKPe6KQTSROtjPzB1A&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:57,834] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:57,835] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:57,840] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=RGVto0G8pWTjVwA0dw7JEhWvEYEqQkATqczIaJGAQo0MZqQXM7E86q80UVbFB2hJ&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:58,449] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=s5OpidMk47A6NFfRWB0V2I4SJOkWMexw1BsE4WMMvzHzRzvOvcxkuRgnZLRbxWem&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:58,452] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:58,453] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:27:59,172] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:27:59,174] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=UYw5pgWPkivclhB4HyeVq0WKb8kLmBvGtuakbZWhLKCFpbR1g9LkS98fr5R07jcw&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:27:59,174] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:03,753] [log.py:224] [log:log_response] [WARNING]- Not Found: /login.html
+[2021-05-31 15:28:03,753] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /login.html HTTP/1.1" 404 2067
+[2021-05-31 15:28:08,905] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:08,907] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:08,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=f84Ztp3s1vdPQCTGXnQtO6WDnghvkRlHOEIef83UsXkiUw9DwYnSgf88DdOK5z2x&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:09,405] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:09,405] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:09,418] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=DXKpWFk5GflFe3rUMyO2SaZEzh9lGPO1ctoEIokx7Hs8iXHRl9lrkjb9PeGArxvR&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:09,566] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:09,567] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:09,573] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=hr4KU888JrCbKtNTx5ndwL59QtIp1xzWQXIZGR8AaTJEOn3Q6GUCYUhE6qfEMfgM&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:09,739] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:09,740] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:09,746] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=vTLHc0lYPm48MDNBtszt5I93bbMT2juW4ppWYJlqgObBQx3y236SxRlyr8j8N1bM&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:09,900] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:09,901] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:09,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=RIQZYsfwFPxJPaZiuAFjDbxb4DREJabHqeueKbfY6hEcT4ff3bcI5kJGkAoTuSSx&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:10,059] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:10,060] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:10,067] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=BFUOhAfiTUMX1HPHdDA053J8RObXuR49aby33jfKkmTq5B5EMe7pxcVD7LIcfzLZ&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:10,237] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:10,238] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:10,243] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=89selkqdPn9L0EcE89MLxNkB6bf7UhcbHF6t73qFgPge4ysBHKjaZWw6m8MmFZT1&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:11,037] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:11,038] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:11,050] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=n14hdobGFgz7OWHAQAxh5tbR0nE7bbQwWxIwZ7b86IGASQXxpb4GxCnmgkbmWTxm&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:11,223] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:11,223] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:11,229] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=3AjEEzrapV4rsniSQH6emri4yTWeqJtBC6XTqirCQnbUwhyPpiDDOAuzOQttbrar&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:11,389] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:11,390] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:11,396] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=rEnEZJZVp3uS03koDp5a0tQqmseiNlXX0a1TLsZnQvBl4XAlc0CzsC2VCpLxy3EN&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:11,583] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:11,584] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:11,589] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=X3S93FUBodO57lvnoU3NV1xThlJsyy2iwzwoPoU3PFVybfLkXvAcnaJoxigHjgJ8&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:11,919] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:11,921] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:11,922] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=JoC8wvn40jH9sRalBG1WG9gMWqzoPeKSiUgnienwrLOCwLqiahyl8ishcn6DAWrI&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:12,113] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:12,114] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:12,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=IjbUUb0ssZnmH6KAwc78iTTAO00lU67OhPP9GU0UTruPL00x5NExK2554XxAFOOE&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:12,470] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:12,470] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:12,484] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=xYQuQdFd1SulxkwgfobmBN0BnCcZeSUl6uuJCWFFskBOBeMdOZIL3Wc6DzJeZABb&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:12,817] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:12,819] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:12,821] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=2wJVJngyRsBMl0MbSFZYcMPqiCIqSxfzB2nav6g0iUIfpU28rgwnEV1VyzfFDfWp&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:51,356] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=2wJVJngyRsBMl0MbSFZYcMPqiCIqSxfzB2nav6g0iUIfpU28rgwnEV1VyzfFDfWp&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:52,655] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:52,658] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:52,659] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=arATQx358k6yxSlDrcbp9sGzOldn4srCJXe8Cg3xzMd1BMBA0NIOBBS44iKCPa8s&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:52,897] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:52,898] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:52,901] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=rV3SagTOD3iuiSmzklRKODRf41A6yg3Z0rH7WZTg4vpXmMCwTWo9gM3KkY7ljYKP&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:53,375] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:53,376] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:53,379] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=NFo3PZbJiWrBIKZg2rX5S7K7a5uhn6uMmb2iBIbbJoy4MEfdB2uukgWCq21w8ObC&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:53,738] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:53,738] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:53,741] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=M6ONAo6uKacVoJNb5ZZeeufUn8OtBcrklCs2m76WbCjosD38EAwDGDrpD5lImU8a&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:53,976] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:53,978] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=IJoNAdyST345TTxpFrU848LAjJ2J9i8Bhf22mWykkvbyXNNme2rxwhX5zGzYU0Pr&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:28:53,978] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:54,170] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:28:54,170] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:28:54,174] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=lPW0DUUe8ppJPBqmHkWJI6l8skaX5mGfUlAfpDUGzRwcTvGjgVt8afxDIhHcQ4n5&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:26,401] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=lPW0DUUe8ppJPBqmHkWJI6l8skaX5mGfUlAfpDUGzRwcTvGjgVt8afxDIhHcQ4n5&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:28,457] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:28,457] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:28,530] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:28,532] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:28,532] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=uGxnIOUvMmU2WodAtiE8irvaLbsHu7P63cbCuxUXdO1v0itx2TbxKAHF18ZWfPwW&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:29,045] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:29,045] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:29,049] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=mEL70ycqmYLu4gAFUzyHSxtG8uz2NwXkVapmMhcSNqSX8aQCta56kGFbor6hyeEa&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:29,532] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:29,534] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:29,535] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=KNzw7mSpMHgQDRph7PoQKLtXvKZEzsrUjjdLT5SRd9njHLFeGqVfcUFsLHwTka8K&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:29,942] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:29,943] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:29,946] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=vOIBJrmsRqdZEE5WufXLGxqwAR5YTiof4kmQvamUiSksIylT3Qua8GC1QOCdE055&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:30,342] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:30,342] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:30,346] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=u9ILlD1r6CtKwGVGtL6rnVnzVVRYctTW3Fm07m1Tx4AdAAbD2mDQP4z4bSodXbAM&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:30,834] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:30,835] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:30,842] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=PXu11a1C2K14pQrtmtroQdYy21cCwajzot8gNT14tc8xtKHqV4YNima3iYJRhS0p&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:31,328] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:31,329] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:31,336] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=36bUnaJFAB47MazwTQB14Cfxpjbfae4WCCP99TJ713bAQ4Ptsr8qwLr2FgIuVWLM&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:31,729] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:31,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=qmFNE04nu1DqpanMrcAYsJZF0XiRe68MZSj2qJ4PVtKTt4DJ0N7nUSbagUP6ZOPC&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:31,731] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:32,424] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:32,425] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:32,431] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=6eac3DKmFyXI6445kUAuxMgMW5QfIKcmFKOrPmKO604baYk2Tv7TZVshc2nutsTc&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:32,960] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:32,961] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:32,965] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=C5hgjtQdLr4OL76ITC18y6DEaIguVm66bBVv5cQFcTbhP1mFsdyx0fP9qFNJG4NW&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:33,478] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:33,481] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:33,482] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=tpelBsutuo8IrPaXbjlyQ9qZ8AyUXAQs2VSAnbuVVQfbvJqUKUSXiiCuox59Iixi&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:33,932] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:33,933] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:33,938] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=OxjWT0BHr4QUfvFqcqMTYOENzWZkjOEzn3XbFJB9SwXnjpVnL1jiqXQiPTwz4wlp&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:34,404] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:34,406] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:34,407] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=b3ykLgq6CNFlImFAflJjiggrEsN87lGLKzczxZqy3fMOMgVxOWgIKpsWUpknS3nB&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:40,222] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:29:40,612] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:29:40,614] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:29:45,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3759
+[2021-05-31 15:29:47,267] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:47,267] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=bRaYWYbq33cB2pkq9azAZ9eAPh6mPloeKnOdIHbSuvj46jAnIL6Zriq55eDBA354&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:29:47,269] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:47,744] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:29:47,744] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:29:47,747] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=dSUEal2qtVi2p132aSTf5BuZ9oGiVA4DMoyTW42SUnpvtVjZJtqExKGupldxGiLt&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:32:29,718] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:32:29,719] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:32:29,726] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=p8TDs3DyJF3uQ88SLMcDjBnuO8h0HpzGYExSeMD0a7aXU2oPknJ2LKzZ45Ofs7gw&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3767
+[2021-05-31 15:32:30,247] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:32:30,247] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:32:30,501] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:32:30,502] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:32:30,694] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:32:30,695] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:32:31,158] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:32:31,158] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:32:31,945] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:32:31,946] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:32:40,327] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:32:40,328] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:33:25,682] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:33:26,162] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:33:26,163] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:33:29,752] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:33:29,754] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:33:37,893] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3767
+[2021-05-31 15:33:39,686] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:33:39,686] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:33:50,370] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames/dfd4332/count/
+[2021-05-31 15:33:50,370] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames/dfd4332/count/ HTTP/1.1" 404 2109
+[2021-05-31 15:34:31,862] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3763
+[2021-05-31 15:34:46,749] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:34:46,750] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:35:16,256] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3767
+[2021-05-31 15:35:17,448] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:35:17,449] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:35:30,487] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:35:30,857] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:35:30,858] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:35:32,093] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:35:32,094] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:35:35,060] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3767
+[2021-05-31 15:35:37,032] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:35:37,032] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:35:43,750] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:35:43,751] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:36:44,754] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:36:44,755] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:38:16,383] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:38:16,384] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:38:22,490] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-05-31 15:38:22,491] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 2088
+[2021-05-31 15:45:50,447] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3767
+[2021-05-31 15:45:50,464] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9305
+[2021-05-31 15:46:10,854] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:46:11,150] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:46:11,151] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:46:20,453] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3767
+[2021-05-31 15:46:20,489] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-05-31 15:47:08,687] [log.py:224] [log:log_response] [WARNING]- Not Found: /login.html
+[2021-05-31 15:47:08,688] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /login.html HTTP/1.1" 404 2067
+[2021-05-31 15:47:10,972] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3767
+[2021-05-31 15:47:11,005] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 15:47:11,012] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 15:47:11,015] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 15:47:11,028] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 15:47:11,030] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9309
+[2021-05-31 15:47:11,036] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 15:47:11,049] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 15:47:11,054] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 15:47:11,055] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 15:47:11,059] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 15:48:34,250] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 15:48:34,571] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:48:34,572] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:48:52,524] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 15:48:52,525] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 15:48:52,703] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-05-31 15:48:52,704] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2070
+[2021-05-31 15:48:59,672] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register HTTP/1.1" 301 0
+[2021-05-31 15:48:59,684] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3759
+[2021-05-31 15:48:59,709] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 15:48:59,711] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 15:48:59,712] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 15:48:59,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9309
+[2021-05-31 15:48:59,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 15:48:59,729] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 15:48:59,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 15:48:59,739] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 15:48:59,739] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 15:48:59,741] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 15:49:01,296] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=SJDo7Cn6jw1XToBod2ZKcK8IJIF3ldQ1rvRzFmMRqlGJr4qeXJcU7h6DVRxDPJQL&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:49:02,025] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=mXGFMV7dTGyenQIxChWF4r8WkmPU0XstVJUQkFwY0vd0VwxnmY9PZY6RwvHuutsd&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:49:06,238] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=EHvEzH6vWtsJZGum52w4JAMcy4Bb7IQ9dtJP7rvg3i7vxmjcPJJeE7K7KdtLBeQT&user_name=&pwd=&cpwd=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:49:43,860] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=nVerjZ34HVcvXagBydF1HjkgZO8IBI7EWHsCRJsPOKRhvQ5riUSbCQibbX0i5e7o&user_name=a32432432&pwd=12121212&cpwd=12121212&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3759
+[2021-05-31 15:49:43,883] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:04:30,611] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:04:31,259] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:04:31,263] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:05:08,080] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:05:08,737] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:05:08,739] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:05:15,858] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3614
+[2021-05-31 16:05:15,886] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9239
+[2021-05-31 16:05:23,066] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=RsEOrLkdT4c3zLvqRG9UTRkx9WrSDXQgqYi3dukFkwjwDFLnqhGjl0w2pTY7oFx6&user_name=dfd4332&password=12121212&password2=12121212&phone=15116340630&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:07:28,323] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=qpYK2T0EvESou81yQeKbtSP0EaSRLi73ZVCZOC06W6ZRy2hvpPhAV11vU7p6w0OT&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:07:28,353] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:07:28,355] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:07:28,362] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:07:28,372] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9239
+[2021-05-31 16:07:28,381] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:07:28,384] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:07:28,391] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:07:28,409] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:07:28,410] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:07:28,413] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:07:28,635] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=7GCqzTEFj9XsMU9kY2qag0aR0KmZv0SaGcgFlCE7KB4VQOphxDXzI9mmgHTegIz0&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:07:28,665] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:07:28,670] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:07:28,672] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:07:28,681] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:07:28,690] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9239
+[2021-05-31 16:07:28,696] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:07:28,715] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:07:28,716] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:07:28,716] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:07:28,722] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:07:29,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=MUF8504BNycnpcvce0rBS445kp1P5U3llqjnRJ43e0jQt6L9NBY0kdgAAmy4QCKb&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:07:29,614] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:07:29,615] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:07:29,619] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:07:29,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9239
+[2021-05-31 16:07:29,632] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:07:29,642] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:07:29,643] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:07:29,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:07:29,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:07:29,660] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:07:29,916] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=1y9YK4ALuCC2g0lc0lGx5FR26pR2AhZhA4NdwNAdV4JvkUB9zWdWxO3xmmohlZG7&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:07:29,940] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:07:29,942] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:07:29,945] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:07:29,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9239
+[2021-05-31 16:07:29,957] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:07:29,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:07:29,968] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:07:29,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:07:29,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:07:29,985] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:07:30,092] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=9pzPVBUrKGuLhLpHgANLbJDkbd5DOQLZIVd4HkUTb8BelFFEPbkaDSPPraCSzysP&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:07:30,120] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:07:30,123] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:07:30,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:07:30,142] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:07:30,143] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9239
+[2021-05-31 16:07:30,157] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:07:30,158] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:07:30,169] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:07:30,170] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:07:30,174] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:07:30,440] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=OqiLmqIaQje2DzTOFON0dc5NGSHY5Yf4nWW089IChLlvHt9LepkpFlhiWPedQGWU&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:07:30,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:07:30,475] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:07:30,480] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:07:30,490] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:07:30,491] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9239
+[2021-05-31 16:07:30,500] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:07:30,521] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:07:30,524] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:07:30,525] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:07:30,529] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:07:40,735] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=SJkXnTyfzs8vUaV14NgRWtWcbXIC9mQbrfYc9CyH0UfYY4bYDoNgoC8HrUfRU4x1&user_name=dfd4332&password=12121212&password2=12121212&phone=15116340630&pic_code=3n3d&msg_code=12121&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:07:40,766] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:07:40,770] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:07:40,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:07:40,789] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9239
+[2021-05-31 16:07:40,798] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:07:40,811] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:07:40,812] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:07:40,826] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:07:40,826] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:07:40,828] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:08:18,944] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=nVerjZ34HVcvXagBydF1HjkgZO8IBI7EWHsCRJsPOKRhvQ5riUSbCQibbX0i5e7o&user_name=a32432432&pwd=12121212&cpwd=12121212&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:08:18,971] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9239
+[2021-05-31 16:08:20,275] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=m8la9lPGaMXliyE8aRJcZcclYuEjgqMRVUzlH5erhBC7QetYUyWmUJagaDwTKWMB&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:08:20,863] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=DRy89ch0lOBNxEuJck8sbs2oUhLsDsD6cDMjHWGLsDgz5kjzW1lC6Z0j6qD27YDQ&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:08:21,387] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=xyOFoGoIZklwGQKEs2fbBAzcUkVq5hAr6k2QWqNt690iewzucJslw7x76tN0zNAb&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:09:10,768] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=btIduRTY0bxp54EvC0a934Pg38DVIe8DKfWo2BiJ70cbDKtlmHnjYBNbfhvvcK8n&user_name=a32432432&password=12121212&password2=12121212&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:09:10,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:10:21,734] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=SJkXnTyfzs8vUaV14NgRWtWcbXIC9mQbrfYc9CyH0UfYY4bYDoNgoC8HrUfRU4x1&user_name=dfd4332&password=12121212&password2=12121212&phone=15116340630&pic_code=3n3d&msg_code=12121&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:10:21,766] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:10:21,773] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:10:21,774] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:10:21,785] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9272
+[2021-05-31 16:10:21,797] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:10:21,797] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:10:21,806] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:10:21,824] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:10:21,825] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:10:21,828] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:10:31,837] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:10:32,278] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:10:32,279] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:10:36,396] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3614
+[2021-05-31 16:10:36,457] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:10:44,087] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=sI0UJj33GAVj8Y8VZalWKiqDCN4FGjdB1eE9v23v722McSoSyLSlcrC8SKBUr1Ur&user_name=fsfsdf&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:10:44,103] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:10:48,473] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=Z1pLVgUeMKoQ2BeahqehCDveNAZKrkb1yx30HZUGdcvj6vu7Q1LG4MHJ3xwZc2SR&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:10:48,496] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:10:48,497] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:10:48,499] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:10:48,505] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:10:48,508] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9272
+[2021-05-31 16:10:48,516] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:10:48,516] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:10:48,529] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:10:48,530] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:10:48,532] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:11:02,307] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=Z1pLVgUeMKoQ2BeahqehCDveNAZKrkb1yx30HZUGdcvj6vu7Q1LG4MHJ3xwZc2SR&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:11:02,336] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:11:02,339] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:11:02,343] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:11:02,357] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9267
+[2021-05-31 16:11:02,362] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:11:02,367] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:11:02,373] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:11:02,392] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:11:02,394] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:11:02,397] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:11:07,897] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=nNQl0QntiEZFdvB4ccLdVnBcDsHd7rEjWjuAMznVJ668hpR1LNiCnwNHTpesS9l9&user_name=234224&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:11:07,921] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:11:07,923] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:11:07,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:11:07,928] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:11:07,934] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9267
+[2021-05-31 16:11:07,941] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:11:07,942] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:11:07,959] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:11:07,959] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:11:07,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:11:17,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=nNQl0QntiEZFdvB4ccLdVnBcDsHd7rEjWjuAMznVJ668hpR1LNiCnwNHTpesS9l9&user_name=234224&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:11:17,912] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:11:17,913] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:11:17,914] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:11:17,925] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:11:17,928] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9269
+[2021-05-31 16:11:17,938] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:11:17,938] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:11:17,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:11:17,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:11:17,955] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:11:24,862] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:11:25,200] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:11:25,201] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:11:28,534] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3614
+[2021-05-31 16:11:28,554] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:11:42,612] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3614
+[2021-05-31 16:11:42,626] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9268
+[2021-05-31 16:12:50,413] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=41cyr9zr3F83N3JrFzvUVHXhbS02E4DaDxQNdSzTu7fwRXZoea2jnQ9MrPxhpMk0&user_name=dfd4332&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:12:50,432] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9263
+[2021-05-31 16:13:05,318] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=41cyr9zr3F83N3JrFzvUVHXhbS02E4DaDxQNdSzTu7fwRXZoea2jnQ9MrPxhpMk0&user_name=dfd4332&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:13:05,333] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:13:06,075] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=41cyr9zr3F83N3JrFzvUVHXhbS02E4DaDxQNdSzTu7fwRXZoea2jnQ9MrPxhpMk0&user_name=dfd4332&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:13:06,439] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=41cyr9zr3F83N3JrFzvUVHXhbS02E4DaDxQNdSzTu7fwRXZoea2jnQ9MrPxhpMk0&user_name=dfd4332&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:13:06,611] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=41cyr9zr3F83N3JrFzvUVHXhbS02E4DaDxQNdSzTu7fwRXZoea2jnQ9MrPxhpMk0&user_name=dfd4332&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:13:06,818] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=41cyr9zr3F83N3JrFzvUVHXhbS02E4DaDxQNdSzTu7fwRXZoea2jnQ9MrPxhpMk0&user_name=dfd4332&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:13:06,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:13:11,648] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3614
+[2021-05-31 16:13:11,666] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:13:26,199] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=5F3BC9No8Dwt6lg7gayOmVmpuO47VNv5EbHQoSNQz5DWafw4PL5dO4yUKLBmGvcV&user_name=dfd4332&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:13:26,219] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:14:02,903] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=E8u4zipU9nlVx8W9jKZ2RQMCHkSclc2edE8jl1pmAPsoB2c6SlwrjZY7Xhpr6UJ4&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:14:02,932] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:14:02,933] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:14:02,933] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:14:02,940] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:14:02,945] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9264
+[2021-05-31 16:14:02,952] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:14:02,952] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:14:02,967] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:14:02,968] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:14:02,969] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:15:06,202] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=E8u4zipU9nlVx8W9jKZ2RQMCHkSclc2edE8jl1pmAPsoB2c6SlwrjZY7Xhpr6UJ4&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:15:06,219] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:15:06,220] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:15:06,221] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:15:06,229] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:15:06,234] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9271
+[2021-05-31 16:15:06,247] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:15:06,252] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:15:06,261] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:15:06,261] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:15:06,262] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:15:10,756] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=fmKyXGp6hcyK8ZMm9td6BTm6ZdCwkS8cOSoNJppyIEFdcT2jI4Kv32yBfa9L5AP2&user_name=dfd4332&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:15:10,783] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:15:10,785] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:15:10,789] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:15:10,795] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:15:10,805] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9271
+[2021-05-31 16:15:10,812] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:15:10,823] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:15:10,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:15:10,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:15:10,831] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:16:20,083] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-05-31 16:16:21,034] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:16:23,651] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:16:24,074] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:16:24,075] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:16:27,210] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3614
+[2021-05-31 16:16:27,234] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9237
+[2021-05-31 16:16:28,998] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=5PJdTAxZLpNisM7jbPLmfNxTbojoztwH9AV9HCHKan04gjFmXAlaH50BgADyDoya&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:16:32,042] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=3HZVYH9xuTQadtWnFILhDDYIrZV9UJLj0bSEID15e9IIfvVvXa5onwRwR0qnGhH0&user_name=&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:16:32,069] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:16:32,073] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:16:32,078] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:16:32,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:16:32,089] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9237
+[2021-05-31 16:16:32,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:16:32,100] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:16:32,119] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:16:32,119] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:16:32,120] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:17:54,813] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 16:17:56,051] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:17:57,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=bxDLuAGqaEvBRAwf5uPkeEevFth6hMEpFbMtXOPEk91OWtgePHORH19M0wJGyNvv&user_name=dfdf&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3614
+[2021-05-31 16:17:57,589] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:17:57,592] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:17:57,597] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:17:57,614] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9237
+[2021-05-31 16:17:57,619] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:17:57,627] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:17:57,628] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:17:57,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:17:57,645] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:17:57,647] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:21:23,312] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=bxDLuAGqaEvBRAwf5uPkeEevFth6hMEpFbMtXOPEk91OWtgePHORH19M0wJGyNvv&user_name=dfdf&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3628
+[2021-05-31 16:21:23,336] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:21:23,337] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:21:23,338] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:21:23,352] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:21:23,354] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9237
+[2021-05-31 16:21:23,365] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:21:23,366] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:21:23,381] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:21:23,383] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:21:23,383] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:21:24,351] [log.py:224] [log:log_response] [WARNING]- Bad Request: /register/
+[2021-05-31 16:21:24,352] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /register/?csrfmiddlewaretoken=bxDLuAGqaEvBRAwf5uPkeEevFth6hMEpFbMtXOPEk91OWtgePHORH19M0wJGyNvv&user_name=dfdf&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 400 11
+[2021-05-31 16:21:44,854] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 16:21:45,652] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:21:47,326] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/?csrfmiddlewaretoken=bxDLuAGqaEvBRAwf5uPkeEevFth6hMEpFbMtXOPEk91OWtgePHORH19M0wJGyNvv&user_name=dfdf&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 200 3628
+[2021-05-31 16:21:47,347] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:21:47,350] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:21:47,350] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:21:47,363] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9237
+[2021-05-31 16:21:47,365] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:21:47,376] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:21:47,378] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:21:47,391] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:21:47,392] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:21:47,393] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:21:55,157] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 45, in post
+    if not re.match(re1, username):
+  File "D:\python\lib\re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+[2021-05-31 16:21:55,159] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /register/?csrfmiddlewaretoken=bxDLuAGqaEvBRAwf5uPkeEevFth6hMEpFbMtXOPEk91OWtgePHORH19M0wJGyNvv&user_name=dfdf&password=&password2=&phone=&pic_code=&msg_code=&allow=on HTTP/1.1" 500 86962
+[2021-05-31 16:22:37,068] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:22:45,019] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:22:45,539] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:22:45,542] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:22:47,867] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 16:22:47,888] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:25:09,128] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:25:09,838] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:25:09,846] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:25:13,035] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 16:25:13,062] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:25:52,328] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 56, in post
+    if not re.match(re3, mobile):
+  File "D:\python\lib\re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+[2021-05-31 16:25:52,343] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /register/ HTTP/1.1" 500 86043
+[2021-05-31 16:25:58,793] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:25:59,324] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:25:59,327] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:26:02,561] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 16:26:20,343] [log.py:224] [log:log_response] [WARNING]- Bad Request: /register/
+[2021-05-31 16:26:20,348] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /register/ HTTP/1.1" 400 15
+[2021-05-31 16:26:39,163] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 16:26:41,115] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:26:41,600] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 16:26:41,700] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-05-31 16:26:41,726] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-05-31 16:26:41,733] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-05-31 16:26:41,763] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9237
+[2021-05-31 16:26:41,774] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-05-31 16:26:41,787] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-05-31 16:26:41,825] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+[2021-05-31 16:26:41,828] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-05-31 16:26:41,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-05-31 16:26:41,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-05-31 16:26:48,000] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:26:48,624] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:26:48,626] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:26:51,459] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 16:27:15,876] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 58, in post
+    user = User.objects.create_user(username=username, password=password, mobile=mobile)
+  File "D:\python\lib\site-packages\django\db\models\manager.py", line 187, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't available; 'auth.User' has been swapped for 'users.User'
+[2021-05-31 16:27:15,888] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /register/ HTTP/1.1" 500 86121
+[2021-05-31 16:27:57,864] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:27:58,144] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:27:58,145] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:29:26,617] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 16:29:27,526] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:29:39,284] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 16:29:40,002] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:29:47,897] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:29:48,420] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:29:48,422] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:29:51,176] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 16:29:51,198] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:31:32,226] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:31:32,503] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:31:32,503] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:31:35,419] [log.py:224] [log:log_response] [WARNING]- Not Found: /e
+[2021-05-31 16:31:35,420] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /e HTTP/1.1" 404 2040
+[2021-05-31 16:31:37,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 16:31:37,858] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:31:45,325] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry 'dfd4332' for key 'username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 59, in post
+    user = User.objects.create_user(username=username, password=password, mobile=mobile)
+  File "D:\python\lib\site-packages\django\contrib\auth\models.py", line 152, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "D:\python\lib\site-packages\django\contrib\auth\models.py", line 146, in _create_user
+    user.save(using=self._db)
+  File "D:\python\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "D:\python\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\python\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "D:\python\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\python\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "D:\python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\python\lib\site-packages\django\db\models\sql\compiler.py", line 1410, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'dfd4332' for key 'username'")
+[2021-05-31 16:31:45,333] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /register/ HTTP/1.1" 500 243134
+[2021-05-31 16:34:30,688] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '15116340630' for key 'mobile'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 59, in post
+    user = User.objects.create_user(username=username, password=password, mobile=mobile)
+  File "D:\python\lib\site-packages\django\contrib\auth\models.py", line 152, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "D:\python\lib\site-packages\django\contrib\auth\models.py", line 146, in _create_user
+    user.save(using=self._db)
+  File "D:\python\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "D:\python\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\python\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "D:\python\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\python\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "D:\python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\python\lib\site-packages\django\db\models\sql\compiler.py", line 1410, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '15116340630' for key 'mobile'")
+[2021-05-31 16:34:30,695] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /register/ HTTP/1.1" 500 243166
+[2021-05-31 16:34:52,039] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 12
+[2021-05-31 16:57:42,313] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:57:42,833] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 16:57:42,836] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 16:57:45,844] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 16:57:45,864] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 16:58:18,087] [log.py:224] [log:log_response] [WARNING]- Bad Request: /register/
+[2021-05-31 16:58:18,088] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /register/ HTTP/1.1" 400 15
+[2021-05-31 16:58:34,470] [log.py:224] [log:log_response] [WARNING]- Bad Request: /register/
+[2021-05-31 16:58:34,471] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /register/ HTTP/1.1" 400 15
+[2021-05-31 16:59:26,949] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 16:59:28,516] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 16:59:29,027] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 16:59:42,957] [log.py:224] [log:log_response] [WARNING]- Bad Request: /register/
+[2021-05-31 16:59:42,959] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /register/ HTTP/1.1" 400 15
+[2021-05-31 17:00:05,247] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 17:00:05,822] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 17:00:05,829] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 17:00:09,010] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 17:02:57,814] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 17:02:58,393] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 17:02:58,395] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 17:03:00,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 17:03:00,919] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 17:04:24,409] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 17:04:24,914] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 17:04:24,917] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 17:04:29,294] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 17:05:18,461] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 17:05:20,018] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 17:05:30,263] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 17:05:30,756] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 17:05:30,758] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 17:05:34,737] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 17:09:14,190] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 17:09:14,590] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 17:09:14,591] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 17:09:17,408] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 17:09:17,428] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9303
+[2021-05-31 17:14:37,621] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 17:14:37,904] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 17:14:37,904] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 17:14:40,407] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3628
+[2021-05-31 17:14:40,425] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-05-31 17:14:40,428] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9337
+[2021-05-31 17:31:17,064] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3657
+[2021-05-31 17:31:17,080] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 17:31:40,608] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3618
+[2021-05-31 17:31:54,881] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 17:31:55,277] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 17:31:55,278] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2019
+[2021-05-31 17:31:57,572] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3618
+[2021-05-31 17:37:22,631] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 17:37:24,202] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 17:41:36,836] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-05-31 17:41:37,768] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 18:00:03,182] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 18:01:03,491] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 18:01:03,810] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 18:01:03,811] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2184
+[2021-05-31 18:01:05,878] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3618
+[2021-05-31 18:01:05,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9337
+[2021-05-31 18:01:10,648] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 18:01:10,648] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2184
+[2021-05-31 18:01:24,587] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2021-05-31 18:01:24,588] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2184
+[2021-05-31 18:04:03,177] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-05-31 18:04:03,508] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-05-31 18:04:03,534] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-05-31 18:04:03,537] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-05-31 18:04:03,545] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-05-31 18:04:03,568] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-05-31 18:04:03,571] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-05-31 18:04:03,589] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-05-31 18:04:03,590] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-05-31 18:04:03,590] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-05-31 18:04:03,594] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-05-31 18:04:03,598] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-05-31 18:04:03,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-05-31 18:04:03,603] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-05-31 18:04:03,612] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-05-31 18:04:03,616] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-05-31 18:04:03,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-05-31 18:04:03,619] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-05-31 18:04:03,628] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-05-31 18:04:03,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-05-31 18:04:08,562] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3618
+[2021-05-31 18:04:08,579] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-05-31 18:04:26,210] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 302 0
+[2021-05-31 18:04:26,213] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
