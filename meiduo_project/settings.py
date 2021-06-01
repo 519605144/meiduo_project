@@ -100,9 +100,17 @@ CACHES = {
                      "PASSWORD": '12345',
               }
        },
+       "code": {
+              "BACKEND": 'django_redis.cache.RedisCache',
+              "LOCATION": 'redis://127.0.0.1:6379/2',
+              "OPTIONS": {
+                     "CLIENT_CLASS": 'django_redis.client.DefaultClient',
+                     "PASSWORD": '12345',
+              }
+       },
 }
-# SESSION_ENGINE = "django.contrib.seesions.backends.cache"
-# SESSION_CACHE_ALIAS = "session"
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "session"
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

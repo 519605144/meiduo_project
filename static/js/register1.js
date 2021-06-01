@@ -4,7 +4,7 @@
     delimiters: ['[[', ']]'],
     data: {
         // name: '',
-        host: 'localhost',
+        host: '',
         error_name: false,
         error_password: false,
         error_password2: false,
@@ -30,12 +30,11 @@
         mobile: '',
         image_code: '',
         sms_code: '',
-        allow: true
+        allow: false
     },
     mounted: function () {
         // 向服务器获取图片验证码
         this.generate_image_code();
-
 
     },
     methods: {
@@ -56,7 +55,7 @@
             // 生成一个编号 : 严格一点的使用uuid保证编号唯一， 不是很严谨的情况下，也可以使用时间戳
             this.image_code_id = this.generateUUID();
             // 设置页面中图片验证码img标签的src属性
-            this.image_code_url = this.host + "/image_codes/" + this.image_code_id + "/";
+            this.image_code_url =  "/image_codes/" + this.image_code_id + "/";
             console.log(this.image_code_url);
         },
         // 检查用户名
@@ -81,25 +80,17 @@
                 this.error_name = true;
 
             }
+            let url = '/usernames/' + this.username + '/count/'
+            axios.get(url).then(response=>{
+                if (response.data.count == 0){
+                    this.error_name=false
+                }else {
+                    this.error_name=true
+                    this.error_name_message='该用户名已经注册'
+                }
+            }).catch(error=>{
 
-        //    在这里发送一个axios 请求
-        //    1.组织url
-            //     let url = '/usernames/'+this.username+'/count/';
-        //    2.发送请求
-            //     axios.get(url).then(response=>{
-            //         //    3.请求成功的回调的业务逻辑
-            //         // console.log(response)
-            //         if(response.data.count == 0){
-            //             this.error_name=false
-            //         }else{
-            //             this.error_name=true;
-            //             this.error_name_message='用户名已注册';
-            //         }
-            //     }).catch(error=>{
-            //
-            //     })
-            //
-
+            })
         },
         // 检查密码
         check_password: function () {
@@ -124,6 +115,18 @@
                 this.error_phone = true;
             }
 
+            let url = '/mobiles/' + this.mobile + '/count/'
+            axios.get(url).then(response=>{
+                if (response.data.count == 0){
+                    this.error_phone = false
+                }else{
+                    this.error_phone = true
+                    this.error_mobile_message='该电话号码已被注册'
+                }
+            }).catch(response=>{
+
+            })
+
         },
         // 检查图片验证码
         check_image_code: function () {
@@ -133,6 +136,11 @@
             } else {
                 this.error_image_code = false;
             }
+
+            let url = '/image_codes/'+ this.uuid +'/'
+            axios.get(url).then(response=>{
+                // if (this.image_code==response.data.)
+            })
 
         },
         // 检查短信验证码
@@ -147,8 +155,9 @@
         // 检查是否勾选协议
         check_allow: function () {
             if (!this.allow) {
-                this.error_allow = true;
-                this.allow=false
+                this.error_allow = true
+                this.error_allow_message='×请勾选协议'
+                alert('请勾选协议！！！')
             } else {
                 this.error_allow_message='✔您已勾选协议'
                 this.error_allow = false;
