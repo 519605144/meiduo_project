@@ -49,12 +49,12 @@
 						<label>图形验证码:</label>
 						<input type="text"  v-model="image_code " name="pic_code" id="pic_code" class="msg_input">
 						<img :src="image_code_url" @click="generate_image_code" alt="图形验证码" class="pic_code">
-						<span class="error_tip">[[error_image_code_message]]</span>
+						<span class="error_tip" v-show="error_image_code">[[error_image_code_message]]</span>
 					</li>
 					<li>
 						<label>短信验证码:</label>
-						<input type="text"   name="msg_code" id="msg_code" class="msg_input">
-						<a href="#" class="get_msg_code">获取短信验证码</a>
+						<input type="text"  v-model="sms_code" @click="check_sms_code" name="msg_code" id="msg_code" class="msg_input">
+						<a @click="send_sms_code" class="get_msg_code">[[sms_code_tip]]</a>
 						<span class="error_tip">[[error_sms_code_message]]</span>
 					</li>
 					<li class="agreement">

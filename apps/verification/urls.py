@@ -14,5 +14,5 @@ from . import views
 
 urlpatterns = [
        path('image_codes/<uuid>/', views.VerificationView.as_view(), name='verification'),
-       path('sms_code/<mobile>/', views.SmsCodeView.as_view(), name='smscode')
+       path('sms_codes/<mobile>/', views.SmsCodeView.as_view(), name='smscode')
 ]
