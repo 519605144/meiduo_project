@@ -162,3 +162,12 @@ class LoginView(View):
 
               else:
                      return render(request, 'login.html', context={'account_errmsg': '用户名或密码错误'})
+
+class LogoutView(View):
+       def get(self, request):
+              from django.contrib.auth import logout
+              logout(request)
+
+              response = redirect(reverse('contents'))
+              response.delete_cookie('username')
+              return response

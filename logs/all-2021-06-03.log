@@ -756,3 +756,461 @@ AttributeError: 'SessionStore' object has no attribute 'set_expire'
 [2021-06-03 17:50:31,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20546
 [2021-06-03 17:50:31,719] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
 [2021-06-03 17:50:31,720] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3186
+[2021-06-03 18:12:14,253] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 18:12:16,207] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:12:45,723] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 18:12:47,238] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:13:49,679] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 18:13:51,573] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:13:56,812] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 18:13:58,247] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:14:06,436] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 18:14:08,750] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:14:15,428] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 18:14:16,992] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:14:23,193] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 18:14:24,712] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:15:03,900] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 18:15:05,709] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:16:06,696] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20553
+[2021-06-03 18:16:06,761] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:16:06,770] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:16:06,774] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:16:06,785] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 18:16:06,793] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-03 18:16:06,803] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:16:06,813] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 18:16:06,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 18:16:06,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 18:16:06,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 18:16:06,842] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 18:16:06,843] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 18:16:06,870] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 18:16:06,875] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 18:16:06,876] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 18:16:06,884] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 18:16:06,886] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 18:16:06,890] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 18:16:06,891] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 18:16:06,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 18:16:06,901] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 18:16:06,904] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 18:16:06,905] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 18:16:06,906] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 18:16:06,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 18:16:06,988] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:16:06,992] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-03 18:16:06,993] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3356
+[2021-06-03 18:16:06,993] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 3350
+[2021-06-03 18:16:09,034] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 301 0
+[2021-06-03 18:16:09,049] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 18:16:09,073] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:16:09,074] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:16:09,091] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:16:09,096] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:16:09,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:16:15,877] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-03 18:16:15,882] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20553
+[2021-06-03 18:16:15,935] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:16:15,936] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3356
+[2021-06-03 18:16:18,146] [log.py:224] [log:log_response] [WARNING]- Not Found: /loginout
+[2021-06-03 18:16:18,147] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /loginout HTTP/1.1" 404 3341
+[2021-06-03 18:18:16,317] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\contents\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\python\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\python\lib\site-packages\django\template\backends\jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "D:\python\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "D:\python\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\djangoProject\djangoProject\meiduo_project\templates\index.html", line 22, in top-level template code
+    <a href="{{ url(loginout) }}">退出</a>
+  File "D:\python\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '{{ loginout }}' not found. '{{ loginout }}' is not a valid view function or pattern name.
+[2021-06-03 18:18:16,322] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 120258
+[2021-06-03 18:18:18,488] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\contents\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\python\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\python\lib\site-packages\django\template\backends\jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "D:\python\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "D:\python\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\djangoProject\djangoProject\meiduo_project\templates\index.html", line 22, in top-level template code
+    <a href="{{ url(loginout) }}">退出</a>
+  File "D:\python\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '{{ loginout }}' not found. '{{ loginout }}' is not a valid view function or pattern name.
+[2021-06-03 18:18:18,491] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 120395
+[2021-06-03 18:18:48,151] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\contents\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\python\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\python\lib\site-packages\django\template\backends\jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "D:\python\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "D:\python\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\djangoProject\djangoProject\meiduo_project\templates\index.html", line 22, in top-level template code
+    <a href="{{ url(login) }}">退出</a>
+  File "D:\python\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '{{ login }}' not found. '{{ login }}' is not a valid view function or pattern name.
+[2021-06-03 18:18:48,155] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 120359
+[2021-06-03 18:19:37,333] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20552
+[2021-06-03 18:19:37,438] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:19:37,439] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3356
+[2021-06-03 18:19:38,926] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 171, in get
+    response = redirect(reverse('index'))
+  File "D:\python\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+[2021-06-03 18:19:38,929] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /index/ HTTP/1.1" 500 89462
+[2021-06-03 18:19:51,197] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 301 0
+[2021-06-03 18:19:51,318] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 171, in get
+    response = redirect(reverse('index'))
+  File "D:\python\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+[2021-06-03 18:19:51,320] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /index/ HTTP/1.1" 500 89106
+[2021-06-03 18:22:02,332] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 18:22:04,187] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:24:04,740] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\contents\urls.py changed, reloading.
+[2021-06-03 18:24:06,416] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:24:10,637] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 20553
+[2021-06-03 18:24:10,678] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 304 0
+[2021-06-03 18:24:10,753] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:24:10,756] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3522
+[2021-06-03 18:24:14,421] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20553
+[2021-06-03 18:24:14,471] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:24:14,472] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3522
+[2021-06-03 18:24:15,905] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2021-06-03 18:24:15,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 20553
+[2021-06-03 18:24:15,956] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:24:15,957] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3522
+[2021-06-03 18:24:51,855] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 18:24:53,553] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:24:53,913] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 20553
+[2021-06-03 18:24:54,023] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:24:54,025] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3522
+[2021-06-03 18:24:56,263] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20553
+[2021-06-03 18:24:56,312] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:24:56,314] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3522
+[2021-06-03 18:24:57,484] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 18:25:14,370] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-03 18:25:14,375] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20553
+[2021-06-03 18:25:14,444] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:25:14,445] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3522
+[2021-06-03 18:25:19,103] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2021-06-03 18:25:19,110] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20553
+[2021-06-03 18:25:19,171] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:25:19,173] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3522
+[2021-06-03 18:25:20,076] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 18:25:28,535] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 18:25:28,882] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20553
+[2021-06-03 18:25:29,061] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:25:29,063] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3522
+[2021-06-03 18:25:31,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 18:25:43,994] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register HTTP/1.1" 301 0
+[2021-06-03 18:25:44,003] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 18:25:44,027] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:25:44,029] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:25:44,031] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:25:44,040] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 18:25:44,041] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:25:44,054] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 18:25:44,070] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:25:44,070] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 18:25:44,072] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 18:25:44,167] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/1cdc3283-b8d5-4a74-9ef6-f66e5c1b0e55/ HTTP/1.1" 200 2820
+[2021-06-03 18:25:46,020] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 18:25:46,041] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:25:46,046] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:25:46,053] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:25:46,055] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:25:46,063] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:25:46,069] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:25:46,082] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:25:46,083] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:25:46,090] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:26:42,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-03 18:26:42,582] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20553
+[2021-06-03 18:26:42,600] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:26:42,610] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:26:42,610] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:26:42,612] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 18:26:42,623] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:26:42,633] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-03 18:26:42,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 18:26:42,662] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 18:26:42,666] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 18:26:42,666] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 18:26:42,666] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 18:26:42,667] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 18:26:42,670] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 18:26:42,679] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 18:26:42,679] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 18:26:42,682] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 18:26:42,683] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 18:26:42,685] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 18:26:42,686] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 18:26:42,691] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 18:26:42,693] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 18:26:42,704] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 18:26:42,706] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 18:26:42,706] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 18:26:42,709] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 18:26:42,723] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:26:42,724] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3522
+[2021-06-03 18:26:45,125] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2021-06-03 18:26:45,135] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20553
+[2021-06-03 18:26:45,163] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:26:45,164] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:26:45,167] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:26:45,167] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 18:26:45,170] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:26:45,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 18:26:45,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-03 18:26:45,208] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 18:26:45,210] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 18:26:45,211] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 18:26:45,211] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 18:26:45,212] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 18:26:45,214] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 18:26:45,221] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 18:26:45,225] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 18:26:45,228] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 18:26:45,232] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 18:26:45,233] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 18:26:45,233] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 18:26:45,235] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 18:26:45,239] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 18:26:45,252] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 18:26:45,253] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 18:26:45,257] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 18:26:45,259] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 18:26:45,282] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 18:26:45,283] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3522
+[2021-06-03 18:26:46,836] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 301 0
+[2021-06-03 18:26:46,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 18:26:46,869] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:26:46,870] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:26:46,871] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:26:46,881] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:26:46,884] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:26:46,888] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:26:47,200] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:26:47,201] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:26:47,205] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:26:52,832] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2919
+[2021-06-03 18:26:52,856] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:26:52,858] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:26:52,858] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:26:52,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:26:52,872] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:26:52,878] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:26:52,893] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:26:52,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:26:52,900] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:27:09,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2919
+[2021-06-03 18:27:09,917] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:27:09,918] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:27:09,920] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:27:09,929] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:27:09,934] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:27:09,941] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:27:09,957] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:27:09,958] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:27:09,962] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:27:14,041] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2919
+[2021-06-03 18:27:14,065] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:27:14,066] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:27:14,066] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:27:14,075] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:27:14,082] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:27:14,087] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:27:14,103] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:27:14,103] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:27:14,110] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:27:24,256] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2919
+[2021-06-03 18:27:24,280] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:27:24,284] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:27:24,286] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:27:24,291] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:27:24,296] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:27:24,304] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:27:24,325] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:27:24,326] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:27:24,331] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:27:27,977] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2919
+[2021-06-03 18:27:28,003] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:27:28,004] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:27:28,004] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:27:28,010] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:27:28,018] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:27:28,022] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:27:28,035] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:27:28,036] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:27:28,041] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:29:30,039] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 18:29:30,068] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:29:30,069] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:29:30,070] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:29:30,078] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:29:30,081] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:29:30,087] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:29:30,111] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:29:30,112] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:29:30,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:29:35,587] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2918
+[2021-06-03 18:29:35,603] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:29:35,607] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:29:35,613] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:29:35,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:29:35,627] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:29:35,631] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:29:35,649] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:29:35,649] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:29:35,654] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:30:02,430] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 18:30:02,464] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:30:02,467] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:30:02,470] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:30:02,473] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:30:02,484] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:30:02,487] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:30:02,506] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:30:02,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:30:02,518] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:30:08,607] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2924
+[2021-06-03 18:30:08,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:30:08,630] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:30:08,631] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:30:08,635] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:30:08,639] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:30:08,647] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:30:08,661] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:30:08,662] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:30:08,666] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:30:15,661] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2924
+[2021-06-03 18:30:15,685] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:30:15,686] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:30:15,688] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:30:15,696] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:30:15,700] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:30:15,706] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:30:15,727] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:30:15,728] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:30:15,733] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:30:23,593] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2924
+[2021-06-03 18:30:23,616] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:30:23,617] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:30:23,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:30:23,624] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:30:23,630] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:30:23,636] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:30:23,657] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:30:23,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:30:23,664] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:31:06,248] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2924
+[2021-06-03 18:31:06,265] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:31:06,266] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:31:06,267] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:31:06,272] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:31:06,281] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 18:31:06,286] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:31:06,302] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:31:06,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:31:06,309] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:32:28,911] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 18:32:28,946] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:32:28,949] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:32:28,951] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:32:28,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:32:28,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1817
+[2021-06-03 18:32:28,969] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:32:28,987] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:32:28,988] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:32:28,996] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 18:33:13,719] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 18:33:13,742] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 18:33:13,743] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 18:33:13,744] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 18:33:13,752] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 18:33:13,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1817
+[2021-06-03 18:33:13,762] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 18:33:13,779] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 18:33:13,780] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 18:33:13,789] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312

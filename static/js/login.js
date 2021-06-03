@@ -27,6 +27,7 @@ var vm = new Vue({
         	var re = /^[0-9A-Za-z]{8,20}$/;
 			if (re.test(this.password)) {
                 this.error_pwd = false;
+                this.error_password_message = '密码格式错误'
             } else {
                 this.error_pwd = true;
             }

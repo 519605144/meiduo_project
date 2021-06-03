@@ -13,5 +13,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-       path('', views.IndexViews.as_view(), name='contents')
+       path('', views.IndexViews.as_view(), name='contents'),
+       path('index/', views.IndexViews.as_view(), name='index'),
 ]
