@@ -18,4 +18,6 @@ urlpatterns = [
        # url('usernames/(?P<username>[a-zA-Z0-9_-]{5,20})/count/', views.UsernameCountView.as_view(), name='usernamecount'),
        path('usernames/<username>/count/', views.UsernameCountView.as_view(), name='usernamecount'),
        path('mobiles/<mobile>/count/', views.MobileCountView.as_view(), name='mobilecount'),
+       path('login/', views.LoginView.as_view(), name='login'),
+
 ]

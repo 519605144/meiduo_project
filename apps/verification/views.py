@@ -63,3 +63,10 @@ class SmsCodeView(View):
 
               return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok'})
 
+
+
+
+
+
+
+

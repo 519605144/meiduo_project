@@ -3,7 +3,7 @@ var vm = new Vue({
 	// 修改Vue变量的读取语法，避免和django模板语法冲突
     delimiters: ['[[', ']]'],
     data: {
-        host,
+        // host,
         error_username: false,
         error_password: false,
 		error_username_message: '请输入5-20个字符的用户名',
@@ -44,7 +44,7 @@ var vm = new Vue({
         // qq登录
         qq_login: function(){
             var next = get_query_string('next') || '/';
-            var url = this.host + '/qq/login/?next=' + next;
+            var url = '/qq/login/?next=' + next;
             axios.get(url, {
                     responseType: 'json'
                 })

@@ -519,3 +519,4 @@ AttributeError: 'Pipeline' object has no attribute 'excuete'
 [2021-06-02 17:54:44,511] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/d505221c-6625-4e4b-9229-730e5c868b03/ HTTP/1.1" 200 3534
 [2021-06-02 17:54:49,290] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340634/count/ HTTP/1.1" 200 23
 [2021-06-02 17:54:51,878] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340634/count/ HTTP/1.1" 200 23
+[2021-06-03 09:01:23,327] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\verification\views.py changed, reloading.

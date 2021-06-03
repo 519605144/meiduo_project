@@ -238,3 +238,7 @@ LOGGING = {
 }
 
 AUTH_USER_MODEL = 'users.User'
+
+AUTHENTICATION_BACKENDS = [
+       'apps.users.utils.UsernameMobileCheckBackend',
+]

@@ -222,7 +222,7 @@
             this.check_password();
             this.check_password2();
             this.check_mobile();
-            // this.check_sms_code();
+            this.check_sms_code();
             this.check_allow();
 
 

@@ -1,0 +1,758 @@
+[2021-06-03 09:01:25,234] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 09:02:32,561] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\verification\views.py changed, reloading.
+[2021-06-03 09:02:34,324] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 09:40:58,242] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 09:41:00,561] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-06-03 09:41:01,613] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64319)
+
+[2021-06-03 09:41:01,615] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64318)
+
+[2021-06-03 09:41:03,539] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-06-03 09:41:03,997] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 09:41:04,004] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 09:41:04,172] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 09:41:04,204] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 09:41:04,208] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 09:41:04,257] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 09:41:04,264] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 09:41:04,281] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 09:41:04,283] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 09:41:04,302] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 09:41:04,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 09:41:04,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 09:41:04,327] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 09:41:04,332] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 09:41:04,333] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 09:41:04,333] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 09:41:04,339] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 09:41:04,343] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 09:41:04,583] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-03 09:41:04,587] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 3013
+[2021-06-03 09:41:51,454] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 09:41:53,185] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-06-03 09:41:53,840] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 63990)
+
+[2021-06-03 09:41:55,615] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-06-03 09:41:56,534] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-03 09:41:56,537] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 3013
+[2021-06-03 09:42:03,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 09:42:03,144] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 09:42:03,145] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 09:42:03,148] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 09:42:03,159] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 09:42:03,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 09:42:03,168] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 09:42:03,191] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 09:42:03,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 09:42:03,195] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 09:42:03,298] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/8a3bfd50-d73c-462f-8dc2-7104f8d9463a/ HTTP/1.1" 200 3386
+[2021-06-03 09:42:10,540] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43/count/ HTTP/1.1" 200 23
+[2021-06-03 09:42:47,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340630/count/ HTTP/1.1" 200 23
+[2021-06-03 09:43:09,223] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/1511634063/count/ HTTP/1.1" 200 23
+[2021-06-03 09:43:54,135] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340637/count/ HTTP/1.1" 200 23
+[2021-06-03 09:43:57,715] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340637/count/ HTTP/1.1" 200 23
+[2021-06-03 09:44:08,602] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340637/?image_code=3rns&image_code_id=8a3bfd50-d73c-462f-8dc2-7104f8d9463a HTTP/1.1" 200 29
+[2021-06-03 09:44:45,763] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340637/count/ HTTP/1.1" 200 23
+[2021-06-03 09:44:45,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43/count/ HTTP/1.1" 200 23
+[2021-06-03 09:44:45,795] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 3885
+[2021-06-03 09:44:45,819] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 09:44:45,821] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 09:44:45,823] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 09:44:45,832] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 09:44:45,836] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 09:44:45,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 09:44:45,859] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 09:44:45,859] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 09:44:45,862] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 09:44:45,906] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/d3b12a5d-aff1-4271-98ce-c8bc006c8111/ HTTP/1.1" 200 3055
+[2021-06-03 09:50:40,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 09:50:40,478] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 09:50:40,483] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 09:50:40,487] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 09:50:40,496] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 09:50:40,506] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 09:50:40,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 09:50:40,538] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 09:50:40,539] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 09:50:40,541] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 09:50:40,583] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/bf7aee7f-5689-4628-934a-1ffe2b0eaa48/ HTTP/1.1" 200 3732
+[2021-06-03 09:50:44,020] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfdfddz/count/ HTTP/1.1" 200 23
+[2021-06-03 09:50:51,807] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 09:51:49,064] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 09:52:01,656] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340621/?image_code=dswn&image_code_id=bf7aee7f-5689-4628-934a-1ffe2b0eaa48 HTTP/1.1" 200 29
+[2021-06-03 09:52:51,729] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 09:52:51,749] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfdfddz/count/ HTTP/1.1" 200 23
+[2021-06-03 09:53:10,745] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 09:53:12,584] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-06-03 09:53:13,368] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55634)
+
+[2021-06-03 09:53:15,454] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-06-03 09:53:16,203] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-03 09:53:16,205] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 3013
+[2021-06-03 09:59:25,825] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 09:59:25,864] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 09:59:25,871] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 09:59:25,872] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 09:59:25,884] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 09:59:25,891] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 09:59:25,895] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 09:59:25,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 09:59:25,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 09:59:25,928] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 09:59:26,062] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/4437aecf-35cb-45f5-8b13-773f7f334b8c/ HTTP/1.1" 200 2952
+[2021-06-03 09:59:42,869] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd4331/count/ HTTP/1.1" 200 23
+[2021-06-03 09:59:44,374] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43311/count/ HTTP/1.1" 200 23
+[2021-06-03 10:03:58,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:04:04,481] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340621/?image_code=9xoa&image_code_id=4437aecf-35cb-45f5-8b13-773f7f334b8c HTTP/1.1" 200 60
+[2021-06-03 10:04:04,495] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:04:04,501] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/1c9964b7-6cbb-43c4-ac52-836fbe6516a9/ HTTP/1.1" 200 2921
+[2021-06-03 10:04:08,920] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:04:26,309] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340621/?image_code=poiy&image_code_id=1c9964b7-6cbb-43c4-ac52-836fbe6516a9 HTTP/1.1" 200 29
+[2021-06-03 10:04:57,354] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43311/count/ HTTP/1.1" 200 23
+[2021-06-03 10:04:57,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:05:20,739] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 3885
+[2021-06-03 10:05:20,757] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:05:20,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:05:20,764] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 10:05:20,770] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 10:05:20,772] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 10:05:20,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:05:20,823] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 10:05:20,832] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 10:05:20,833] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 10:05:20,834] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/45277528-1b55-4176-bf0c-f94b95036d73/ HTTP/1.1" 200 3275
+[2021-06-03 10:09:13,661] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 10:09:15,574] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 10:10:13,165] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 10:10:13,196] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:10:13,200] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 10:10:13,205] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:10:13,212] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 10:10:13,220] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:10:13,221] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 10:10:13,242] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 10:10:13,243] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 10:10:13,246] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 10:10:13,323] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/af0f2e80-2766-49c9-9362-5cea8c882840/ HTTP/1.1" 200 3229
+[2021-06-03 10:10:15,667] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd4331/count/ HTTP/1.1" 200 23
+[2021-06-03 10:10:17,505] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43312/count/ HTTP/1.1" 200 23
+[2021-06-03 10:10:22,019] [log.py:224] [log:log_response] [WARNING]- Not Found: /mobiles//count/
+[2021-06-03 10:10:22,019] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /mobiles//count/ HTTP/1.1" 404 3025
+[2021-06-03 10:10:28,421] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/151163406223/count/ HTTP/1.1" 200 23
+[2021-06-03 10:10:35,582] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/151163406223/count/ HTTP/1.1" 200 23
+[2021-06-03 10:10:47,468] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/151163406223/count/ HTTP/1.1" 200 23
+[2021-06-03 10:10:48,174] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/151163406223/count/ HTTP/1.1" 200 23
+[2021-06-03 10:10:48,673] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/151163406223/count/ HTTP/1.1" 200 23
+[2021-06-03 10:10:49,161] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/151163406223/count/ HTTP/1.1" 200 23
+[2021-06-03 10:10:54,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:10:55,052] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:11:04,047] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340621/?image_code=rfy8&image_code_id=af0f2e80-2766-49c9-9362-5cea8c882840 HTTP/1.1" 200 29
+[2021-06-03 10:11:21,597] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:11:21,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43312/count/ HTTP/1.1" 200 23
+[2021-06-03 10:19:06,712] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 10:19:06,737] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:19:06,743] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:19:06,748] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 10:19:06,757] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 10:19:06,766] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:19:06,773] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 10:19:06,806] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 10:19:06,806] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 10:19:06,812] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 10:19:06,864] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/d2d391fd-b002-427d-86fb-72fdb2b1fc1c/ HTTP/1.1" 200 3082
+[2021-06-03 10:19:09,797] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43s/count/ HTTP/1.1" 200 23
+[2021-06-03 10:19:14,673] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116311111/count/ HTTP/1.1" 200 23
+[2021-06-03 10:19:16,905] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116311113/count/ HTTP/1.1" 200 23
+[2021-06-03 10:19:21,838] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116311113/?image_code=z3ss&image_code_id=d2d391fd-b002-427d-86fb-72fdb2b1fc1c HTTP/1.1" 200 60
+[2021-06-03 10:19:21,849] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116311113/count/ HTTP/1.1" 200 23
+[2021-06-03 10:19:21,857] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/6e27d7bb-e282-46da-bf94-1fa6ce12b379/ HTTP/1.1" 200 2948
+[2021-06-03 10:19:28,441] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116311113/count/ HTTP/1.1" 200 23
+[2021-06-03 10:19:39,045] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55412)
+
+[2021-06-03 10:19:39,051] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116311113/?image_code=g9kl&image_code_id=6e27d7bb-e282-46da-bf94-1fa6ce12b379 HTTP/1.1" 200 29
+[2021-06-03 10:19:54,755] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116311113/count/ HTTP/1.1" 200 23
+[2021-06-03 10:19:54,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43s/count/ HTTP/1.1" 200 23
+[2021-06-03 10:20:19,847] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 10:20:21,472] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 10:20:21,842] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 10:20:21,876] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:20:21,880] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:20:21,884] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 10:20:21,891] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 10:20:21,900] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:20:21,914] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 10:20:21,945] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 10:20:21,947] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 10:20:21,952] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 10:20:22,049] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/2d7d8c6e-10e8-4473-a530-6d1cb2a33d70/ HTTP/1.1" 200 3368
+[2021-06-03 10:20:25,319] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-06-03 10:20:25,320] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 3031
+[2021-06-03 10:20:27,687] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd4331/count/ HTTP/1.1" 200 23
+[2021-06-03 10:20:29,020] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43311/count/ HTTP/1.1" 200 23
+[2021-06-03 10:20:34,225] [log.py:224] [log:log_response] [WARNING]- Not Found: /mobiles//count/
+[2021-06-03 10:20:34,226] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /mobiles//count/ HTTP/1.1" 404 3025
+[2021-06-03 10:20:36,874] [log.py:224] [log:log_response] [WARNING]- Not Found: /mobiles//count/
+[2021-06-03 10:20:36,875] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /mobiles//count/ HTTP/1.1" 404 3025
+[2021-06-03 10:20:39,232] [log.py:224] [log:log_response] [WARNING]- Not Found: /mobiles//count/
+[2021-06-03 10:20:39,233] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /mobiles//count/ HTTP/1.1" 404 3025
+[2021-06-03 10:20:44,757] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340624/count/ HTTP/1.1" 200 23
+[2021-06-03 10:20:47,798] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340624/?image_code=dgzz&image_code_id=2d7d8c6e-10e8-4473-a530-6d1cb2a33d70 HTTP/1.1" 200 60
+[2021-06-03 10:20:47,809] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340624/count/ HTTP/1.1" 200 23
+[2021-06-03 10:20:47,816] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/d38ec6a5-d3f6-4402-af64-99e7fc367926/ HTTP/1.1" 200 3525
+[2021-06-03 10:20:51,987] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340624/count/ HTTP/1.1" 200 23
+[2021-06-03 10:20:57,163] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340624/?image_code=vmqo&image_code_id=d38ec6a5-d3f6-4402-af64-99e7fc367926 HTTP/1.1" 200 29
+[2021-06-03 10:21:07,055] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43311/count/ HTTP/1.1" 200 23
+[2021-06-03 10:21:07,060] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340624/count/ HTTP/1.1" 200 23
+[2021-06-03 10:21:25,801] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 3885
+[2021-06-03 10:21:25,827] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:21:25,828] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 10:21:25,831] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:21:25,839] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 10:21:25,842] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 10:21:25,847] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:21:25,865] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 10:21:25,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 10:21:25,871] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 10:21:25,913] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/6b5c4e1c-df0d-4a1c-b79d-647c2a50ba98/ HTTP/1.1" 200 3241
+[2021-06-03 10:21:56,680] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd4331/count/ HTTP/1.1" 200 23
+[2021-06-03 10:21:58,492] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd43313/count/ HTTP/1.1" 200 23
+[2021-06-03 10:22:06,716] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340624/count/ HTTP/1.1" 200 23
+[2021-06-03 10:22:09,352] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340624/count/ HTTP/1.1" 200 23
+[2021-06-03 10:22:12,061] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340624/?image_code=e7sc&image_code_id=6b5c4e1c-df0d-4a1c-b79d-647c2a50ba98 HTTP/1.1" 200 29
+[2021-06-03 10:22:29,374] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 10:22:29,406] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:22:29,409] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 10:22:29,413] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:22:29,425] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 10:22:29,427] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 10:22:29,436] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:22:29,463] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 10:22:29,465] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 10:22:29,469] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 10:22:29,517] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/1375bd9b-1fb8-4bbb-ae3a-4e8e2e738cde/ HTTP/1.1" 200 3240
+[2021-06-03 10:22:31,591] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfdfd/count/ HTTP/1.1" 200 23
+[2021-06-03 10:22:39,487] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340631/count/ HTTP/1.1" 200 23
+[2021-06-03 10:22:42,460] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340634/count/ HTTP/1.1" 200 23
+[2021-06-03 10:22:52,510] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/1231231233/count/ HTTP/1.1" 200 23
+[2021-06-03 10:22:54,953] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/1231231233/count/ HTTP/1.1" 200 23
+[2021-06-03 10:22:55,839] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/1231231233/count/ HTTP/1.1" 200 23
+[2021-06-03 10:23:07,222] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/12312312334/count/ HTTP/1.1" 200 23
+[2021-06-03 10:23:10,538] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:23:17,458] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340621/?image_code=qqno&image_code_id=1375bd9b-1fb8-4bbb-ae3a-4e8e2e738cde HTTP/1.1" 200 60
+[2021-06-03 10:23:17,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:23:17,478] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/08f54f66-06c2-42df-9ebb-8974705ec27f/ HTTP/1.1" 200 3121
+[2021-06-03 10:23:20,195] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/b31e339f-79cd-421e-bea3-5d4ea98bded6/ HTTP/1.1" 200 2708
+[2021-06-03 10:23:22,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:23:31,726] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340621/?image_code=igrv&image_code_id=b31e339f-79cd-421e-bea3-5d4ea98bded6 HTTP/1.1" 200 29
+[2021-06-03 10:23:40,435] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340621/count/ HTTP/1.1" 200 23
+[2021-06-03 10:23:40,442] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfdfd/count/ HTTP/1.1" 200 23
+[2021-06-03 10:24:07,278] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 200 3885
+[2021-06-03 10:24:07,326] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 10:24:07,328] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:24:07,335] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:24:07,342] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 10:24:07,346] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 10:24:07,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:24:07,383] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 10:24:07,386] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 10:24:07,415] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 10:24:18,214] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/8a829989-cca8-48d9-ae51-7659f5edf2fd/ HTTP/1.1" 200 3196
+[2021-06-03 10:24:49,470] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 10:24:49,491] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:24:49,492] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 10:24:49,496] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:24:49,505] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 10:24:49,511] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:24:49,512] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 10:24:49,544] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 10:24:49,545] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 10:24:49,549] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 10:24:49,592] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/9cf46935-7ab0-4113-8287-2c7819b58d39/ HTTP/1.1" 200 3350
+[2021-06-03 10:24:52,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd4311/count/ HTTP/1.1" 200 23
+[2021-06-03 10:25:14,230] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116341111/count/ HTTP/1.1" 200 23
+[2021-06-03 10:25:17,449] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116341111/count/ HTTP/1.1" 200 23
+[2021-06-03 10:25:34,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd4311/count/ HTTP/1.1" 200 23
+[2021-06-03 10:25:34,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116341111/count/ HTTP/1.1" 200 23
+[2021-06-03 10:25:43,538] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116341111/?image_code=xaxb&image_code_id=9cf46935-7ab0-4113-8287-2c7819b58d39 HTTP/1.1" 200 29
+[2021-06-03 10:26:32,420] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 10:26:34,002] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 10:26:34,358] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 10:26:34,394] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:26:34,399] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 10:26:34,403] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:26:34,413] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 10:26:34,423] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:26:34,438] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 10:26:34,464] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 10:26:34,466] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 10:26:34,473] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 10:26:34,578] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/a5553790-1393-4bda-bf26-16c905e1f6af/ HTTP/1.1" 200 3264
+[2021-06-03 10:26:36,217] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd4311/count/ HTTP/1.1" 200 23
+[2021-06-03 10:26:43,468] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116311114/count/ HTTP/1.1" 200 23
+[2021-06-03 10:26:46,886] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116311114/count/ HTTP/1.1" 200 23
+[2021-06-03 10:26:50,311] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116311114/?image_code=6lgh&image_code_id=a5553790-1393-4bda-bf26-16c905e1f6af HTTP/1.1" 200 29
+[2021-06-03 10:26:59,793] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 10:26:59,825] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:26:59,827] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 10:26:59,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:26:59,838] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9480
+[2021-06-03 10:26:59,842] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 10:26:59,846] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:26:59,876] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 10:26:59,877] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-03 10:26:59,880] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-03 10:26:59,916] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/bcd1e5f3-9463-4dfc-bd28-ad1c9c291214/ HTTP/1.1" 200 3161
+[2021-06-03 10:27:01,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd4311/count/ HTTP/1.1" 200 23
+[2021-06-03 10:27:06,580] [log.py:224] [log:log_response] [WARNING]- Not Found: /mobiles//count/
+[2021-06-03 10:27:06,581] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /mobiles//count/ HTTP/1.1" 404 3025
+[2021-06-03 10:27:14,984] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116341114/count/ HTTP/1.1" 200 23
+[2021-06-03 10:27:24,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116341114/count/ HTTP/1.1" 200 23
+[2021-06-03 10:27:34,975] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/dfd4311/count/ HTTP/1.1" 200 23
+[2021-06-03 10:27:34,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116341114/count/ HTTP/1.1" 200 23
+[2021-06-03 10:27:37,722] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116341114/?image_code=vckl&image_code_id=bcd1e5f3-9463-4dfc-bd28-ad1c9c291214 HTTP/1.1" 200 29
+[2021-06-03 10:27:54,242] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 302 0
+[2021-06-03 10:27:54,253] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-06-03 10:27:54,268] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 10:27:54,283] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 10:27:54,285] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 10:27:54,287] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 10:27:54,296] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 10:27:54,297] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 10:27:54,305] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 10:27:54,355] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 10:27:54,356] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 10:27:54,362] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 10:27:54,367] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 10:27:54,367] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 10:27:54,371] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 10:27:54,379] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 10:27:54,379] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 10:27:54,380] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 10:27:54,387] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 10:27:54,389] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 10:27:54,392] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 10:27:54,396] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 10:27:54,397] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 11:50:35,532] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 11:50:37,663] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20038
+[2021-06-03 11:50:38,508] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64295)
+
+[2021-06-03 11:50:39,688] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20038
+[2021-06-03 11:50:39,735] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 301 0
+[2021-06-03 11:50:39,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2393
+[2021-06-03 11:50:39,828] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 11:50:39,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 11:50:39,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 11:50:39,897] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 11:50:40,418] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-03 11:50:40,422] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 3180
+[2021-06-03 11:50:44,214] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2393
+[2021-06-03 14:35:22,612] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2469
+[2021-06-03 14:35:22,635] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 304 0
+[2021-06-03 14:36:27,321] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2626
+[2021-06-03 14:36:27,348] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 14:36:27,350] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 14:36:27,351] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 14:36:27,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 14:36:27,368] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 14:36:27,370] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 14:36:27,394] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 14:36:27,395] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 14:36:27,404] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 14:40:19,747] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2635
+[2021-06-03 14:40:19,771] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 14:40:19,772] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 14:40:19,775] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 14:40:19,782] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 14:40:19,788] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 14:40:19,792] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 14:40:19,814] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 14:40:19,816] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 14:40:19,824] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 14:50:50,102] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 14:50:51,757] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 14:50:55,114] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2710
+[2021-06-03 14:50:55,147] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 14:50:55,150] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 14:50:55,156] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 14:50:55,164] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 14:50:55,173] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 14:50:55,178] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 14:50:55,209] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 14:50:55,210] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 14:50:55,224] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 14:51:04,933] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view apps.users.views.LoginView didn't return an HttpResponse object. It returned None instead.
+[2021-06-03 14:51:04,935] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /login/ HTTP/1.1" 500 71986
+[2021-06-03 14:51:11,089] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2710
+[2021-06-03 14:51:11,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 14:51:11,119] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 14:51:11,122] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 14:51:11,131] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 14:51:11,135] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 14:51:11,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 14:51:11,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 14:51:11,167] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 14:51:11,175] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 15:01:41,788] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 15:01:43,511] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 15:08:33,325] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 15:08:35,223] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 15:08:59,163] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 15:09:00,985] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 15:10:32,964] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 15:10:34,862] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 15:21:51,729] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 15:21:52,243] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20038
+[2021-06-03 15:21:55,499] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 15:21:55,519] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-06-03 15:21:56,347] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/54d91940-03ca-4052-9591-b3c1893ad375/ HTTP/1.1" 200 3258
+[2021-06-03 15:22:08,250] [log.py:224] [log:log_response] [WARNING]- Bad Request: /register/
+[2021-06-03 15:22:08,254] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /register/ HTTP/1.1" 400 15
+[2021-06-03 15:22:08,274] [log.py:224] [log:log_response] [WARNING]- Not Found: /mobiles//count/
+[2021-06-03 15:22:08,276] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64759)
+
+[2021-06-03 15:22:08,277] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64758)
+
+[2021-06-03 15:22:10,185] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/fc01ed15-70d0-44d9-ae5a-d9fc8051cd62/ HTTP/1.1" 200 3362
+[2021-06-03 15:22:20,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340630/count/ HTTP/1.1" 200 23
+[2021-06-03 15:22:25,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340630/?image_code=9z8m&image_code_id=fc01ed15-70d0-44d9-ae5a-d9fc8051cd62 HTTP/1.1" 200 60
+[2021-06-03 15:22:25,974] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340630/count/ HTTP/1.1" 200 23
+[2021-06-03 15:22:25,978] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/4c3921f9-4a01-4b3f-a93b-df6182f1ad96/ HTTP/1.1" 200 2621
+[2021-06-03 15:22:53,555] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340630/?image_code=1ypr&image_code_id=4c3921f9-4a01-4b3f-a93b-df6182f1ad96 HTTP/1.1" 200 60
+[2021-06-03 15:22:53,571] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340630/count/ HTTP/1.1" 200 23
+[2021-06-03 15:22:53,573] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/80756318-8658-480e-a87c-b339975edb53/ HTTP/1.1" 200 3374
+[2021-06-03 15:22:57,570] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340630/count/ HTTP/1.1" 200 23
+[2021-06-03 15:23:07,895] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340630/?image_code=lqhm&image_code_id=80756318-8658-480e-a87c-b339975edb53 HTTP/1.1" 200 29
+[2021-06-03 15:23:20,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340630/count/ HTTP/1.1" 200 23
+[2021-06-03 15:23:20,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /usernames/huanghao/count/ HTTP/1.1" 200 23
+[2021-06-03 15:23:21,155] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 302 0
+[2021-06-03 15:23:21,159] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20038
+[2021-06-03 15:23:26,807] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2802
+[2021-06-03 15:23:26,824] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 304 0
+[2021-06-03 15:24:05,943] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 154, in post
+    request.session.set_expire(30*24*3600)
+AttributeError: 'SessionStore' object has no attribute 'set_expire'
+[2021-06-03 15:24:05,947] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /login/ HTTP/1.1" 500 82702
+[2021-06-03 15:25:26,308] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 15:25:28,127] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 15:25:35,752] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 15:25:37,238] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 15:25:37,744] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2802
+[2021-06-03 15:25:47,527] [log.py:224] [log:log_response] [WARNING]- Bad Request: /login/
+[2021-06-03 15:25:47,528] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /login/ HTTP/1.1" 400 15
+[2021-06-03 15:26:04,608] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 15:26:06,171] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 15:26:07,569] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2802
+[2021-06-03 15:26:25,928] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-03 15:26:25,938] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20038
+[2021-06-03 15:26:44,973] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2802
+[2021-06-03 15:26:53,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20038
+[2021-06-03 15:26:54,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/cart.html HTTP/1.1" 200 3752
+[2021-06-03 15:27:01,646] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2802
+[2021-06-03 15:27:21,622] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-03 15:27:21,627] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20038
+[2021-06-03 15:36:35,640] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2802
+[2021-06-03 15:36:37,821] [log.py:224] [log:log_response] [WARNING]- Not Found: /register.html
+[2021-06-03 15:36:37,822] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /register.html HTTP/1.1" 404 3186
+[2021-06-03 15:37:39,814] [log.py:224] [log:log_response] [WARNING]- Not Found: /register.html
+[2021-06-03 15:37:39,815] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /register.html HTTP/1.1" 404 3186
+[2021-06-03 15:37:57,891] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 15:37:58,399] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20038
+[2021-06-03 15:38:02,572] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 15:38:04,179] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-03 15:38:04,267] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/1448d6e6-505e-450c-b8a7-e7b5b55a2d6f/ HTTP/1.1" 200 2853
+[2021-06-03 16:01:45,922] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-06-03 16:01:47,657] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 16:02:03,510] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-06-03 16:03:14,119] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 16:03:14,603] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20038
+[2021-06-03 16:03:17,826] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 16:03:17,843] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 304 0
+[2021-06-03 16:04:04,386] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2919
+[2021-06-03 16:05:25,117] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\utils.py changed, reloading.
+[2021-06-03 16:05:26,689] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 16:05:27,182] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 16:06:03,246] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-03 16:06:03,256] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20038
+[2021-06-03 17:05:43,384] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20047
+[2021-06-03 17:06:43,092] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/user_center_info.html HTTP/1.1" 200 4540
+[2021-06-03 17:06:43,110] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+[2021-06-03 17:06:43,111] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+[2021-06-03 17:06:43,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-03 17:06:43,120] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+[2021-06-03 17:06:49,310] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20047
+[2021-06-03 17:06:56,904] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-06-03 17:07:29,100] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:07:31,128] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:07:33,508] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:07:36,121] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:07:50,492] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:07:51,992] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:08:11,028] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:08:12,771] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:14:44,296] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20047
+[2021-06-03 17:14:58,050] [log.py:224] [log:log_response] [WARNING]- Not Found: /index
+[2021-06-03 17:14:58,051] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /index HTTP/1.1" 404 3162
+[2021-06-03 17:15:03,321] [log.py:224] [log:log_response] [WARNING]- Not Found: /index.html
+[2021-06-03 17:15:03,322] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3177
+[2021-06-03 17:15:11,162] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20047
+[2021-06-03 17:15:35,677] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-06-03 17:15:38,340] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20048
+[2021-06-03 17:24:28,194] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20119
+[2021-06-03 17:24:40,062] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20047
+[2021-06-03 17:34:07,873] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:34:09,575] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:34:14,829] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:34:16,829] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:34:32,078] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:34:34,482] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:34:38,802] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:34:41,088] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:34:45,479] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:34:47,372] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:35:02,225] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:35:04,640] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:35:06,881] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:35:09,626] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:35:15,567] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:35:17,940] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:35:25,434] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-03 17:35:27,792] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:37:21,295] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20314
+[2021-06-03 17:37:21,326] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 17:39:14,276] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20310
+[2021-06-03 17:39:14,299] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 304 0
+[2021-06-03 17:39:16,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20310
+[2021-06-03 17:39:32,597] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:39:33,294] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20310
+[2021-06-03 17:39:33,340] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 304 0
+[2021-06-03 17:40:06,967] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20310
+[2021-06-03 17:40:07,005] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 17:40:07,010] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 17:40:07,011] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 17:40:07,023] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 17:40:07,026] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 17:40:07,036] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 17:40:07,038] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 17:40:07,061] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 17:40:07,062] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 17:40:07,076] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 17:40:07,078] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 17:40:07,081] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 17:40:07,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 17:40:07,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 17:40:07,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 17:40:07,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 17:40:07,101] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 17:40:07,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 17:40:07,113] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 17:40:07,113] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 17:40:07,116] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 17:40:07,117] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 17:42:09,166] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-03 17:42:09,804] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20458
+[2021-06-03 17:42:09,846] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 304 0
+[2021-06-03 17:42:09,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-03 17:43:05,105] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20546
+[2021-06-03 17:43:05,133] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 17:43:05,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 17:43:05,143] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 17:43:05,150] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 17:43:05,156] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 17:43:05,160] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 17:43:05,170] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-03 17:43:05,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 17:43:05,197] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 17:43:05,199] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 17:43:05,200] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 17:43:05,200] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 17:43:05,219] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 17:43:05,227] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 17:43:05,229] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 17:43:05,268] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 17:43:05,268] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 17:43:05,271] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 17:43:05,277] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 17:43:05,286] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 17:43:05,291] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 17:43:05,293] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 17:43:05,296] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 17:43:05,300] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 17:43:05,302] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 17:43:05,311] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 17:43:05,314] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3186
+[2021-06-03 17:43:58,393] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20365
+[2021-06-03 17:43:58,422] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 17:43:58,425] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 17:43:58,428] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 17:43:58,432] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 17:43:58,437] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 17:43:58,442] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 17:43:58,454] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-03 17:43:58,478] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 17:43:58,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 17:43:58,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 17:43:58,481] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 17:43:58,481] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 17:43:58,487] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 17:43:58,506] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 17:43:58,517] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 17:43:58,524] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 17:43:58,544] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 17:43:58,546] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 17:43:58,547] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 17:43:58,558] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 17:43:58,562] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 17:43:58,563] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 17:43:58,574] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3186
+[2021-06-03 17:43:58,579] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 17:43:58,582] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 17:43:58,583] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 17:43:58,584] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 17:47:30,778] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20555
+[2021-06-03 17:47:30,806] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 17:47:30,810] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 17:47:30,812] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 17:47:30,815] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 17:47:30,821] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 17:47:30,826] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 17:47:30,837] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-03 17:47:30,865] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 17:47:30,865] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 17:47:30,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 17:47:30,869] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 17:47:30,871] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 17:47:30,889] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 17:47:30,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 17:47:30,896] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 17:47:30,920] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 17:47:30,920] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 17:47:30,925] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 17:47:30,927] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 17:47:30,936] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 17:47:30,936] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 17:47:30,947] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3186
+[2021-06-03 17:47:30,951] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 17:47:30,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 17:47:30,955] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 17:47:30,957] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 17:47:30,959] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 17:47:45,911] [log.py:224] [log:log_response] [WARNING]- Not Found: /login.html
+[2021-06-03 17:47:45,912] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /login.html HTTP/1.1" 404 3177
+[2021-06-03 17:48:11,853] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20545
+[2021-06-03 17:48:11,888] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 17:48:11,891] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 17:48:11,897] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 17:48:11,898] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 17:48:11,910] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 17:48:11,914] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 17:48:11,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-03 17:48:11,959] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 17:48:11,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 17:48:11,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 17:48:11,962] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 17:48:11,963] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 17:48:11,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 17:48:11,987] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 17:48:11,994] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 17:48:12,001] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 17:48:12,010] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 17:48:12,017] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 17:48:12,029] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 17:48:12,038] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 17:48:12,040] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 17:48:12,051] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 17:48:12,055] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 17:48:12,057] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 17:48:12,062] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3186
+[2021-06-03 17:48:12,065] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 17:48:12,068] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 17:48:13,189] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 301 0
+[2021-06-03 17:48:13,205] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2797
+[2021-06-03 17:48:13,231] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 17:48:13,232] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 17:48:13,234] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 17:48:13,245] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1750
+[2021-06-03 17:48:13,247] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 17:48:13,253] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-03 17:48:13,269] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-03 17:48:13,278] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-03 17:48:13,295] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-03 17:48:24,024] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-03 17:48:24,030] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20545
+[2021-06-03 17:48:24,057] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 17:48:24,061] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 17:48:24,063] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 17:48:24,065] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 17:48:24,073] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 17:48:24,077] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 17:48:24,085] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-03 17:48:24,095] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 17:48:24,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 17:48:24,126] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 17:48:24,127] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 17:48:24,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 17:48:24,137] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 17:48:24,144] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3186
+[2021-06-03 17:48:24,147] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 17:48:24,150] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 17:48:24,153] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 17:48:24,165] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 17:48:24,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 17:48:24,168] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 17:48:24,173] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 17:48:24,182] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 17:48:24,182] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 17:48:24,185] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 17:48:24,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 17:48:24,195] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 17:48:24,197] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 17:49:50,735] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20546
+[2021-06-03 17:49:50,770] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-03 17:49:50,774] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-03 17:49:50,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-03 17:49:50,783] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-03 17:49:50,791] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-03 17:49:50,795] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-03 17:49:50,806] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-03 17:49:50,825] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-03 17:49:50,826] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-03 17:49:50,826] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-03 17:49:50,827] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-03 17:49:50,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-03 17:49:50,849] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-03 17:49:50,850] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-03 17:49:50,852] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-03 17:49:50,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-03 17:49:50,857] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-03 17:49:50,862] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-03 17:49:50,864] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-03 17:49:50,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-03 17:49:50,900] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-03 17:49:50,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-03 17:49:50,914] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-03 17:49:50,918] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 17:49:50,919] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-03 17:49:50,922] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3186
+[2021-06-03 17:49:50,923] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-03 17:50:31,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20546
+[2021-06-03 17:50:31,719] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-03 17:50:31,720] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3186
