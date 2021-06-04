@@ -35,7 +35,8 @@ INSTALLED_APPS = [
        'django.contrib.sessions',
        'django.contrib.messages',
        'django.contrib.staticfiles',
-       'apps.users'
+       'apps.users',
+       'apps.oauthh'
 ]
 
 MIDDLEWARE = [
@@ -242,3 +243,12 @@ AUTH_USER_MODEL = 'users.User'
 AUTHENTICATION_BACKENDS = [
        'apps.users.utils.UsernameMobileCheckBackend',
 ]
+
+LOGIN_URL = '/login/'
+
+# QQ登录相关
+QQ_CLIENT_ID = '101518219'
+
+QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
+
+QQ_REDIRECT_URL = '127.0.0.1:8000/oauth_callback'

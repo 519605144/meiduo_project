@@ -1,7 +1,9 @@
 import re
 
 from django import http
+from django.contrib import messages
 from django.contrib.auth import login
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, redirect
 from logging import getLogger
 # Create your views here.
@@ -133,7 +135,8 @@ class LoginView(View):
               remember = data.get('remembered')
 
               if not all([username, password]):
-                     return http.HttpResponseBadRequest('参数有问题')
+                     # messages.warning(request, '参数有问题')
+                     return render(request, 'login.html', context={'err_msg':'参数有问题'})
 
               re1 = r'^[a-zA-Z0-9_-]{5,20}$'
               if not re.match(re1, username):
@@ -171,3 +174,7 @@ class LogoutView(View):
               response = redirect(reverse('contents'))
               response.delete_cookie('username')
               return response
+
+class UserCenterInfoView(LoginRequiredMixin, View):
+       def get(self, request):
+              return render(request, 'user_center_info.html')

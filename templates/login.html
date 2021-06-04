@@ -37,10 +37,16 @@
 							</div>
 							<input type="submit" name="" value="登 录" class="input_submit">
 						</form>
+                        {% if err_msg %}
+                            <script>
+                                    alert('{{ err_msg }}');
+                            </script>
+                        {% endif %}
 					</div>
 				</div>
+
 				<div class="third_party">
-					<a href="#" class="qq_login">QQ</a>
+					<a href="www.baidu.com"  class="qq_login">QQ</a>
 					<a href="#" class="weixin_login">微信</a>
 					<a href="/register" class="register_btn">立即注册</a>
 				</div>
@@ -63,6 +69,8 @@
 		<p>电话：010-****888    京ICP备*******8号</p>
 	</div>
     <script type="text/javascript" src="{{ static('js/login.js') }}"></script>
+    <script type="text/javascript" src="{{ static('js/common.js') }}"></script>
+
 	
 </body>
 </html>

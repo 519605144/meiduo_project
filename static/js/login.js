@@ -26,10 +26,10 @@ var vm = new Vue({
         check_pwd: function(){
         	var re = /^[0-9A-Za-z]{8,20}$/;
 			if (re.test(this.password)) {
-                this.error_pwd = false;
-                this.error_password_message = '密码格式错误'
+                this.error_password = false;
             } else {
-                this.error_pwd = true;
+                this.error_password = true;
+                this.error_password_message = '密码格式错误'
             }
         },
         // 表单提交
@@ -45,12 +45,13 @@ var vm = new Vue({
         // qq登录
         qq_login: function(){
             var next = get_query_string('next') || '/';
-            var url = '/qq/login/?next=' + next;
+            var url = '/oauth_callback/?next=' + next;
             axios.get(url, {
                     responseType: 'json'
                 })
                 .then(response => {
-                    location.href = response.data.login_url;
+                    // location.href = response.data.login_url;
+                    location.href="www.baidu.com"
                 })
                 .catch(error => {
                     console.log(error.response);

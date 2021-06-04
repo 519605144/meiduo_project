@@ -19,6 +19,7 @@ urlpatterns = [
        path('usernames/<username>/count/', views.UsernameCountView.as_view(), name='usernamecount'),
        path('mobiles/<mobile>/count/', views.MobileCountView.as_view(), name='mobilecount'),
        path('login/', views.LoginView.as_view(), name='login'),
-       path('logout/', views.LogoutView.as_view(), name='logout')
+       path('logout/', views.LogoutView.as_view(), name='logout'),
+       path('center/', views.UserCenterInfoView.as_view(), name='center'),
 
 ]
