@@ -1,0 +1,242 @@
+[2021-06-07 06:34:47,320] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 06:34:49,937] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-07 06:34:49,981] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-07 06:34:49,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12906
+[2021-06-07 06:34:49,985] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-07 06:34:49,988] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-07 06:34:49,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-07 06:34:49,996] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-07 06:34:50,006] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-07 06:34:50,020] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-07 06:34:50,022] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-07 06:34:50,022] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-07 06:34:50,022] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-07 06:34:50,023] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-07 06:34:50,037] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-07 06:34:50,038] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-07 06:34:50,039] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-07 06:34:50,039] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-07 06:34:50,042] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-07 06:34:50,050] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-07 06:34:50,051] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-07 06:34:50,052] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-07 06:34:50,052] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-07 06:34:50,055] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-07 06:34:50,056] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-07 06:34:50,060] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-07 06:34:50,061] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-07 06:34:50,157] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-07 06:34:50,158] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3979
+[2021-06-07 06:34:51,749] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2926
+[2021-06-07 06:34:51,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1887
+[2021-06-07 06:34:51,778] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-07 06:34:51,784] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-07 06:34:51,789] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-07 06:34:51,791] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-07 06:35:31,443] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /qq/login/?next=/ HTTP/1.1" 200 153
+[2021-06-07 06:39:18,943] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /qq/login/?next=/ HTTP/1.1" 200 153
+[2021-06-07 06:39:52,335] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /qq/login/?next=/ HTTP/1.1" 200 153
+[2021-06-07 06:40:42,057] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 06:40:43,869] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-07 06:40:43,910] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-07 06:40:43,915] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12906
+[2021-06-07 06:40:43,919] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-07 06:40:43,926] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-07 06:40:43,943] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-07 06:40:43,946] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-07 06:40:43,980] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-07 06:40:43,998] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-07 06:40:44,020] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-07 06:40:44,023] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-07 06:40:44,028] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-07 06:40:44,036] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-07 06:40:44,043] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-07 06:40:44,045] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-07 06:40:44,047] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-07 06:40:44,054] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-07 06:40:44,059] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-07 06:40:44,065] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-07 06:40:44,070] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-07 06:40:44,072] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-07 06:40:44,072] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-07 06:40:44,072] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-07 06:40:44,073] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-07 06:40:44,085] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-07 06:40:44,101] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-07 06:40:44,228] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-07 06:40:44,229] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3979
+[2021-06-07 06:40:45,688] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 301 0
+[2021-06-07 06:40:45,703] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2926
+[2021-06-07 06:40:45,728] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1889
+[2021-06-07 06:40:45,729] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-07 06:40:45,738] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-07 06:40:45,743] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-07 06:40:45,745] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-07 06:40:49,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /qq/login/?next=/ HTTP/1.1" 200 153
+[2021-06-07 07:03:35,680] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:03:37,220] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:03:48,017] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:03:49,044] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:04:06,821] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:04:08,449] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:04:34,546] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:04:36,117] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:06:02,427] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:06:03,398] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:06:10,022] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:06:11,058] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:06:21,945] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:06:22,898] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:07:33,631] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:07:34,603] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:48:32,494] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:48:33,996] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:48:36,603] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:48:37,630] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:48:59,791] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:49:00,921] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:49:03,421] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:49:04,490] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:49:35,949] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:49:37,155] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:49:42,448] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:49:43,723] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:50:03,686] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:50:04,774] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:50:11,964] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:50:13,012] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:50:17,031] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:50:18,138] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:50:23,175] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:50:24,288] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:50:30,511] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:50:31,520] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:50:37,639] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:50:38,868] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:50:45,025] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:50:46,131] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:50:56,351] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:50:57,610] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:51:01,041] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:51:02,084] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:51:57,115] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:51:58,349] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:52:02,396] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:52:03,503] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:52:07,533] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:52:08,518] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:52:24,349] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:52:25,520] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:52:30,811] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:52:31,932] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 07:52:38,003] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-07 07:52:39,169] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 08:07:50,328] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-07 08:08:06,783] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback HTTP/1.1" 301 0
+[2021-06-07 08:08:06,795] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback/ HTTP/1.1" 200 4422
+[2021-06-07 08:08:06,843] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/host.js HTTP/1.1" 200 80
+[2021-06-07 08:08:06,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/oauth_callback.js HTTP/1.1" 200 3904
+[2021-06-07 08:08:06,875] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-07 08:08:06,878] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-07 08:11:46,433] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback/ HTTP/1.1" 200 4428
+[2021-06-07 08:11:46,613] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/dd7d0b63-cb87-4502-9618-c25a34e1e8ec/ HTTP/1.1" 200 3287
+[2021-06-07 08:12:27,321] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback/ HTTP/1.1" 200 4430
+[2021-06-07 08:12:27,418] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/121c9241-ba77-4c57-bde4-d0ef3a8fee93/ HTTP/1.1" 200 3091
+[2021-06-07 08:31:30,557] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback/ HTTP/1.1" 200 4430
+[2021-06-07 08:31:30,665] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/0658ccde-c825-427e-9878-565a15fcca88/ HTTP/1.1" 200 3600
+[2021-06-07 08:35:12,922] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback/ HTTP/1.1" 200 4430
+[2021-06-07 08:35:13,090] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/8f3dc86f-2470-4bc8-bc18-bfab4ffeaf36/ HTTP/1.1" 200 3213
+[2021-06-07 08:35:58,362] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback/ HTTP/1.1" 200 4430
+[2021-06-07 08:35:58,410] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-07 08:35:58,421] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/host.js HTTP/1.1" 200 80
+[2021-06-07 08:35:58,425] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-07 08:35:58,427] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12906
+[2021-06-07 08:35:58,439] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-07 08:35:58,442] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-07 08:35:58,473] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/oauth_callback.js HTTP/1.1" 200 4707
+[2021-06-07 08:35:58,476] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-07 08:35:58,496] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+[2021-06-07 08:35:58,499] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+[2021-06-07 08:36:59,357] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback/ HTTP/1.1" 200 4430
+[2021-06-07 08:36:59,385] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/oauth_callback.js HTTP/1.1" 200 4708
+[2021-06-07 08:36:59,476] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/bc5a6a5d-4fa1-4737-89d2-09afdc72dca9/ HTTP/1.1" 200 3054
+[2021-06-07 08:38:49,016] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-07 08:38:51,179] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-07 08:38:51,217] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-07 08:38:51,228] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-07 08:38:51,228] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-07 08:38:51,256] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-07 08:38:51,259] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-07 08:38:51,270] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-07 08:38:51,275] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-07 08:38:51,282] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-07 08:38:51,282] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-07 08:38:51,285] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-07 08:38:51,291] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-07 08:38:51,293] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-07 08:38:51,301] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-07 08:38:51,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-07 08:38:51,307] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-07 08:38:51,308] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-07 08:38:51,310] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-07 08:38:51,312] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-07 08:38:51,314] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-07 08:38:51,422] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-07 08:38:51,423] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4162
+[2021-06-07 08:39:00,781] [log.py:224] [log:log_response] [WARNING]- Not Found: /call_back
+[2021-06-07 08:39:00,782] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /call_back HTTP/1.1" 404 4150
+[2021-06-07 08:39:05,683] [log.py:224] [log:log_response] [WARNING]- Not Found: /callback
+[2021-06-07 08:39:05,683] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /callback HTTP/1.1" 404 4147
+[2021-06-07 08:39:08,540] [log.py:224] [log:log_response] [WARNING]- Not Found: /callback
+[2021-06-07 08:39:08,541] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /callback HTTP/1.1" 404 4147
+[2021-06-07 08:39:16,666] [log.py:224] [log:log_response] [WARNING]- Not Found: /oauthcallback
+[2021-06-07 08:39:16,667] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /oauthcallback HTTP/1.1" 404 4162
+[2021-06-07 08:39:22,673] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback HTTP/1.1" 301 0
+[2021-06-07 08:39:22,683] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback/ HTTP/1.1" 200 4430
+[2021-06-07 08:39:22,717] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/oauth_callback.js HTTP/1.1" 304 0
+[2021-06-07 08:39:22,825] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/b6db771b-33d8-4797-83b9-d4e94b660e23/ HTTP/1.1" 200 3138
+[2021-06-07 08:45:42,254] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback/ HTTP/1.1" 200 4430
+[2021-06-07 08:45:42,285] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/oauth_callback.js HTTP/1.1" 304 0
+[2021-06-07 08:45:42,374] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/f77e48e6-3c3f-4b7c-a42f-4ff9ca99d64e/ HTTP/1.1" 200 3162
+[2021-06-07 08:46:08,387] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-07 08:46:08,596] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-07 08:46:08,598] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4162
+[2021-06-07 08:46:10,085] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 301 0
+[2021-06-07 08:46:10,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2926
+[2021-06-07 08:46:10,143] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1889
+[2021-06-07 08:46:10,147] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo02.png HTTP/1.1" 200 8466
+[2021-06-07 08:46:10,180] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons02.png HTTP/1.1" 200 3935
+[2021-06-07 08:46:10,183] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+[2021-06-07 08:46:10,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+[2021-06-07 08:46:12,295] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-07 08:46:12,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-07 08:46:12,448] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-07 08:46:12,450] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4162
+[2021-06-07 08:46:15,311] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2021-06-07 08:46:15,318] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-07 08:46:15,466] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-07 08:46:15,468] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4162
+[2021-06-07 08:46:18,681] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2926
+[2021-06-07 08:46:20,556] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /qq/login/?next=/ HTTP/1.1" 200 153
+[2021-06-07 08:51:07,177] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340630/?image_code=5lsd&image_code_id=f77e48e6-3c3f-4b7c-a42f-4ff9ca99d64e HTTP/1.1" 200 60
+[2021-06-07 08:51:07,212] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/ad290192-ff5a-45e2-a75a-bc800dbd4513/ HTTP/1.1" 200 3166
+[2021-06-07 08:51:11,308] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /sms_codes/15116340630/
+Traceback (most recent call last):
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/apps/verification/views.py", line 61, in get
+    from celery_task.sms.tasks import send_sms_code
+  File "/Users/huanghao/meiduo_project/celery_task/sms/tasks.py", line 12, in <module>
+    from celery_task.main import app
+  File "/Users/huanghao/meiduo_project/celery_task/main.py", line 17, in <module>
+    from celery import Celery
+ModuleNotFoundError: No module named 'celery'
+[2021-06-07 08:51:11,320] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /sms_codes/15116340630/?image_code=qmxt&image_code_id=ad290192-ff5a-45e2-a75a-bc800dbd4513 HTTP/1.1" 500 102594
+[2021-06-07 08:51:17,542] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340630/?image_code=qmxt&image_code_id=ad290192-ff5a-45e2-a75a-bc800dbd4513 HTTP/1.1" 200 60
+[2021-06-07 08:51:17,566] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/4453442f-6dee-4444-b367-375f84342902/ HTTP/1.1" 200 3171

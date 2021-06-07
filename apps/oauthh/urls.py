@@ -12,5 +12,6 @@
 from django.urls import path
 from . import views
 urlpatterns = [
-       path('oauth_callback/',  views.OauthQQURLView.as_view(), name='callback')
+       path('qq/login/',  views.OauthQQURLView.as_view(), name='qqlogin'),
+       path('oauth_callback/', views.OauthQQUserView.as_view(), name='oauthcallback'),
 ]

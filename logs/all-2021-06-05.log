@@ -1,0 +1,177 @@
+[2021-06-05 09:47:09,200] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-05 09:47:33,976] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-05 09:48:15,656] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-05 09:48:17,328] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/utils.py", line 66, in __getitem__
+    return self._engines[alias]
+KeyError: 'jinja2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/apps/contents/views.py", line 9, in get
+    return render(request, 'index.html')
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/loader.py", line 12, in get_template
+    engines = _engine_list(using)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/loader.py", line 66, in _engine_list
+    return engines.all() if using is None else [engines[using]]
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/utils.py", line 90, in all
+    return [self[alias] for alias in self]
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/utils.py", line 90, in <listcomp>
+    return [self[alias] for alias in self]
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/utils.py", line 80, in __getitem__
+    engine_cls = import_string(backend)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/utils/module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 3, in <module>
+    import jinja2
+ModuleNotFoundError: No module named 'jinja2'
+[2021-06-05 09:48:17,360] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 143825
+[2021-06-05 09:48:37,367] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-05 09:48:38,945] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-05 09:48:39,177] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-05 09:48:39,178] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3985
+[2021-06-05 09:48:45,092] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2021-06-05 09:48:45,097] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-05 09:48:45,157] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-05 09:48:45,158] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3985
+[2021-06-05 09:48:46,709] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2909
+[2021-06-05 09:48:46,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1886
+[2021-06-05 09:48:51,447] [log.py:224] [log:log_response] [WARNING]- Bad Request: /login/
+[2021-06-05 09:48:51,449] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /login/ HTTP/1.1" 400 21
+[2021-06-05 09:48:57,052] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-05 09:48:57,056] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-05 09:48:57,121] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-05 09:48:57,122] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3985
+[2021-06-05 09:48:58,536] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2021-06-05 09:48:58,540] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-05 09:48:58,593] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-05 09:48:58,593] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 3985
+[2021-06-05 09:49:00,261] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-05 09:49:00,357] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/490d82b5-869c-4621-962f-0b42e0aa3230/ HTTP/1.1" 200 2928
+[2021-06-05 09:49:04,545] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2909
+[2021-06-05 09:49:06,180] [log.py:224] [log:log_response] [WARNING]- Not Found: /login/www.baidu.com
+[2021-06-05 09:49:06,180] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /login/www.baidu.com HTTP/1.1" 404 4003
+[2021-06-05 09:50:24,964] [log.py:224] [log:log_response] [WARNING]- Not Found: /login/www.baidu.com
+[2021-06-05 09:50:24,965] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /login/www.baidu.com HTTP/1.1" 404 4003
+[2021-06-05 09:50:40,948] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2916
+[2021-06-05 09:50:40,970] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 304 0
+[2021-06-05 10:03:58,116] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /Users/huanghao/meiduo_project/apps/oauthh/views.py changed, reloading.
+[2021-06-05 10:03:59,570] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-05 10:04:03,093] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/apps/users/views.py", line 129, in get
+    return render(request, 'login.html')
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/huanghao/meiduo_project/templates/login.html", line 49, in top-level template code
+    <a href="{{ url('login_url') }}"  class="qq_login">QQ</a>
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login_url' not found. 'login_url' is not a valid view function or pattern name.
+[2021-06-05 10:04:03,116] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /login/ HTTP/1.1" 500 118527
+[2021-06-05 10:05:26,212] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/apps/users/views.py", line 129, in get
+    return render(request, 'login.html')
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/huanghao/meiduo_project/templates/login.html", line 49, in top-level template code
+    <a href="{{ url('login_url') }}"  class="qq_login">QQ</a>
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login_url' not found. 'login_url' is not a valid view function or pattern name.
+[2021-06-05 10:05:26,213] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /login/ HTTP/1.1" 500 118390
+[2021-06-05 10:05:42,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2897
+[2021-06-05 10:05:42,917] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 304 0
+[2021-06-05 10:06:16,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2910
+[2021-06-05 10:14:29,038] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/apps/users/views.py", line 129, in get
+    return render(request, 'login.html')
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/huanghao/meiduo_project/templates/login.html", line 49, in top-level template code
+    <a href="{{url('login_url')}}"  class="qq_login" @click="qq_login">QQ</a>
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/huanghao/meiduo_project/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login_url' not found. 'login_url' is not a valid view function or pattern name.
+[2021-06-05 10:14:29,043] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /login/ HTTP/1.1" 500 118442
+[2021-06-05 10:15:36,239] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2926
+[2021-06-05 10:15:36,265] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 200 1893
+[2021-06-05 10:15:43,430] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /oauth_callback/?next=/ HTTP/1.1" 200 37

@@ -13,7 +13,7 @@
         error_image_code: false,
         error_sms_code: false,
         error_allow: false,
-        error_name_message: '请输入5-20个字符的用户fdfdf',
+        error_name_message: '请输入5-20个字符的用户',
         error_password_message: '请输入8-20位的密码',
         error_password2_message: '两次输入的密码不一致',
         error_mobile_message: '请输入正确的手机号码',

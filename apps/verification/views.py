@@ -65,8 +65,3 @@ class SmsCodeView(View):
 
 
 
-
-
-
-
-

@@ -2,6 +2,9 @@ let vm = new Vue({
 	el: '#app',
     delimiters: ['[[', ']]'],
 	data: {
+		is_show_waiting: false,
+		access_token:'',
+
 		mobile: '',
 		password: '',
 		image_code: '',
@@ -25,6 +28,26 @@ let vm = new Vue({
 	mounted(){
 		// 界面获取图形验证码
 		this.generate_image_code();
+
+        axios.get(this.host + '/oauth_callback/?code=' + code, {
+                responseType: 'json',
+                withCredentials:true,
+            })
+            .then(response => {
+                if (response.data.code == 0){
+                    // 用户已绑定
+                    var state = this.get_query_string('state');
+                    location.href = 'http://127.0.0.1:8080/';
+                } else {
+                    // 用户未绑定
+                    this.access_token = response.data.access_token;
+                    this.is_show_waiting = false;
+                }
+            })
+            .catch(error => {
+                console.log(error.response.data);
+                alert('服务器异常');
+            })
 	},
 	methods: {
 		// 生成图形验证码的请求地址

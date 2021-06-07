@@ -45,13 +45,13 @@ var vm = new Vue({
         // qq登录
         qq_login: function(){
             var next = get_query_string('next') || '/';
-            var url = '/oauth_callback/?next=' + next;
+            var url = '/qq/login/?next=' + next;
             axios.get(url, {
                     responseType: 'json'
                 })
                 .then(response => {
                     // location.href = response.data.login_url;
-                    location.href="www.baidu.com"
+                    location.href=response.data.login_url;
                 })
                 .catch(error => {
                     console.log(error.response);
