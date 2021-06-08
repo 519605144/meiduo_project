@@ -10,3 +10,10 @@ def generate_access_token(openid):
     token = s.dumps(data)
 
     return token.decode()
+
+def get_access_token(token):
+    s = Serializer(secret_key=settings.SECRET_KEY, expires_in=3600)
+    data = s.loads(token)
+
+    result = data.get('openid')
+    return result

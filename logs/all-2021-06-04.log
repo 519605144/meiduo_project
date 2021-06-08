@@ -606,3 +606,10 @@ django.template.exceptions.TemplateDoesNotExist: login
 [2021-06-04 17:12:59,672] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 304 0
 [2021-06-04 17:13:01,110] [log.py:224] [log:log_response] [WARNING]- Not Found: /login/www.baidu.com
 [2021-06-04 17:13:01,111] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /login/www.baidu.com HTTP/1.1" 404 3888
+[2021-06-04 17:17:45,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2974
+[2021-06-04 17:17:45,774] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 304 0
+[2021-06-04 17:17:47,559] [log.py:224] [log:log_response] [WARNING]- Not Found: /login/www.baidu.com
+[2021-06-04 17:17:47,560] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /login/www.baidu.com HTTP/1.1" 404 3888
+[2021-06-04 17:17:58,336] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2975
+[2021-06-04 17:18:00,026] [log.py:224] [log:log_response] [WARNING]- Not Found: /login/www.baidu.com
+[2021-06-04 17:18:00,026] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /login/www.baidu.com HTTP/1.1" 404 3888

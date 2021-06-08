@@ -8,7 +8,8 @@ from django.views import View
 from django import http
 
 from apps.oauthh.models import OAuthQQUser
-from apps.oauthh.utils import generate_access_token
+from apps.oauthh.utils import generate_access_token, get_access_token
+from apps.users.models import User
 from meiduo_project import settings
 
 class OauthQQURLView(View):
@@ -60,4 +61,35 @@ class OauthQQUserView(View):
         return render(request, 'oauth_callback.html')
 
     def post(self, request):
-        pass
+        # 获取post请求中的信息
+        data = request.POST
+        mobile = data.get('phone')
+        password = data.get('pwd')
+        accesstoken = data.get('access_token')
+
+        # access_token转码
+        openid = get_access_token(accesstoken)
+
+        #判断是否注册
+        try:
+            user = User.objects.get('mobile')
+        except User.DoesNotExist as e:
+            # 未绑定创建用户
+            user = User.objects.create_user(
+                username=mobile,
+                password=password,
+                mobile=mobile,
+            )
+        else:
+            if not user.check_password(password):
+                return http.HttpResponseBadRequest('已绑定用户,密码错误')
+            #登录并保持状态
+        qquser = OAuthQQUser.objects.create(
+            user=user,
+            openid=openid,
+        )
+        login(request, user)
+        response = redirect(reverse('index'))
+        response.set_cookie('username', user.username, max_age=14*3600*24)
+        return response
+

@@ -26,6 +26,7 @@
                     </div>
                     <div class="reg_form clearfix" v-cloak>
                         <form id="reg_form" method="post" @submit="on_submit">
+                            {{ csrf_input }}
                             <input type="hidden" value="{{ openid }}">
                             <input v-model="access_token" type="hidden" name="access_token">
                         <ul>
@@ -41,8 +42,7 @@
                             </li>
                              <li>
                                 <label>图形验证码:</label>
-                                <input type="text" v-model="image_code" @blur="check_image_code" name="image_code"
-                                       id="pic_code" class="msg_input">
+                                <input type="text" v-model="image_code" @blur="check_image_code" name="image_code" id="pic_code" class="msg_input">
                                 <img :src="image_code_url" @click="generate_image_code" alt="图形验证码" class="pic_code">
                                 <span v-show="error_image_code" class="error_tip">[[ error_image_code_message ]]</span>
                             </li>

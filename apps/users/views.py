@@ -157,7 +157,13 @@ class LoginView(View):
                             request.session.set_expiry(30 * 24 * 3600)
                      else:
                             request.session.set_expiry(0)
-                     response = redirect(reverse('contents'))
+
+                     # 如果有next属性直接跳转next的网页
+                     next_url = request.GET.get('next')
+                     if next_url:
+                            response = redirect('%s'%reverse(next_url.replace('/','')))
+                     else:
+                            response = redirect(reverse('contents'))
                      # 设置cookie
                      response.set_cookie('username', user.username, max_age=14*24*3600)
 
@@ -177,4 +183,9 @@ class LogoutView(View):
 
 class UserCenterInfoView(LoginRequiredMixin, View):
        def get(self, request):
-              return render(request, 'user_center_info.html')
+              context = {
+                     'username': request.user.username,
+                     'mobile': request.user.mobile,
+                     'email': request.user.email
+              }
+              return render(request, 'user_center_info.html', context=context)
