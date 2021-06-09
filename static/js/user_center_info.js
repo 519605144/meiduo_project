@@ -3,7 +3,7 @@ var vm = new Vue({
     // 修改Vue变量的读取语法，避免和django模板语法冲突
     delimiters: ['[[', ']]'],
     data: {
-        host: host,
+        // host: host,
         username: username,
         mobile: mobile,
         email: email,
@@ -47,7 +47,7 @@ var vm = new Vue({
             this.check_email();
 
             if (this.error_email == false) {
-                var url = this.host + '/emails/';
+                var url =  '/emails/';
                 axios.put(url, {
                         email: this.email
                     }, {
@@ -75,7 +75,7 @@ var vm = new Vue({
         },
         // 请求浏览历史记录
         browse_histories(){
-            var url = this.host + '/browse_histories/';
+            var url =  '/browse_histories/';
             axios.get(url, {
                     responseType: 'json'
                 })

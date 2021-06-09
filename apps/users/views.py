@@ -1,3 +1,4 @@
+import json
 import re
 
 from django import http
@@ -13,6 +14,7 @@ from django.contrib.auth.models import AbstractUser
 from django_redis import get_redis_connection
 
 from apps.users.models import User
+from meiduo_project import settings
 from utils.response_code import RETCODE
 
 
@@ -186,6 +188,33 @@ class UserCenterInfoView(LoginRequiredMixin, View):
               context = {
                      'username': request.user.username,
                      'mobile': request.user.mobile,
-                     'email': request.user.email
+                     'email': request.user.email,
+                     'email_active':request.user.email_active,
               }
               return render(request, 'user_center_info.html', context=context)
+
+class EmailView(View):
+       def put(self, request):
+              # 1.接收Email数据
+              data = json.loads(request.body.decode())
+              email = data['email']
+              # 2.验证数据
+              if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+                     return http.JsonResponse({'code': RETCODE.PARAMERR, 'errmsg': '参数错误'})
+              # 3.保存数据
+              try:
+                     request.user.email=email
+                     request.user.save()
+              except Exception as e:
+                     return http.JsonResponse({'code': RETCODE.DBERR, 'errmsg': '数据库错误'})
+              # 4.发送激活邮件
+              from django.core.mail import send_mail
+              subject = '美多商城激活邮件'
+              message = '内容'
+              from_email = settings.EMAIL_FROM
+              recipient_list = [email]
+              send_mail(subject=subject,
+                        message=message,
+                        from_email=from_email,
+                        recipient_list=recipient_list)
+              return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok'})

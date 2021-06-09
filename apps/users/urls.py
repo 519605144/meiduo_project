@@ -21,5 +21,6 @@ urlpatterns = [
        path('login/', views.LoginView.as_view(), name='login'),
        path('logout/', views.LogoutView.as_view(), name='logout'),
        path('center/', views.UserCenterInfoView.as_view(), name='center'),
+       path('emails/', views.EmailView.as_view(), name='email')
 
 ]

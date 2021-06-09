@@ -252,3 +252,12 @@ QQ_CLIENT_ID = '101518219'
 QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
 
 QQ_REDIRECT_URL = '127.0.0.1:8000/oauth_callback'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.126.com'
+EMAIL_PORT = 25
+
+EMAIL_HOST_USER = 'workhaohuang@126.com'
+EMAIL_HOST_PASSWORD = 'LTLYADBBUBLOCGXB'
+
+EMAIL_FROM = '美多商城<workhaohuang@126.com>'
