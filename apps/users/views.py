@@ -13,9 +13,12 @@ from django.views import View
 from django.contrib.auth.models import AbstractUser
 from django_redis import get_redis_connection
 
+from apps.oauthh.utils import get_access_token
 from apps.users.models import User
+from apps.users.utils import generate_email_url, get_email_token
 from meiduo_project import settings
 from utils.response_code import RETCODE
+from utils.views import LoginRequiredJSONMixin
 
 
 class RegisterView(View):
@@ -138,7 +141,7 @@ class LoginView(View):
 
               if not all([username, password]):
                      # messages.warning(request, '参数有问题')
-                     return render(request, 'login.html', context={'err_msg':'参数有问题'})
+                     return render(request, 'login.html', context={'err_msg': '参数有问题'})
 
               re1 = r'^[a-zA-Z0-9_-]{5,20}$'
               if not re.match(re1, username):
@@ -151,7 +154,6 @@ class LoginView(View):
               from django.contrib.auth import authenticate
               user = authenticate(username=username, password=password)
 
-
               if user is not None:
                      login(request, user)
 
@@ -163,16 +165,17 @@ class LoginView(View):
                      # 如果有next属性直接跳转next的网页
                      next_url = request.GET.get('next')
                      if next_url:
-                            response = redirect('%s'%reverse(next_url.replace('/','')))
+                            response = redirect('%s' % reverse(next_url.replace('/', '')))
                      else:
                             response = redirect(reverse('contents'))
                      # 设置cookie
-                     response.set_cookie('username', user.username, max_age=14*24*3600)
+                     response.set_cookie('username', user.username, max_age=14 * 24 * 3600)
 
                      return response
 
               else:
                      return render(request, 'login.html', context={'account_errmsg': '用户名或密码错误'})
+
 
 class LogoutView(View):
        def get(self, request):
@@ -183,18 +186,20 @@ class LogoutView(View):
               response.delete_cookie('username')
               return response
 
+
 class UserCenterInfoView(LoginRequiredMixin, View):
        def get(self, request):
               context = {
                      'username': request.user.username,
                      'mobile': request.user.mobile,
                      'email': request.user.email,
-                     'email_active':request.user.email_active,
+                     'email_active': request.user.email_active,
               }
               return render(request, 'user_center_info.html', context=context)
 
-class EmailView(View):
-       def put(self, request):
+
+class EmailView(LoginRequiredJSONMixin, View):
+       def get(self, request):
               # 1.接收Email数据
               data = json.loads(request.body.decode())
               email = data['email']
@@ -203,18 +208,24 @@ class EmailView(View):
                      return http.JsonResponse({'code': RETCODE.PARAMERR, 'errmsg': '参数错误'})
               # 3.保存数据
               try:
-                     request.user.email=email
+                     request.user.email = email
                      request.user.save()
               except Exception as e:
                      return http.JsonResponse({'code': RETCODE.DBERR, 'errmsg': '数据库错误'})
               # 4.发送激活邮件
-              from django.core.mail import send_mail
-              subject = '美多商城激活邮件'
-              message = '内容'
-              from_email = settings.EMAIL_FROM
-              recipient_list = [email]
-              send_mail(subject=subject,
-                        message=message,
-                        from_email=from_email,
-                        recipient_list=recipient_list)
+              from celery_task.send_email.tasks import send_email
+              active_url = generate_email_url(request.user.id, email)
+              send_email.delay(email, active_url, request.user.username)
               return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok'})
+
+
+class EmailActiveView(View):
+       def get(self, request):
+              data = request.GET
+              token = data.get('token')
+              user = get_email_token(token)
+              if user is None:
+                     return http.HttpResponseBadRequest('用户不存在')
+              user.email_active = True
+              user.save()
+              return redirect(reverse('center'))

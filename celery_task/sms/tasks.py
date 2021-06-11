@@ -13,6 +13,11 @@ from celery_task.main import app
 from libs.yuntongxun.sms import CCP
 
 
-@app.task
-def send_sms_code(mobile, code):
-       CCP().send_template_sms(mobile, [code, 5], 1)
+@app.task(bind=True, default_retry_delay=10)
+def send_sms_code(self, mobile, code):
+       try:
+              result = CCP().send_template_sms(mobile, [code, 5], 1)
+       except Exception as e:
+              raise self.retry(exc=e, max_retries=10)
+       if result == 0:
+              raise self.retry(exc=Exception('重试'), max_retries=10)

@@ -22,6 +22,6 @@ app = Celery('celery_task')
 app.config_from_object('celery_task.config')
 
 # 3. 设置生产者task（必须用task实例对象的装饰器）
-app.autodiscover_tasks(['celery_task.sms'])
+app.autodiscover_tasks(['celery_task.sms', 'celery_task.send_email'])
 
 # 4. 设置消费者worker
