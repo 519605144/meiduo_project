@@ -36,7 +36,8 @@ INSTALLED_APPS = [
        'django.contrib.messages',
        'django.contrib.staticfiles',
        'apps.users',
-       'apps.oauthh'
+       'apps.oauthh',
+       'apps.areas',
 ]
 
 MIDDLEWARE = [
@@ -81,6 +82,9 @@ DATABASES = {
               'USER': 'root',
               'PASSWORD': 'huanghao',
               'NAME': 'meiduo',
+              'OPTIONS': {
+                          "init_command": "SET foreign_key_checks = 0;",
+                      }
        }
 }
 

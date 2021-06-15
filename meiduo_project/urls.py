@@ -24,4 +24,6 @@ urlpatterns = [
        path('', include('apps.contents.urls')),
        path('', include('apps.verification.urls')),
        path('', include('apps.oauthh.urls')),
+       path('', include('apps.areas.urls')),
+
 ]

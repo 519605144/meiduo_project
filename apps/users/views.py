@@ -229,3 +229,7 @@ class EmailActiveView(View):
               user.email_active = True
               user.save()
               return redirect(reverse('center'))
+
+class AddressView(View):
+       def get(self, request):
+              return render(request, 'user_center_site.html')
