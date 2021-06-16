@@ -1,0 +1,1097 @@
+[2021-06-15 10:37:02,909] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 10:37:03,864] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 302 0
+[2021-06-15 10:37:03,904] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/?next=/center/ HTTP/1.1" 200 2926
+[2021-06-15 10:37:03,946] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-06-15 10:37:03,952] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 304 0
+[2021-06-15 10:37:12,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/?next=/center/ HTTP/1.1" 302 0
+[2021-06-15 10:37:12,230] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6406
+[2021-06-15 10:37:12,259] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+[2021-06-15 10:37:12,340] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-15 10:37:12,341] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-15 10:37:15,696] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/user_center_order.html HTTP/1.1" 200 4861
+[2021-06-15 10:37:16,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/user_center_site.html HTTP/1.1" 200 6760
+[2021-06-15 10:37:16,870] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 11:30:30,292] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /register
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "D:\python\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "D:\python\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2021-06-15 11:30:30,294] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /register HTTP/1.1" 500 74828
+[2021-06-15 11:30:40,605] [log.py:224] [log:log_response] [WARNING]- Not Found: /areas
+[2021-06-15 11:30:40,606] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /areas HTTP/1.1" 404 4372
+[2021-06-15 11:48:52,236] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-06-15 11:48:53,735] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 12:29:34,310] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 12:29:40,169] [log.py:224] [log:log_response] [WARNING]- Not Found: /areas
+[2021-06-15 12:29:40,169] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /areas HTTP/1.1" 404 4372
+[2021-06-15 12:29:51,959] [log.py:224] [log:log_response] [WARNING]- Not Found: /areas
+[2021-06-15 12:29:51,960] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /areas HTTP/1.1" 404 4371
+[2021-06-15 12:30:20,884] [log.py:224] [log:log_response] [WARNING]- Not Found: /areas
+[2021-06-15 12:30:20,886] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /areas HTTP/1.1" 404 4371
+[2021-06-15 12:31:04,334] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\urls.py changed, reloading.
+[2021-06-15 12:31:06,007] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 12:31:06,983] [log.py:224] [log:log_response] [WARNING]- Not Found: /areas
+[2021-06-15 12:31:06,986] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /areas HTTP/1.1" 404 4537
+[2021-06-15 12:31:22,009] [log.py:224] [log:log_response] [WARNING]- Not Found: /areas
+[2021-06-15 12:31:22,010] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /areas HTTP/1.1" 404 4537
+[2021-06-15 12:31:56,075] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\urls.py changed, reloading.
+[2021-06-15 12:31:57,576] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 12:31:58,447] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas HTTP/1.1" 301 0
+[2021-06-15 12:31:58,738] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py", line 18, in get
+    provinces = Area.objects.filter(ParentId=100000)
+  File "D:\python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\python\lib\site-packages\django\db\models\sql\query.py", line 1396, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\python\lib\site-packages\django\db\models\sql\query.py", line 1415, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\python\lib\site-packages\django\db\models\sql\query.py", line 1289, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\python\lib\site-packages\django\db\models\sql\query.py", line 1115, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\python\lib\site-packages\django\db\models\sql\query.py", line 1542, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'ParentId' into field. Choices are: id, name, parent, parent_id, 省市
+[2021-06-15 12:31:58,745] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /areas/ HTTP/1.1" 500 123958
+[2021-06-15 12:33:08,657] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 12:33:10,135] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 12:33:11,439] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py", line 21, in get
+    for province in provinces:
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\python\lib\site-packages\django\db\models\sql\compiler.py", line 1169, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+[2021-06-15 12:33:11,450] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /areas/ HTTP/1.1" 500 203464
+[2021-06-15 14:29:18,160] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 14:29:20,063] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:29:20,979] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py", line 21, in get
+    for province in provinces:
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\python\lib\site-packages\django\db\models\sql\compiler.py", line 1169, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+[2021-06-15 14:29:20,989] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /areas/ HTTP/1.1" 500 203466
+[2021-06-15 14:33:10,016] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 14:33:11,955] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:33:18,395] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py", line 21, in get
+    for province in provinces:
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\python\lib\site-packages\django\db\models\sql\compiler.py", line 1169, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+[2021-06-15 14:33:18,401] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /areas/ HTTP/1.1" 500 203465
+[2021-06-15 14:34:16,695] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 14:34:18,204] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:34:19,010] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 50
+[2021-06-15 14:34:49,950] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 14:34:51,747] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:34:56,219] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py", line 26, in get
+    return http.JsonResponse({'code':RETCODE.OK, 'errmsg': 'ok', 'province_list': province_list, 'proc': provinces})
+  File "D:\python\lib\site-packages\django\http\response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "D:\python\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\python\lib\site-packages\django\core\serializers\json.py", line 105, in default
+    return super().default(o)
+  File "D:\python\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+[2021-06-15 14:34:56,224] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /areas/ HTTP/1.1" 500 106765
+[2021-06-15 14:35:29,244] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 14:35:30,796] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:37:07,956] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 14:37:09,769] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:37:12,674] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py", line 21, in get
+    provinces = json.dumps(provinces)
+  File "D:\python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "D:\python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\python\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+[2021-06-15 14:37:12,677] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /areas/ HTTP/1.1" 500 99368
+[2021-06-15 14:41:41,169] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 14:41:42,625] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:41:43,627] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py", line 21, in get
+    print(provinces)
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 256, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\python\lib\site-packages\django\db\models\sql\compiler.py", line 1169, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+[2021-06-15 14:41:43,639] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /areas/ HTTP/1.1" 500 207017
+[2021-06-15 14:42:27,893] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py", line 21, in get
+    print(provinces)
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 256, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\python\lib\site-packages\django\db\models\sql\compiler.py", line 1169, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+[2021-06-15 14:42:27,899] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /areas/ HTTP/1.1" 500 207017
+[2021-06-15 14:42:40,430] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 14:42:41,893] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:42:53,757] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py", line 21, in get
+    print(provinces)
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 256, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\python\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\python\lib\site-packages\django\db\models\sql\compiler.py", line 1169, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'tb_area.parent_id' in 'field list'")
+[2021-06-15 14:42:53,764] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /areas/ HTTP/1.1" 500 206405
+[2021-06-15 14:51:29,760] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\models.py changed, reloading.
+[2021-06-15 14:51:31,209] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:54:08,205] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\models.py changed, reloading.
+[2021-06-15 14:54:10,332] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:54:47,471] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\models.py changed, reloading.
+[2021-06-15 14:54:49,110] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:55:13,520] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\models.py changed, reloading.
+[2021-06-15 14:55:15,310] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:56:55,369] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:57:17,301] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-15 14:57:17,402] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-06-15 14:57:17,677] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/4f295875-e944-44ee-a26a-a1da5112f39a/ HTTP/1.1" 200 3137
+[2021-06-15 14:57:33,941] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 50
+[2021-06-15 14:57:33,942] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61738)
+
+[2021-06-15 14:57:45,763] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 50
+[2021-06-15 14:57:56,464] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 14:57:57,942] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:58:09,031] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 186662
+[2021-06-15 14:59:22,876] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 14:59:24,463] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 14:59:54,485] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1860
+[2021-06-15 15:00:15,306] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1860
+[2021-06-15 15:00:15,424] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-15 15:00:15,425] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 4555
+[2021-06-15 15:01:58,845] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:02:00,709] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:02:03,483] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 2267
+[2021-06-15 15:02:33,567] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:02:35,098] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:02:41,248] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:02:42,774] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:02:45,980] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 2000
+[2021-06-15 15:03:14,068] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 2000
+[2021-06-15 15:03:41,572] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas HTTP/1.1" 301 0
+[2021-06-15 15:03:44,722] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 2000
+[2021-06-15 15:05:30,260] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:05:31,736] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:05:32,600] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas HTTP/1.1" 301 0
+[2021-06-15 15:05:32,661] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1860
+[2021-06-15 15:05:56,489] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1860
+[2021-06-15 15:06:02,480] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1860
+[2021-06-15 15:08:48,300] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:08:50,012] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:08:50,729] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 15:09:46,131] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:09:47,761] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:10:34,461] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:10:36,041] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:10:38,219] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:10:39,731] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:10:45,964] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:10:47,514] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:10:59,510] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:11:01,052] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:12:28,681] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 15:12:30,265] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:12:45,794] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=10003 HTTP/1.1" 200 50
+[2021-06-15 15:13:06,336] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130000 HTTP/1.1" 200 486
+[2021-06-15 15:13:31,614] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130600 HTTP/1.1" 200 1014
+[2021-06-15 15:32:30,201] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 15:33:35,971] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55424)
+
+[2021-06-15 15:33:35,972] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 15:34:09,437] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 16:30:03,352] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 16:30:05,103] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 16:30:16,618] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 16:30:18,135] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 16:30:25,686] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 16:30:27,164] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 16:32:11,906] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 16:32:13,695] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 16:32:27,539] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 16:32:29,285] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 16:39:36,609] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\models.py changed, reloading.
+[2021-06-15 16:39:38,236] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 16:39:41,658] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\models.py changed, reloading.
+[2021-06-15 16:39:43,143] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 17:17:17,497] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 17:17:33,009] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-15 17:17:33,054] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:17:33,055] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:17:33,059] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:17:33,072] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-15 17:17:33,076] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:17:33,095] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 304 0
+[2021-06-15 17:17:33,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:17:33,257] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-15 17:17:33,258] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4561
+[2021-06-15 17:17:34,550] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 302 0
+[2021-06-15 17:17:34,569] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/?next=/center/ HTTP/1.1" 200 2926
+[2021-06-15 17:17:34,587] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 304 0
+[2021-06-15 17:17:38,833] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/?next=/center/ HTTP/1.1" 302 0
+[2021-06-15 17:17:38,872] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6406
+[2021-06-15 17:17:38,891] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+[2021-06-15 17:17:38,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+[2021-06-15 17:17:38,895] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 200 3181
+[2021-06-15 17:17:38,901] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:17:38,902] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+[2021-06-15 17:17:38,953] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-15 17:17:38,954] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4573
+[2021-06-15 17:17:41,075] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/user_center_site.html HTTP/1.1" 200 6760
+[2021-06-15 17:17:41,117] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:23:37,190] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 17:23:49,711] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address HTTP/1.1" 301 0
+[2021-06-15 17:23:49,748] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6577
+[2021-06-15 17:23:49,778] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:23:49,780] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:23:49,793] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:23:49,796] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:23:49,828] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:23:49,828] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:23:49,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:32:04,571] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6624
+[2021-06-15 17:32:04,606] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:32:04,609] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:32:04,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13642
+[2021-06-15 17:32:04,626] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:32:04,631] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:32:04,657] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:32:04,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:32:04,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:32:18,424] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 17:32:20,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-15 17:32:20,125] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:32:20,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:32:20,134] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:32:20,149] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-15 17:32:20,169] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-15 17:32:20,173] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:32:20,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-15 17:32:20,225] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-15 17:32:20,228] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:32:20,232] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-15 17:32:20,236] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-15 17:32:20,237] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-15 17:32:20,273] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:32:20,275] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-15 17:32:20,276] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-15 17:32:20,286] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-15 17:32:20,310] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-15 17:32:20,314] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-15 17:32:20,330] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-15 17:32:20,335] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-15 17:32:20,405] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-15 17:32:20,416] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-15 17:32:20,418] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-15 17:32:20,420] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-15 17:32:20,424] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-15 17:32:20,456] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-15 17:32:20,458] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4736
+[2021-06-15 17:32:22,068] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6396
+[2021-06-15 17:32:22,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:32:22,105] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-15 17:32:22,111] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:32:22,115] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:32:22,127] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 200 3181
+[2021-06-15 17:32:22,135] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:32:22,145] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:32:22,150] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-15 17:32:22,185] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:32:22,185] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-15 17:32:22,186] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+[2021-06-15 17:32:22,186] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:32:22,187] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-15 17:32:22,187] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+[2021-06-15 17:32:22,204] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+[2021-06-15 17:32:22,279] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-15 17:32:22,284] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4748
+[2021-06-15 17:32:24,401] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_site.html
+[2021-06-15 17:32:24,402] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_site.html HTTP/1.1" 404 4781
+[2021-06-15 17:32:27,418] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6396
+[2021-06-15 17:32:27,445] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:32:27,446] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-15 17:32:27,448] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:32:27,451] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:32:27,469] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 200 3181
+[2021-06-15 17:32:27,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:32:27,491] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:32:27,494] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-15 17:32:27,524] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+[2021-06-15 17:32:27,525] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+[2021-06-15 17:32:27,526] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:32:27,527] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-15 17:32:27,533] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-15 17:32:27,535] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:32:27,551] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+[2021-06-15 17:32:27,639] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-15 17:32:27,642] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4748
+[2021-06-15 17:32:32,338] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address HTTP/1.1" 301 0
+[2021-06-15 17:32:32,347] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6624
+[2021-06-15 17:32:32,384] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:32:32,387] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:32:32,400] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:32:32,409] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13642
+[2021-06-15 17:32:32,420] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:32:32,450] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:32:32,451] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:32:32,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:33:18,904] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6707
+[2021-06-15 17:33:18,932] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:33:18,935] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:33:18,938] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:33:18,946] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:33:18,951] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13642
+[2021-06-15 17:33:18,957] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:33:18,974] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:33:18,975] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:33:18,975] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:33:19,021] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:34:14,316] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6707
+[2021-06-15 17:34:14,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:34:14,350] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:34:14,354] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:34:14,364] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13642
+[2021-06-15 17:34:14,368] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:34:14,378] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:34:14,401] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:34:14,401] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:34:14,403] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:34:14,441] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:38:19,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6707
+[2021-06-15 17:38:19,694] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:38:19,695] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:38:19,699] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:38:19,708] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13642
+[2021-06-15 17:38:19,716] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:38:19,717] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:38:19,751] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:38:19,752] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:38:19,752] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:38:19,794] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:41:26,239] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6617
+[2021-06-15 17:41:26,268] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:41:26,271] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:41:26,274] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:41:26,285] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:41:26,287] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13642
+[2021-06-15 17:41:26,294] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:41:26,318] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:41:26,319] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:41:26,321] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:41:26,366] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:42:55,827] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 17:42:59,060] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6617
+[2021-06-15 17:42:59,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:42:59,110] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:42:59,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:42:59,137] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13642
+[2021-06-15 17:42:59,151] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:42:59,152] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:42:59,185] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:42:59,186] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:42:59,186] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:42:59,237] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:47:05,032] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6721
+[2021-06-15 17:47:05,065] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:47:05,067] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:47:05,070] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:47:05,080] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13642
+[2021-06-15 17:47:05,084] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:47:05,090] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:47:05,120] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:47:05,121] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:47:05,121] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:47:05,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:54:05,376] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6721
+[2021-06-15 17:54:05,411] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:54:05,416] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:54:05,416] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:54:05,433] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13649
+[2021-06-15 17:54:05,443] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:54:05,447] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:54:05,476] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:54:05,477] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:54:05,477] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:54:14,689] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 17:54:18,455] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6721
+[2021-06-15 17:54:18,490] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:54:18,491] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:54:18,494] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:54:18,512] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13649
+[2021-06-15 17:54:18,520] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:54:18,526] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:54:18,552] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:54:18,554] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:54:18,556] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:54:21,555] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6721
+[2021-06-15 17:54:21,591] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:54:21,594] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:54:21,597] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:54:21,606] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:54:21,612] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13649
+[2021-06-15 17:54:21,621] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:54:21,642] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:54:21,643] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:54:21,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:54:22,554] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6721
+[2021-06-15 17:54:22,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:54:22,591] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:54:22,594] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:54:22,608] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13649
+[2021-06-15 17:54:22,612] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:54:22,622] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:54:22,647] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:54:22,651] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:54:22,656] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:54:23,500] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6721
+[2021-06-15 17:54:23,531] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:54:23,533] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:54:23,537] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:54:23,544] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13649
+[2021-06-15 17:54:23,548] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:54:23,558] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:54:23,587] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:54:23,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:54:23,589] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:54:24,219] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6721
+[2021-06-15 17:54:24,254] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:54:24,254] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:54:24,259] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:54:24,270] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13649
+[2021-06-15 17:54:24,272] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:54:24,280] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:54:24,305] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:54:24,306] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:54:24,308] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:55:46,700] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6232
+[2021-06-15 17:55:46,732] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:55:46,734] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:55:46,740] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:55:46,746] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:55:46,752] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-15 17:55:46,758] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:55:46,793] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:55:46,794] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:55:46,794] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:55:46,853] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:56:05,751] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6721
+[2021-06-15 17:56:05,784] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:56:05,786] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:56:05,788] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:56:05,796] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:56:05,803] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-15 17:56:05,807] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:56:05,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:56:05,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:56:05,837] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:56:05,881] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:56:12,770] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6427
+[2021-06-15 17:56:12,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:56:12,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:56:12,803] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:56:12,817] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-15 17:56:12,825] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:56:12,831] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:56:12,869] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:56:12,869] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:56:12,872] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:56:12,914] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:56:19,859] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6563
+[2021-06-15 17:56:19,887] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:56:19,890] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:56:19,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:56:19,904] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-15 17:56:19,906] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:56:19,917] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:56:19,938] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:56:19,938] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:56:19,939] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:56:19,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:56:43,874] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6448
+[2021-06-15 17:56:43,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:56:43,895] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:56:43,901] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:56:43,905] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:56:43,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-15 17:56:43,920] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:56:43,944] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:56:43,945] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:56:43,947] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:56:43,987] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 17:58:32,457] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+[2021-06-15 17:59:13,269] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6745
+[2021-06-15 17:59:13,308] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 17:59:13,311] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 17:59:13,314] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 17:59:13,328] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 17:59:13,329] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-15 17:59:13,338] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 17:59:13,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 17:59:13,361] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 17:59:13,362] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 17:59:13,395] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 18:01:22,908] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6622
+[2021-06-15 18:01:22,935] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 18:01:22,937] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 18:01:22,944] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 18:01:22,953] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 18:01:22,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-15 18:01:22,964] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 18:01:22,995] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 18:01:22,996] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 18:01:22,996] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 18:01:23,042] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 18:01:30,180] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=140000 HTTP/1.1" 200 477
+[2021-06-15 18:01:32,800] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=210000 HTTP/1.1" 200 639
+[2021-06-15 18:01:33,946] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=340000 HTTP/1.1" 200 675
+[2021-06-15 18:01:43,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=150000 HTTP/1.1" 200 555
+[2021-06-15 18:01:49,155] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130000 HTTP/1.1" 200 486
+[2021-06-15 18:02:03,327] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=150000 HTTP/1.1" 200 53
+[2021-06-15 18:02:10,791] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=500000 HTTP/1.1" 200 129
+[2021-06-15 18:02:16,937] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=150000 HTTP/1.1" 200 53
+[2021-06-15 18:19:04,055] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6622
+[2021-06-15 18:19:04,101] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 18:19:04,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 18:19:04,109] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 18:19:04,120] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-15 18:19:04,128] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 18:19:04,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 18:19:04,153] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 18:19:04,153] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 18:19:04,154] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 18:19:04,203] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 18:19:37,116] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61183)
+
+[2021-06-15 18:19:37,125] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=120000 HTTP/1.1" 200 87
+[2021-06-15 18:19:37,152] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130000 HTTP/1.1" 200 486
+[2021-06-15 18:22:17,181] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=140000 HTTP/1.1" 200 477
+[2021-06-15 18:24:48,641] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130000 HTTP/1.1" 200 486
+[2021-06-15 18:26:41,889] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\areas\views.py changed, reloading.
+[2021-06-15 18:26:43,364] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 18:26:44,121] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6622
+[2021-06-15 18:26:44,153] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 18:26:44,161] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 18:26:44,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 18:26:44,180] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-15 18:26:44,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 18:26:44,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 18:26:44,223] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 18:26:44,223] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 18:26:44,224] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 18:26:44,279] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 18:26:54,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130000 HTTP/1.1" 200 48
+[2021-06-15 18:27:18,182] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=140000 HTTP/1.1" 200 472
+[2021-06-15 18:27:27,615] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6622
+[2021-06-15 18:27:27,763] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-15 18:27:27,765] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-15 18:27:27,768] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-15 18:27:27,774] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-15 18:27:27,785] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-15 18:27:27,792] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-15 18:27:27,870] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-15 18:27:27,871] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-15 18:27:27,872] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-15 18:27:39,514] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 18:27:46,688] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=120000 HTTP/1.1" 200 82
+[2021-06-15 18:27:56,350] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=120100 HTTP/1.1" 200 667
+[2021-06-15 18:27:56,351] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=110000 HTTP/1.1" 200 82
+[2021-06-15 18:28:08,677] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=120000 HTTP/1.1" 200 48
+[2021-06-15 18:28:13,120] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=310000 HTTP/1.1" 200 82
+[2021-06-15 18:28:15,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=310100 HTTP/1.1" 200 709
+[2021-06-15 18:28:19,185] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=350000 HTTP/1.1" 200 394
+[2021-06-15 18:28:20,407] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=350200 HTTP/1.1" 200 277
+[2021-06-15 18:28:21,705] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=140000 HTTP/1.1" 200 48
+[2021-06-15 18:28:30,999] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 18:28:34,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6622
+[2021-06-15 18:28:35,102] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 18:28:38,290] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=540000 HTTP/1.1" 200 331
+[2021-06-15 18:28:40,062] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=310000 HTTP/1.1" 200 48
+[2021-06-15 18:29:13,834] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130000 HTTP/1.1" 200 48
+[2021-06-15 18:29:35,223] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-15 18:29:36,212] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6622
+[2021-06-15 18:29:36,300] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 18:29:40,284] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=510000 HTTP/1.1" 200 907
+[2021-06-15 18:29:42,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=511300 HTTP/1.1" 200 394
+[2021-06-15 18:29:53,797] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=140000 HTTP/1.1" 200 48
+[2021-06-15 18:30:05,237] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130000 HTTP/1.1" 200 481
+[2021-06-15 18:30:06,860] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130400 HTTP/1.1" 200 775
+[2021-06-15 18:32:03,388] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 6625
+[2021-06-15 18:32:03,415] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+[2021-06-15 18:32:03,462] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-15 18:32:05,627] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=220000 HTTP/1.1" 200 409
+[2021-06-15 18:32:06,729] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=220400 HTTP/1.1" 200 199

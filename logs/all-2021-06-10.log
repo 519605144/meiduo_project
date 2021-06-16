@@ -1,0 +1,100 @@
+[2021-06-10 10:06:34,762] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-10 10:06:35,837] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 10:06:36,535] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 63756)
+
+[2021-06-10 10:06:37,220] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 10:06:37,309] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 304 0
+[2021-06-10 10:06:37,481] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-10 10:06:37,482] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-10 10:06:39,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-10 10:06:39,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+[2021-06-10 10:06:39,736] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-10 10:06:39,738] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-10 10:06:44,312] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-10 22:05:02,135] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-10 22:05:02,204] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-06-10 22:05:02,220] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 200 9475
+[2021-06-10 22:05:02,602] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/deb4a82d-4659-4618-84bd-1d4645d95816/ HTTP/1.1" 200 3152
+[2021-06-10 22:05:06,241] [log.py:224] [log:log_response] [WARNING]- Not Found: /usernames//count/
+[2021-06-10 22:05:06,242] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /usernames//count/ HTTP/1.1" 404 4227
+[2021-06-10 22:05:15,734] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340631/count/ HTTP/1.1" 200 23
+[2021-06-10 22:05:20,216] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340632/count/ HTTP/1.1" 200 23
+[2021-06-10 22:05:23,384] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340632/count/ HTTP/1.1" 200 23
+[2021-06-10 22:05:29,078] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340632/?image_code=4qx5&image_code_id=deb4a82d-4659-4618-84bd-1d4645d95816 HTTP/1.1" 200 29
+[2021-06-10 22:09:44,744] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\celery_task\send_email\tasks.py changed, reloading.
+[2021-06-10 22:09:49,771] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-10 23:10:18,449] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-10 23:10:20,760] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 23:10:21,723] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56418)
+
+[2021-06-10 23:10:23,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 23:10:23,529] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-10 23:10:23,531] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-10 23:10:46,199] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-10 23:10:46,321] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+[2021-06-10 23:10:46,605] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-10 23:10:46,608] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-10 23:10:49,315] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-10 23:12:29,702] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-10 23:12:29,960] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-10 23:12:29,965] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-10 23:12:31,962] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-10 23:13:28,213] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-10 23:13:28,679] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/1ad5815b-d9c5-4e6d-944e-68004f44a062/ HTTP/1.1" 200 3314
+[2021-06-10 23:13:31,368] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340630/count/ HTTP/1.1" 200 23
+[2021-06-10 23:13:33,223] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340630/count/ HTTP/1.1" 200 23
+[2021-06-10 23:13:40,289] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340635/count/ HTTP/1.1" 200 23
+[2021-06-10 23:13:41,338] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /mobiles/15116340635/count/ HTTP/1.1" 200 23
+[2021-06-10 23:13:45,312] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /sms_codes/15116340635/?image_code=krcw&image_code_id=1ad5815b-d9c5-4e6d-944e-68004f44a062 HTTP/1.1" 200 29
+[2021-06-10 23:14:11,600] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-10 23:14:13,804] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-10 23:14:14,095] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-10 23:14:14,098] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-10 23:14:29,995] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-10 23:17:09,545] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-10 23:17:11,743] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 23:17:12,682] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55983)
+
+[2021-06-10 23:17:14,114] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 23:17:14,641] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-10 23:17:14,646] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-10 23:17:18,827] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-10 23:17:19,031] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-10 23:17:19,035] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-10 23:20:45,164] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-10 23:21:50,232] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-10 23:21:50,648] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-10 23:21:50,652] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-10 23:22:11,211] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-10 23:22:28,298] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-10 23:22:28,481] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-10 23:22:28,483] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-10 23:23:09,219] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-10 23:23:11,545] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 23:23:12,438] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61945)
+
+[2021-06-10 23:23:14,371] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 23:23:14,755] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-10 23:23:14,757] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-10 23:24:56,127] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-10 23:24:58,025] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 23:24:58,917] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61863)
+
+[2021-06-10 23:25:00,637] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 23:25:01,134] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-10 23:25:01,135] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-10 23:25:04,980] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-10 23:25:05,400] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-10 23:25:05,403] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-10 23:26:07,140] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-10 23:37:55,417] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-10 23:37:57,483] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 23:37:58,488] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62323)
+
+[2021-06-10 23:37:59,956] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-10 23:38:00,426] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-10 23:38:00,430] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-10 23:38:05,814] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-10 23:38:06,262] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-10 23:38:06,269] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-10 23:38:13,850] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29

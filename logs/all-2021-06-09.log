@@ -1,0 +1,183 @@
+[2021-06-09 16:08:26,886] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 16:08:29,505] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-09 16:08:30,593] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49578)
+
+[2021-06-09 16:08:32,278] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-09 16:08:32,352] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+[2021-06-09 16:08:32,416] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 304 0
+[2021-06-09 16:08:32,694] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-09 16:08:32,696] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4047
+[2021-06-09 16:08:36,492] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 5240
+[2021-06-09 16:08:36,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 200 3181
+[2021-06-09 16:08:36,833] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-09 16:08:36,835] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4059
+[2021-06-09 16:14:34,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 5257
+[2021-06-09 16:14:34,515] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+[2021-06-09 16:14:34,697] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-09 16:14:34,701] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4059
+[2021-06-09 16:33:06,019] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6066
+[2021-06-09 16:33:06,138] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+[2021-06-09 16:33:06,455] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-09 16:33:06,461] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4059
+[2021-06-09 16:34:12,891] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6067
+[2021-06-09 16:34:13,307] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-09 16:34:13,311] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4059
+[2021-06-09 16:34:41,887] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6033
+[2021-06-09 16:34:42,280] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-09 16:34:42,286] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4059
+[2021-06-09 16:58:07,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6157
+[2021-06-09 16:58:07,408] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+[2021-06-09 16:58:07,571] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-09 16:58:07,572] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4059
+[2021-06-09 17:38:13,859] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:38:18,006] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:38:21,842] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:38:25,750] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:38:51,451] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:38:54,739] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:39:28,016] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:39:31,962] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:39:46,629] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:39:50,344] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:39:55,144] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:39:58,767] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:43:50,167] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:43:53,866] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:44:30,689] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:44:34,014] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:45:40,408] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:45:43,923] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:45:54,862] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:45:58,390] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:46:10,177] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:46:13,944] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:46:20,394] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:46:24,654] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:46:33,274] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:46:36,985] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:46:58,405] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:47:01,305] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:47:09,613] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:47:12,868] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:47:19,816] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:47:23,470] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:47:38,068] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:47:41,572] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:54:50,621] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:54:54,263] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:55:38,091] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:55:41,876] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:55:46,512] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:55:49,767] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:56:12,161] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:56:15,378] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:57:22,604] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 17:57:27,182] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 17:57:29,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6157
+[2021-06-09 17:57:29,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+[2021-06-09 17:57:30,380] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-09 17:57:30,384] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-09 17:57:36,768] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-09 18:14:06,366] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 18:14:09,309] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 18:16:35,133] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 18:16:38,631] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 18:16:49,942] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 18:16:54,057] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 18:17:00,789] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 18:17:04,035] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 18:17:28,958] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 18:17:33,765] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 18:50:39,634] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-06-09 18:50:44,133] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 18:50:49,082] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\meiduo_project\settings.py changed, reloading.
+[2021-06-09 18:55:54,177] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 18:55:56,432] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-09 18:55:57,385] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54087)
+
+[2021-06-09 18:55:59,175] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-09 18:55:59,633] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-09 18:55:59,635] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-09 18:56:02,674] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6177
+[2021-06-09 18:56:02,787] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+[2021-06-09 18:56:03,050] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-09 18:56:03,057] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-09 18:56:37,802] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 215, in put
+    send_mail(subject=subject,
+  File "D:\python\lib\site-packages\django\core\mail\__init__.py", line 61, in send_mail
+    return mail.send()
+  File "D:\python\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\python\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "D:\python\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "D:\python\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "D:\python\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "D:\python\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+[2021-06-09 18:56:37,818] [basehttp.py:161] [basehttp:log_message] [ERROR]- "PUT /emails/ HTTP/1.1" 500 114686
+[2021-06-09 18:58:11,705] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-09 18:58:11,951] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-09 18:58:11,954] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-09 18:58:24,233] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 215, in put
+    send_mail(subject=subject,
+  File "D:\python\lib\site-packages\django\core\mail\__init__.py", line 61, in send_mail
+    return mail.send()
+  File "D:\python\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\python\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "D:\python\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "D:\python\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "D:\python\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "D:\python\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+[2021-06-09 18:58:24,239] [basehttp.py:161] [basehttp:log_message] [ERROR]- "PUT /emails/ HTTP/1.1" 500 114686
+[2021-06-09 19:00:07,115] [base.py:101] [base:http_method_not_allowed] [WARNING]- Method Not Allowed (GET): /emails/
+[2021-06-09 19:00:07,118] [log.py:224] [log:log_response] [WARNING]- Method Not Allowed: /emails/
+[2021-06-09 19:00:07,123] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /emails/ HTTP/1.1" 405 0
+[2021-06-09 19:04:08,238] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 19:04:10,475] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-09 19:04:11,316] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49409)
+
+[2021-06-09 19:04:12,697] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-09 19:04:13,222] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-09 19:04:13,225] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-09 19:04:18,183] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-09 19:04:18,447] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-09 19:04:18,451] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-09 19:04:31,175] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-09 19:26:12,153] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 19:26:15,976] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 19:26:22,071] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 19:26:24,900] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-09 19:26:39,675] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-09 19:26:42,933] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

@@ -1,0 +1,504 @@
+[2021-06-11 09:52:57,671] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 09:53:06,521] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 09:53:08,603] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54419)
+
+[2021-06-11 09:53:08,605] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54418)
+
+[2021-06-11 09:53:09,962] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 09:53:10,139] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 304 0
+[2021-06-11 09:53:10,526] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 09:53:10,528] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-11 09:53:10,587] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-11 09:53:10,589] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 4209
+[2021-06-11 09:53:13,329] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 09:53:13,361] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+[2021-06-11 09:53:13,442] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 09:53:13,443] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-11 09:53:15,041] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-11 09:56:35,253] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- D:\python\Lib\site-packages\celery\app\base.py changed, reloading.
+[2021-06-11 09:56:37,253] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:04:12,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 10:04:13,027] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 10:04:13,028] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-11 10:04:14,516] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-11 10:05:14,368] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:05:15,716] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 10:05:15,800] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 10:05:15,943] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 10:05:15,944] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-11 10:05:16,973] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50361)
+
+[2021-06-11 10:05:17,840] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 10:05:18,212] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 10:05:18,222] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-11 10:05:20,343] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 10:05:20,395] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 10:05:20,396] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-11 10:05:22,001] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-11 10:21:57,858] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\celery_task\send_email\tasks.py changed, reloading.
+[2021-06-11 10:21:59,492] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:27:36,690] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:27:37,704] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 10:27:38,811] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62709)
+
+[2021-06-11 10:27:39,794] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 10:27:40,235] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 10:27:40,238] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4215
+[2021-06-11 10:27:42,765] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 10:27:42,818] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 10:27:42,819] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-11 10:27:46,769] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-11 10:29:07,582] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\celery_task\send_email\tasks.py changed, reloading.
+[2021-06-11 10:29:09,105] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:29:28,371] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 10:29:28,442] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 10:29:28,443] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4227
+[2021-06-11 10:29:30,441] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-11 10:29:38,938] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2021-06-11 10:29:38,941] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('\x93')
+[2021-06-11 10:29:38,942] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:29:38,943] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:29:38,948] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('RªT£:Ië¢¼^\x96#\x00"::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:29:38,949] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:29:38,950] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x036ß\x8dFv\x80m¹\x94*lÀ£6\x82î³\x0f\x04·\x0f`K\x154«óÿã^d·')
+[2021-06-11 10:29:38,953] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:30:33,360] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\celery_task\send_email\tasks.py changed, reloading.
+[2021-06-11 10:30:34,893] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:31:23,309] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('\x0eV:\x93³ÄS©\x14\x12WSO¼$À')
+[2021-06-11 10:31:23,317] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:31:23,317] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2021-06-11 10:31:23,319] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:31:23,324] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('½ýMTé\x15àëé\x99Ó³\x94y×ÚlTîCö\x96Á4^Y\x00"ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:31:23,325] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:31:23,327] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('=*>\x01\x82\x02Ø\x18í¼\x7f!üÇfÎËlwQ\x83àF©8)\x9fé\x00"::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:31:23,328] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:35:37,135] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 10:35:38,810] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:35:50,793] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\urls.py changed, reloading.
+[2021-06-11 10:35:52,237] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:38:52,525] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\urls.py changed, reloading.
+[2021-06-11 10:38:54,089] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:39:02,812] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 10:39:04,263] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:43:46,539] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 10:43:48,231] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:43:51,397] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2021-06-11 10:43:51,398] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:43:51,402] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2021-06-11 10:43:51,406] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:43:51,411] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('\x82î&=\x86§g\x7fs\x97íôbx.\x00"ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:43:51,412] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:43:51,414] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('0\x80\x8bÆª\x8f©òVÑ\x00"ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:43:51,416] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:44:02,371] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('ï\x8a')
+[2021-06-11 10:44:02,373] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:44:02,376] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2021-06-11 10:44:02,377] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:44:02,378] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('.T6\x14|:`&}Óx\x00"JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:44:02,383] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('\x10N\x8cº¸jr\x00"\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:44:02,384] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:44:02,384] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:44:26,099] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('D2wðsXÁ³á\x92rmè\x10=Ñ2\x8b=ôO8ù')
+[2021-06-11 10:44:26,100] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:44:26,102] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2021-06-11 10:44:26,105] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:44:26,107] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03èFd\x80W')
+[2021-06-11 10:44:26,110] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:44:26,110] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('\x12\x00"jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:44:26,112] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:02,770] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 10:45:04,265] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:45:16,140] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\urls.py changed, reloading.
+[2021-06-11 10:45:17,605] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:45:18,279] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2021-06-11 10:45:18,279] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:18,282] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('ã\x195\x04\x00"\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:45:18,284] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:18,532] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('¤Î"²³\x01SÀªå')
+[2021-06-11 10:45:18,533] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('«¯®¾\x9bqF©4Éê*z$O\x83µ³°ÞT\x08\x88\x00')
+[2021-06-11 10:45:18,533] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:18,533] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:18,536] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('p©C\x954D[Wýí¬\x8e\x00"zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:45:18,536] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:18,537] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('.ýæ\x03\x9a¡8ÉÙÃe±!Â\x0e§¯')
+[2021-06-11 10:45:18,538] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:24,793] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03èÊ°í\x8cø+]øÿG\x08Ù\x13òÙXÁ')
+[2021-06-11 10:45:24,795] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:24,796] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2021-06-11 10:45:24,798] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:24,806] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('ù\x00"::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:45:24,808] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('eMÆ\x8b[éÛît}\x16{\x00"::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:45:24,809] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:24,810] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:37,637] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2021-06-11 10:45:37,638] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:37,639] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('lÕ±eÙÇ¹r×ô»î-\x80uLð¾\x94gú\x00')
+[2021-06-11 10:45:37,640] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:37,643] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('ëÁ\x00"ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:45:37,645] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('¦3ÍpÓ\x1b\x00"JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:45:37,646] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:45:37,646] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:47:18,537] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /active_email?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMzM3ODU3MCwiZXhwIjoxNjIzMzgxNTcwfQ.eyI5Ijo5LCJ3b3JraGFvaHVhbmdAMTI2LmNvbSI6IndvcmtoYW9odWFuZ0AxMjYuY29tIn0.LDPG-iOD5cmu1glTHyko54G5XTN1Qac18Cswt4qVE6H9HvrTrAXERVcrpRffr3XXkOocZJNrZyZQa9q9I4go6w HTTP/1.1" 301 0
+[2021-06-11 10:47:43,953] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /active_email/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view apps.users.views.EmailActiveView didn't return an HttpResponse object. It returned None instead.
+[2021-06-11 10:48:04,898] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /active_email/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMzM3ODU3MCwiZXhwIjoxNjIzMzgxNTcwfQ.eyI5Ijo5LCJ3b3JraGFvaHVhbmdAMTI2LmNvbSI6IndvcmtoYW9odWFuZ0AxMjYuY29tIn0.LDPG-iOD5cmu1glTHyko54G5XTN1Qac18Cswt4qVE6H9HvrTrAXERVcrpRffr3XXkOocZJNrZyZQa9q9I4go6w HTTP/1.1" 500 73445
+[2021-06-11 10:48:32,331] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\utils.py changed, reloading.
+[2021-06-11 10:48:33,745] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:49:20,151] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 10:49:21,567] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:49:36,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /active_email/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMzM3ODU3MCwiZXhwIjoxNjIzMzgxNTcwfQ.eyI5Ijo5LCJ3b3JraGFvaHVhbmdAMTI2LmNvbSI6IndvcmtoYW9odWFuZ0AxMjYuY29tIn0.LDPG-iOD5cmu1glTHyko54G5XTN1Qac18Cswt4qVE6H9HvrTrAXERVcrpRffr3XXkOocZJNrZyZQa9q9I4go6w HTTP/1.1" 200 16
+[2021-06-11 10:51:35,448] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\utils.py changed, reloading.
+[2021-06-11 10:51:36,983] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:52:00,700] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\utils.py changed, reloading.
+[2021-06-11 10:52:02,091] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:52:12,882] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\utils.py changed, reloading.
+[2021-06-11 10:52:14,332] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:53:04,909] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 10:53:06,478] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:53:10,896] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('I©\x01Þ\x14³')
+[2021-06-11 10:53:10,898] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:53:10,900] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2021-06-11 10:53:10,903] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:53:10,907] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('ñ\x93Û(\x00"JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:53:10,909] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:53:10,911] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('e*ðh´*}t4u\x00"\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[2021-06-11 10:53:10,912] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2021-06-11 10:54:50,829] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\utils.py changed, reloading.
+[2021-06-11 10:54:52,359] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:55:11,890] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\utils.py changed, reloading.
+[2021-06-11 10:55:13,360] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:55:26,467] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\utils.py changed, reloading.
+[2021-06-11 10:55:27,978] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:56:23,414] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 10:56:25,062] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:56:31,540] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:56:32,577] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 10:56:33,749] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55419)
+
+[2021-06-11 10:56:34,156] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 10:56:34,410] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 10:56:34,414] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4395
+[2021-06-11 10:59:25,158] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 10:59:26,296] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 10:59:27,431] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50025)
+
+[2021-06-11 10:59:27,791] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 10:59:27,999] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 10:59:28,001] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4395
+[2021-06-11 10:59:32,362] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 10:59:32,432] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 10:59:32,433] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 10:59:34,097] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-11 10:59:39,946] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /active_email?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMzM4MDM3MywiZXhwIjoxNjIzMzgzMzczfQ.eyJpZCI6OSwiZW1haWwiOiJ3b3JraGFvaHVhbmdAMTI2LmNvbSJ9.IlFKS_VEEbs2GSm7EH1d8dn5WC2LhCA7FgQwqiwfIkT3lfuup5Xl4muip5xTNLjHxoqMrlDozleqHB7qIZYJeg HTTP/1.1" 301 0
+[2021-06-11 11:00:02,041] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /active_email/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 223, in get
+    return http.JsonResponse({'email':result[0], 'id':result[1]})
+TypeError: 'User' object is not subscriptable
+[2021-06-11 11:00:02,046] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /active_email/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMzM4MDM3MywiZXhwIjoxNjIzMzgzMzczfQ.eyJpZCI6OSwiZW1haWwiOiJ3b3JraGFvaHVhbmdAMTI2LmNvbSJ9.IlFKS_VEEbs2GSm7EH1d8dn5WC2LhCA7FgQwqiwfIkT3lfuup5Xl4muip5xTNLjHxoqMrlDozleqHB7qIZYJeg HTTP/1.1" 500 82511
+[2021-06-11 11:01:12,175] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /active_email/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 223, in get
+    return http.JsonResponse({'email':result[0], 'id':result[1]})
+TypeError: 'NoneType' object is not subscriptable
+[2021-06-11 11:01:12,182] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50019)
+
+[2021-06-11 11:03:15,466] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 11:03:16,920] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 11:03:17,616] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 11:03:17,694] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:03:17,696] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 11:03:19,022] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /emails/ HTTP/1.1" 200 29
+[2021-06-11 11:03:26,570] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /active_email?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMzM4MDU5OCwiZXhwIjoxNjIzMzgzNTk4fQ.eyJpZCI6OSwiZW1haWwiOiJ3b3JraGFvaHVhbmdAMTI2LmNvbSJ9.XxJZTeJkFwP3BUed1NpYYtd0-NoxyN-5KVXPdiqDqjKjezeO_eHdqY9CEBEkS5hIwW5FYBMdELWSd6MKFuF9Vw HTTP/1.1" 301 0
+[2021-06-11 11:03:38,100] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /active_email/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 223, in get
+    return http.JsonResponse({'email':result.get('email'), 'id':result.get('id')})
+AttributeError: 'User' object has no attribute 'get'
+[2021-06-11 11:03:38,106] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /active_email/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMzM4MDU5OCwiZXhwIjoxNjIzMzgzNTk4fQ.eyJpZCI6OSwiZW1haWwiOiJ3b3JraGFvaHVhbmdAMTI2LmNvbSJ9.XxJZTeJkFwP3BUed1NpYYtd0-NoxyN-5KVXPdiqDqjKjezeO_eHdqY9CEBEkS5hIwW5FYBMdELWSd6MKFuF9Vw HTTP/1.1" 500 82663
+[2021-06-11 11:04:09,441] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /active_email/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 223, in get
+    return http.JsonResponse({'email':result.get('email'), 'id':result.get('id')})
+AttributeError: 'User' object has no attribute 'get'
+[2021-06-11 11:04:09,445] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /active_email/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMzM4MDU5OCwiZXhwIjoxNjIzMzgzNTk4fQ.eyJpZCI6OSwiZW1haWwiOiJ3b3JraGFvaHVhbmdAMTI2LmNvbSJ9.XxJZTeJkFwP3BUed1NpYYtd0-NoxyN-5KVXPdiqDqjKjezeO_eHdqY9CEBEkS5hIwW5FYBMdELWSd6MKFuF9Vw HTTP/1.1" 500 82794
+[2021-06-11 11:04:11,229] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 11:04:12,642] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 11:05:44,387] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 11:05:45,831] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 11:06:11,974] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 11:06:14,243] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 11:06:32,195] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 11:06:34,586] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 11:06:49,929] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /active_email/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMzM4MDU5OCwiZXhwIjoxNjIzMzgzNTk4fQ.eyJpZCI6OSwiZW1haWwiOiJ3b3JraGFvaHVhbmdAMTI2LmNvbSJ9.XxJZTeJkFwP3BUed1NpYYtd0-NoxyN-5KVXPdiqDqjKjezeO_eHdqY9CEBEkS5hIwW5FYBMdELWSd6MKFuF9Vw HTTP/1.1" 302 0
+[2021-06-11 11:06:49,976] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 11:06:50,053] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:06:50,054] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 11:07:23,107] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 11:07:24,673] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 11:07:41,008] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 11:07:42,439] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 11:08:42,107] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 11:08:42,231] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:08:42,233] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 11:09:02,150] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /active_email/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMzM4MDM3MywiZXhwIjoxNjIzMzgzMzczfQ.eyJpZCI6OSwiZW1haWwiOiJ3b3JraGFvaHVhbmdAMTI2LmNvbSJ9.IlFKS_VEEbs2GSm7EH1d8dn5WC2LhCA7FgQwqiwfIkT3lfuup5Xl4muip5xTNLjHxoqMrlDozleqHB7qIZYJeg HTTP/1.1" 302 0
+[2021-06-11 11:09:02,176] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6201
+[2021-06-11 11:09:02,270] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:09:02,271] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 11:18:18,225] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 11:18:19,740] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 11:20:08,081] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6277
+[2021-06-11 11:20:08,160] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:20:08,161] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 11:20:30,467] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6275
+[2021-06-11 11:20:30,523] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:20:30,524] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 11:21:08,392] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6277
+[2021-06-11 11:21:08,438] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:21:08,438] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 11:22:27,594] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_info.html
+[2021-06-11 11:22:27,594] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_info.html HTTP/1.1" 404 4440
+[2021-06-11 11:22:39,376] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_info.html
+[2021-06-11 11:22:39,378] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_info.html HTTP/1.1" 404 4440
+[2021-06-11 11:23:20,394] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 11:23:21,818] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 11:23:22,573] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_info.html
+[2021-06-11 11:23:22,574] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_info.html HTTP/1.1" 404 4440
+[2021-06-11 11:23:35,566] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /center/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\contrib\auth\mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py", line 197, in get
+    return render(request, 'center', context=context)
+  File "D:\python\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: center
+[2021-06-11 11:23:35,568] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /center/ HTTP/1.1" 500 98603
+[2021-06-11 11:24:21,439] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 11:24:22,847] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 11:25:37,888] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_info.html
+[2021-06-11 11:25:37,889] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_info.html HTTP/1.1" 404 4440
+[2021-06-11 11:25:53,575] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 11:25:53,702] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 11:25:53,704] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4395
+[2021-06-11 11:25:55,638] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2021-06-11 11:25:55,645] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 11:25:55,701] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 11:25:55,702] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4395
+[2021-06-11 11:25:56,732] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 302 0
+[2021-06-11 11:25:56,755] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/?next=/center/ HTTP/1.1" 200 2926
+[2021-06-11 11:25:56,779] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/login.js HTTP/1.1" 304 0
+[2021-06-11 11:25:59,800] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 302 0
+[2021-06-11 11:25:59,806] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/?next=/center/ HTTP/1.1" 200 2926
+[2021-06-11 11:26:03,516] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/?next=/center/ HTTP/1.1" 302 0
+[2021-06-11 11:26:03,546] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6277
+[2021-06-11 11:26:03,616] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:26:03,618] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 11:26:16,250] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_info.html
+[2021-06-11 11:26:16,250] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_info.html HTTP/1.1" 404 4440
+[2021-06-11 11:26:21,257] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_info.html
+[2021-06-11 11:26:21,258] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_info.html HTTP/1.1" 404 4440
+[2021-06-11 11:26:25,333] [log.py:224] [log:log_response] [WARNING]- Not Found: /user_center_info.html
+[2021-06-11 11:26:25,334] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /user_center_info.html HTTP/1.1" 404 4419
+[2021-06-11 11:26:28,868] [log.py:224] [log:log_response] [WARNING]- Not Found: /user_center_info
+[2021-06-11 11:26:28,870] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /user_center_info HTTP/1.1" 404 4404
+[2021-06-11 11:26:32,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6277
+[2021-06-11 11:26:32,645] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:26:32,646] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 11:26:34,606] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_info.html
+[2021-06-11 11:26:34,606] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_info.html HTTP/1.1" 404 4440
+[2021-06-11 11:26:47,674] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/register.html
+[2021-06-11 11:26:47,674] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/register.html HTTP/1.1" 404 4416
+[2021-06-11 11:26:51,240] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/login.html
+[2021-06-11 11:26:51,240] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/login.html HTTP/1.1" 404 4407
+[2021-06-11 11:30:22,756] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6277
+[2021-06-11 11:30:22,805] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:30:22,805] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 11:30:26,676] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/dfd
+[2021-06-11 11:30:26,676] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/dfd HTTP/1.1" 404 4386
+[2021-06-11 11:30:30,611] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 11:30:30,698] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 11:30:30,699] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4395
+[2021-06-11 11:30:36,948] [log.py:224] [log:log_response] [WARNING]- Not Found: /index/login
+[2021-06-11 11:30:36,949] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /index/login HTTP/1.1" 404 4389
+[2021-06-11 11:30:40,458] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 301 0
+[2021-06-11 11:30:40,465] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 20506
+[2021-06-11 11:30:40,540] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 11:30:40,542] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4395
+[2021-06-11 11:30:42,329] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6277
+[2021-06-11 11:30:42,383] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 11:30:42,385] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:13:18,611] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6305
+[2021-06-11 14:13:18,659] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+[2021-06-11 14:13:18,726] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:13:18,727] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:13:43,743] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6305
+[2021-06-11 14:13:43,818] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:13:43,820] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:14:22,040] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_info.html
+[2021-06-11 14:14:22,041] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_info.html HTTP/1.1" 404 4440
+[2021-06-11 14:14:31,861] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_info.html
+[2021-06-11 14:14:31,862] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_info.html HTTP/1.1" 404 4440
+[2021-06-11 14:16:12,406] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/user_center_info.html
+[2021-06-11 14:16:12,408] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/user_center_info.html HTTP/1.1" 404 4440
+[2021-06-11 14:16:16,880] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6292
+[2021-06-11 14:16:16,936] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:16:16,937] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:16:17,931] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6292
+[2021-06-11 14:16:17,980] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:16:17,981] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:16:19,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6292
+[2021-06-11 14:16:19,564] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:16:19,565] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:16:20,133] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6292
+[2021-06-11 14:16:20,192] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:16:20,193] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:16:21,452] [log.py:224] [log:log_response] [WARNING]- Not Found: /center/login.html
+[2021-06-11 14:16:21,453] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /center/login.html HTTP/1.1" 404 4407
+[2021-06-11 14:17:03,863] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6286
+[2021-06-11 14:17:03,926] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:17:03,927] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:17:05,127] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6286
+[2021-06-11 14:17:05,200] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:17:05,201] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:17:05,887] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2926
+[2021-06-11 14:17:12,880] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-11 14:17:12,887] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 14:17:13,011] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 14:17:13,013] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4395
+[2021-06-11 14:17:14,512] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6286
+[2021-06-11 14:17:14,586] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:17:14,587] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:17:15,712] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-11 14:17:15,738] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/register1.js HTTP/1.1" 304 0
+[2021-06-11 14:17:15,839] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/8a8be2d9-eafc-4abf-be93-1abd8a8fa47e/ HTTP/1.1" 200 3187
+[2021-06-11 14:17:18,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2926
+[2021-06-11 14:17:22,391] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2021-06-11 14:17:22,398] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 14:17:22,472] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 14:17:22,474] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4395
+[2021-06-11 14:18:53,906] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6286
+[2021-06-11 14:18:53,976] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:18:53,977] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:22:53,164] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6286
+[2021-06-11 14:23:19,640] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:23:19,641] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 14:23:23,396] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6286
+[2021-06-11 14:31:31,715] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 200 6272
+[2021-06-11 14:31:42,493] [log.py:224] [log:log_response] [WARNING]- Not Found: /browse_histories/
+[2021-06-11 14:31:42,494] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /browse_histories/ HTTP/1.1" 404 4407
+[2021-06-11 16:22:30,482] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 302 0
+[2021-06-11 16:22:30,519] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/?next=/center/ HTTP/1.1" 200 2926
+[2021-06-11 16:25:59,152] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 16:26:03,492] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 16:27:02,639] [log.py:224] [log:log_response] [WARNING]- Not Found: /email
+[2021-06-11 16:27:02,642] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /email HTTP/1.1" 404 4371
+[2021-06-11 16:27:10,893] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /emails HTTP/1.1" 301 0
+[2021-06-11 16:27:10,914] [base.py:101] [base:http_method_not_allowed] [WARNING]- Method Not Allowed (GET): /emails/
+[2021-06-11 16:27:10,917] [log.py:224] [log:log_response] [WARNING]- Method Not Allowed: /emails/
+[2021-06-11 16:27:10,922] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /emails/ HTTP/1.1" 405 0
+[2021-06-11 16:28:22,851] [base.py:101] [base:http_method_not_allowed] [WARNING]- Method Not Allowed (GET): /emails/
+[2021-06-11 16:28:22,862] [log.py:224] [log:log_response] [WARNING]- Method Not Allowed: /emails/
+[2021-06-11 16:28:22,872] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /emails/ HTTP/1.1" 405 0
+[2021-06-11 16:28:27,605] [base.py:101] [base:http_method_not_allowed] [WARNING]- Method Not Allowed (GET): /emails/
+[2021-06-11 16:28:27,607] [log.py:224] [log:log_response] [WARNING]- Method Not Allowed: /emails/
+[2021-06-11 16:28:27,609] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /emails/ HTTP/1.1" 405 0
+[2021-06-11 16:28:40,870] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-11 16:28:45,479] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-11 16:28:56,226] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-11 16:28:57,099] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-11 16:28:57,105] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4395
+[2021-06-11 16:29:00,615] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /center/ HTTP/1.1" 302 0
+[2021-06-11 16:29:00,676] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/?next=/center/ HTTP/1.1" 200 2926
+[2021-06-11 16:29:06,435] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3781
+[2021-06-11 16:29:06,796] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /image_codes/9f8b24cf-2e1d-41a7-bae0-9c7eb050bc71/ HTTP/1.1" 200 2894
+[2021-06-11 16:29:12,519] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /emails/ HTTP/1.1" 200 54
