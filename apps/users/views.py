@@ -14,8 +14,9 @@ from django.contrib.auth.models import AbstractUser
 from django_redis import get_redis_connection
 
 from apps.oauthh.utils import get_access_token
-from apps.users.models import User
+from apps.users.models import User, Address
 from apps.users.utils import generate_email_url, get_email_token
+from apps.verification.views import logger
 from meiduo_project import settings
 from utils.response_code import RETCODE
 from utils.views import LoginRequiredJSONMixin
@@ -229,7 +230,129 @@ class EmailActiveView(View):
               user.email_active = True
               user.save()
               return redirect(reverse('center'))
+"""
+增加
+1.接收数据
+2.验证数据
+3.数据入库
+4.返回响应
 
+删除
+1.获取id
+2.查询数据
+3.删除
+4.返回
+
+修改
+1.获取id
+2.id查询
+3.接收前端数据
+4.数据验证
+5.入库
+6.返回响应 
+
+查询
+1.根据条件查询
+2.对象转换列表
+3.返回
+"""
 class AddressView(View):
+       # 增加
+       # 1.
+       # 接收数据
        def get(self, request):
-              return render(request, 'user_center_site.html')
+              addresses = Address.objects.filter(user=request.user, is_deleted=False)
+
+              address_list = []
+              for address in addresses:
+                     address_list.append({
+                     'id' : address.id,
+                     'title' : address.title,
+                     'receiver': address.receiver,
+                     'province' : address.province.name,
+                     'province_id' : address.province_id,
+                     'city' : address.city.name,
+                     'city_id' : address.city_id,
+                     'district' : address.district.name,
+                     'district_id' : address.district_id,
+                     'place' : address.place,
+                     'mobile' : address.mobile,
+                      'tel' : address.tel,
+                     'email' : address.email
+                     })
+              context = {
+                     'addresses': address_list,
+                     'default_address_id': request.user.default_address_id
+              }
+
+              return render(request, 'user_center_site.html', context=context)
+
+
+       def post(self, request):
+
+              count = request.user.add_user.all().count()
+              if count>=20:
+                     return http.JsonResponse({'code': RETCODE.THROTTLINGERR, 'errmsg': '地址不可以超过20个'})
+
+              json_dict = json.loads(request.body.decode())
+              receiver = json_dict.get('receiver')
+              province_id = json_dict.get('province_id')
+              city_id = json_dict.get('city_id')
+              district_id = json_dict.get('district_id')
+              place = json_dict.get('place')
+              mobile = json_dict.get('mobile')
+              tel = json_dict.get('tel')
+              email = json_dict.get('email')
+
+              # 2.
+              # 验证数据
+              if not all([receiver, province_id, city_id, district_id, place, mobile]):
+                     return http.HttpResponseBadRequest('缺少必要参数')
+              if not re.match(r'^1[345789]\d{9}$', mobile):
+                     return http.HttpResponseBadRequest('mobile参数有误')
+              if tel:
+                     if not re.match(r'^(0[0-9]{2,3}-)?([2-9][0-9]{6,7})+(-[0-9]{1,4})?$', tel):
+                            return http.HttpResponseBadRequest('tel参数有误')
+              if email:
+                     if not re.match(r'^[a - z0 - 9][\w\.\-] * @ [a - z0 - 9\-]+(\.[a-z]{2, 5}){1, 2}$', email):
+                            return http.HttpResponseBadRequest('email参数有误')
+
+
+              # 3.
+              # 数据入库
+              try:
+                     address = Address.objects.create(
+                            user = request.user,
+                            title = receiver,
+                            province_id=province_id,
+                            city_id = city_id,
+                            district_id = district_id,
+                            place = place,
+                            mobile = mobile,
+                            tel = tel,
+                            email = email,
+                     )
+                     if not request.user.default_address:
+                            request.user.default_address = address
+                            request.user.save()
+              except Exception as e:
+                     logger.error(e)
+                     return http.HttpResponseBadRequest({'code': RETCODE.DBERR, 'errmsg': '新增地址失败'})
+
+              # 4.
+              # 返回响应
+              address_dict = {
+                     'id' : address.id,
+                     'title' : address.title,
+                     'receiver': address.receiver,
+                     'province_id' : address.province_id,
+                     'city_id' : address.city_id,
+                     'district_id' : address.district_id,
+                     'place' : address.place,
+                     'mobile' : address.mobile,
+                      'tel' : address.tel,
+                     'email' : address.email
+              }
+
+
+              return http.JsonResponse({'code': RETCODE.OK, 'errmsg': '新增地址成功', 'address': address_dict})

@@ -1,0 +1,157 @@
+[2021-06-17 10:04:30,181] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 10:04:36,903] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\urls.py changed, reloading.
+[2021-06-17 10:04:38,726] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 10:04:46,456] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\urls.py changed, reloading.
+[2021-06-17 10:04:48,082] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 15:34:35,176] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 15:34:42,550] [base.py:101] [base:http_method_not_allowed] [WARNING]- Method Not Allowed (GET): /address/
+[2021-06-17 15:34:42,551] [log.py:224] [log:log_response] [WARNING]- Method Not Allowed: /address/
+[2021-06-17 15:34:42,552] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /address/ HTTP/1.1" 405 0
+[2021-06-17 15:34:56,435] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-17 15:34:56,500] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-17 15:34:56,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-17 15:34:56,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-17 15:34:56,520] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97169
+[2021-06-17 15:34:56,530] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-17 15:34:56,531] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-17 15:34:56,550] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/slide.js HTTP/1.1" 200 1822
+[2021-06-17 15:34:56,578] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/index.js HTTP/1.1" 200 1381
+[2021-06-17 15:34:56,579] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-17 15:34:56,580] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+[2021-06-17 15:34:56,581] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+[2021-06-17 15:34:56,582] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+[2021-06-17 15:34:56,603] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+[2021-06-17 15:34:56,607] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+[2021-06-17 15:34:56,607] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+[2021-06-17 15:34:56,611] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+[2021-06-17 15:34:56,622] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+[2021-06-17 15:34:56,630] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+[2021-06-17 15:34:56,630] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+[2021-06-17 15:34:56,631] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+[2021-06-17 15:34:56,632] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+[2021-06-17 15:34:56,633] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+[2021-06-17 15:34:56,640] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+[2021-06-17 15:34:56,646] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-17 15:34:56,648] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+[2021-06-17 15:34:56,779] [log.py:224] [log:log_response] [WARNING]- Not Found: /carts/simple/
+[2021-06-17 15:34:56,780] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /carts/simple/ HTTP/1.1" 404 4736
+[2021-06-17 15:35:01,464] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address HTTP/1.1" 301 0
+[2021-06-17 15:35:01,473] [base.py:101] [base:http_method_not_allowed] [WARNING]- Method Not Allowed (GET): /address/
+[2021-06-17 15:35:01,473] [log.py:224] [log:log_response] [WARNING]- Method Not Allowed: /address/
+[2021-06-17 15:35:01,474] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /address/ HTTP/1.1" 405 0
+[2021-06-17 15:36:28,284] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 15:36:29,898] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 15:36:30,594] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /address/ HTTP/1.1" 200 7406
+[2021-06-17 15:36:30,659] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-17 15:36:30,666] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-17 15:36:30,674] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-17 15:36:30,687] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-17 15:36:30,693] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-17 15:36:30,702] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-17 15:36:30,716] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-17 15:36:30,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-17 15:36:30,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-17 15:36:30,819] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-17 15:36:42,611] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=120000 HTTP/1.1" 200 82
+[2021-06-17 15:36:48,069] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=120100 HTTP/1.1" 200 667
+[2021-06-17 15:43:58,273] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\urls.py changed, reloading.
+[2021-06-17 15:43:59,923] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 15:53:55,295] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=500000 HTTP/1.1" 200 124
+[2021-06-17 15:53:56,330] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=500100 HTTP/1.1" 200 1606
+[2021-06-17 15:57:23,556] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 15:57:28,847] [log.py:224] [log:log_response] [WARNING]- Not Found: /address/
+[2021-06-17 15:57:28,849] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /address/ HTTP/1.1" 404 4723
+[2021-06-17 15:57:35,916] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addresses/ HTTP/1.1" 200 7428
+[2021-06-17 15:57:35,958] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-17 15:57:35,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-17 15:57:35,968] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-17 15:57:35,974] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-17 15:57:35,978] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-17 15:57:35,988] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-17 15:57:36,008] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-17 15:57:36,009] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-17 15:57:36,010] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-17 15:57:36,061] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-17 15:57:44,001] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=500000 HTTP/1.1" 200 48
+[2021-06-17 15:58:48,562] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 15:59:03,114] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20506
+[2021-06-17 15:59:06,880] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addresses HTTP/1.1" 301 0
+[2021-06-17 15:59:06,895] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addresses/ HTTP/1.1" 200 7428
+[2021-06-17 15:59:07,047] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-17 15:59:14,950] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=500000 HTTP/1.1" 200 124
+[2021-06-17 15:59:16,235] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=500100 HTTP/1.1" 200 1606
+[2021-06-17 16:25:18,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addresses/ HTTP/1.1" 200 7500
+[2021-06-17 16:25:18,997] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-17 16:25:18,999] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-17 16:25:19,006] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-17 16:25:19,016] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-17 16:25:19,025] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-17 16:25:19,027] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-17 16:25:19,033] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-17 16:25:19,053] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-17 16:25:19,055] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-17 16:25:19,056] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-17 16:25:19,105] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-17 16:25:29,436] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=510000 HTTP/1.1" 200 907
+[2021-06-17 16:25:31,204] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=500000 HTTP/1.1" 200 124
+[2021-06-17 16:25:32,279] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=500100 HTTP/1.1" 200 1606
+[2021-06-17 16:26:21,476] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addresses/ HTTP/1.1" 200 292
+[2021-06-17 16:34:58,911] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 16:35:01,842] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 16:35:21,692] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 16:35:23,467] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 16:35:33,383] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 16:35:35,472] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 16:35:51,058] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 16:35:52,941] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 16:36:08,320] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 16:36:09,863] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 16:36:57,964] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 16:36:59,661] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 16:37:16,830] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 16:37:19,958] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 16:37:44,394] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 16:37:46,430] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 16:37:59,079] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 16:38:01,478] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 16:38:11,578] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 16:38:13,252] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 16:38:14,134] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 63215)
+
+[2021-06-17 16:38:14,307] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addresses/ HTTP/1.1" 200 7500
+[2021-06-17 16:38:14,353] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/reset.css HTTP/1.1" 200 638
+[2021-06-17 16:38:14,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 39722
+[2021-06-17 16:38:14,362] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12913
+[2021-06-17 16:38:14,383] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/user_center_site.js HTTP/1.1" 200 13646
+[2021-06-17 16:38:14,393] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/common.js HTTP/1.1" 200 891
+[2021-06-17 16:38:14,407] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289387
+[2021-06-17 16:38:14,415] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/logo.png HTTP/1.1" 200 7450
+[2021-06-17 16:38:14,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 200 7740
+[2021-06-17 16:38:14,453] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/edit.png HTTP/1.1" 200 1244
+[2021-06-17 16:38:14,455] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+[2021-06-17 16:38:14,552] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-17 16:38:19,412] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130000 HTTP/1.1" 200 481
+[2021-06-17 16:38:20,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=130300 HTTP/1.1" 200 334
+[2021-06-17 16:38:44,160] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addresses/ HTTP/1.1" 200 258
+[2021-06-17 17:02:24,645] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 17:02:26,565] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 17:02:29,953] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 17:02:32,306] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 17:02:39,413] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 17:02:42,332] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 17:02:48,345] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 17:02:50,948] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 17:05:07,614] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 17:05:09,182] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 17:37:03,067] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 17:37:04,710] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 17:37:08,023] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 17:37:09,725] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 17:37:21,610] [autoreload.py:250] [autoreload:trigger_reload] [INFO]- E:\djangoProject\djangoProject\meiduo_project\apps\users\views.py changed, reloading.
+[2021-06-17 17:37:23,344] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 17:58:44,534] [autoreload.py:636] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-06-17 17:58:47,586] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addresses/ HTTP/1.1" 200 7001
+[2021-06-17 17:58:47,652] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/ HTTP/1.1" 200 1479
+[2021-06-17 18:01:42,568] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=120000 HTTP/1.1" 200 82
+[2021-06-17 18:01:43,348] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /areas/?area_id=120100 HTTP/1.1" 200 667
+[2021-06-17 18:02:01,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addresses/ HTTP/1.1" 200 282

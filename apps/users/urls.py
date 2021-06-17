@@ -23,6 +23,6 @@ urlpatterns = [
        path('center/', views.UserCenterInfoView.as_view(), name='center'),
        path('emails/', views.EmailView.as_view(), name='email'),
        path('active_email/', views.EmailActiveView.as_view(), name='activeemail'),
-       path('address/', views.AddressView.as_view(), name='showaddress'),
+       path('addresses/', views.AddressView.as_view(), name='showaddress'),
 
 ]
